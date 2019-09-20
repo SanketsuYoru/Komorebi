@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="Main_Page.Pages.SearchResult"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Main_Page.Models"
+    xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Unloaded="Page_Unloaded" Loaded="Page_Loaded">
+    <Page.Resources>
+        <DataTemplate  x:Name="DataT" x:DataType="data:Items" x:Key="datatemplete">
+            <StackPanel  Width="288" Height="220" RightTapped="Source__RightTapped">
+                <FlyoutBase.AttachedFlyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="复制" Click="MenuFlyoutItem_Click_Copy"/>
+                        <MenuFlyoutItem Text="删除" Click="MenuFlyoutItem_Click_Delete">
+                        </MenuFlyoutItem>
+                        <MenuFlyoutItem Text="分享" Click="MenuFlyoutItem_Click_Share" />
+                        <MenuFlyoutItem Text="打开所在文件夹" Click="MenuFlyoutItem_Click" />
+                    </MenuFlyout>
+                </FlyoutBase.AttachedFlyout>
+                <Image Name="CoverIMG"  MaxWidth="288" MaxHeight="162" Source="{x:Bind AccessSource}" x:Phase="2"></Image>
+                <TextBlock Name="NameBolck" FontSize="16"  Text="{x:Bind Name }" x:Phase="1" ></TextBlock>
+                <TextBlock FontSize="10" Name="Date_" Text="{x:Bind Date }" x:Phase="1"></TextBlock>
+                <TextBlock FontSize="10" Name="Size_" Text="{x:Bind Type }" x:Phase="1"></TextBlock>
+            </StackPanel>
+        </DataTemplate>
+
+    </Page.Resources>
+    <Grid>
+
+        <ContentDialog x:Name="DeleteContentDialog" 
+           PrimaryButtonText="删除" x:Uid="Flyout_Delete_SubFly_Confirm" PrimaryButtonClick="DeleteContentDialog_PrimaryButtonClick" IsPrimaryButtonEnabled="True"
+           CloseButtonText="可以但是没必要"
+           VerticalAlignment="Top" HorizontalAlignment="Center">
+            <ContentDialog.TitleTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE9CE;" VerticalAlignment="Center" FontSize="36"/>
+                        <TextBlock Text="是否要删除" x:Uid="Flyout_Delete_SubFly_Tip"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ContentDialog.TitleTemplate>
+            <RelativePanel>
+                <Image x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
+                <TextBlock Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap">
+                </TextBlock>
+                <TextBlock Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
+                <TextBlock Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
+            </RelativePanel>
+        </ContentDialog>
+
+
+
+
+        <Pivot Name="pivot_result" Title="RESULT">
+            <PivotItem Header="All" x:Uid="SearchResult_All" Background="White">
+                <ScrollViewer>
+                    <GridView
+                        Name="Source_"  
+                        ItemsSource="{x:Bind result,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        ItemClick="Source__ItemClick"
+                        IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single"
+                        >
+                    </GridView>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Media" x:Uid="SearchResult_Media" Background="White">
+                <ScrollViewer>
+                    <GridView
+                        Name="Media"  
+                        ItemsSource="{x:Bind result_media,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        ItemClick="Source__ItemClick"
+                        IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single">
+                    </GridView>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="Doc" x:Uid="SearchResult_Doc" Background="White">
+                <ScrollViewer>
+                    <GridView
+                        Name="Doc"  
+                        ItemsSource="{x:Bind result_doc,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        ItemClick="Source__ItemClick"
+                        IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single">
+                    </GridView>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="File"  x:Uid="SearchResult_File" Background="White">
+                <GridView
+                        Name="File"  
+                        ItemsSource="{x:Bind result_file,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
+                        ItemClick="Source__ItemClick"
+                        IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single" FontFamily="Segoe UI">
+                </GridView>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>

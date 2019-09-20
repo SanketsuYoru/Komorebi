@@ -1,0 +1,32 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Main_Page.Pages.FilePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:data="using:Main_Page.Models"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                     >
+
+    <Grid >
+        <Grid x:ConnectionId='2' Name="Grid1" Background="#FF303030"></Grid>
+        <GridView x:ConnectionId='3' Name="Source_"  
+                                                                                                             
+                                               
+                  IsItemClickEnabled="True">
+            <GridView.ItemTemplate >
+                <DataTemplate                         >
+                    <StackPanel x:ConnectionId='5'>
+                        <Image x:ConnectionId='6' Name="CoverIMG" Width="512" Height="288"                               ></Image>
+                        <TextBlock x:ConnectionId='7' Name="NameBolck" FontSize="16"                        ></TextBlock>
+                        <TextBlock x:ConnectionId='8' FontSize="10" Name="Date_"                       ></TextBlock>
+                        <TextBlock x:ConnectionId='9' FontSize="10" Name="Size_"                       ></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+        <ProgressRing x:ConnectionId='4' Name="PR" Height="70" Width="70"  IsActive="True"                                 ></ProgressRing>
+    </Grid>
+</Page>
+

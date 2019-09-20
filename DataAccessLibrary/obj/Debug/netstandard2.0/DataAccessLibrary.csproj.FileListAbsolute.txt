@@ -1,0 +1,356 @@
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\Main_Page\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190419\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190421\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190422\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190424\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190428\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190428 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190503\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190504\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190506\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190508\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190509\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190513_v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190513_v3\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+G:\新建文件夹 (2)\20190519\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190519_v1\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190608\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190705\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190705\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190705\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190705\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190705\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190711\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190711\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190711\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190711\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190711\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190713\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190713\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190713\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190713\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190713\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190721\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190721\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190721\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190721\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190721\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190725\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190725\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190725\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190725\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190725\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190726（做UI）\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190726（做UI）\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190726（做UI）\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190726（做UI）\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190726（做UI）\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190801\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190801\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190801\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190801\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190801\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190808\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190808\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190808\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190808\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190808\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190817\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\project\20190817\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190817\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\project\20190817\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\project\20190817\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190827\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190827\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190827\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190827\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190827\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190828v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190828v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190828v2\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190828v2\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190828v2\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190902_x flipviewer 定位ok - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190906 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190906 - 副本 - 副本 - 副本\DataAccessLibrary\obj\Debug\netstandard2.0\DataAccessLibrary.pdb

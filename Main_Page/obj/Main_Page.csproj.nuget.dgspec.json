@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectName": "DataAccessLibrary",
+        "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\I1661\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj",
+        "projectName": "Main_Page",
+        "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj",
+        "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\I1661\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+                "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.8, )"
+            },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.UI.Xaml": {
+              "target": "Package",
+              "version": "[2.1.190606001, )"
+            },
+            "QueryString.NET": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SQLitePCLRaw.bundle_winsqlite3": {
+              "target": "Package",
+              "version": "[1.1.13, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

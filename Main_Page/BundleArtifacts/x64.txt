@@ -1,0 +1,6 @@
+MainPackage=D:\project\20190725\Main_Page\bin\x64\Release\Main_Page_1.0.12.0_x64.msix
+SymbolPackage=D:\project\20190725\Main_Page\obj\x64\Release\Symbols\Main_Page_1.0.12.0_x64.appxsym
+ResourcePack=D:\project\20190725\Main_Page\bin\x64\Release\Main_Page_1.0.12.0_scale-100.msix
+ResourcePack=D:\project\20190725\Main_Page\bin\x64\Release\Main_Page_1.0.12.0_scale-125.msix
+ResourcePack=D:\project\20190725\Main_Page\bin\x64\Release\Main_Page_1.0.12.0_scale-150.msix
+ResourcePack=D:\project\20190725\Main_Page\bin\x64\Release\Main_Page_1.0.12.0_scale-400.msix

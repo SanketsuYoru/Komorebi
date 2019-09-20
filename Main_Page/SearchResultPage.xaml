@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="Main_Page.SearchResultPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <TextBlock Name="result_Textbox" FontSize="48"></TextBlock>
+            <Rectangle Width="200" Height="200" Fill="AntiqueWhite"></Rectangle>
+        </StackPanel>
+    </Grid>
+</Page>

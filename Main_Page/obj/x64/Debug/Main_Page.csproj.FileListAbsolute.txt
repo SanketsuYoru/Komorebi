@@ -1,0 +1,730 @@
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Resources\title.gif
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Resources\topbarbg.jpg
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Resources\topbarbg.png
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Models\Items.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\App.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\DesignPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\SearchResultPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Pages\WaitPage1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\MainPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Main_Page.pdb
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\resources.pri
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\AppxManifest.xml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\System.Runtime.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\I1661\Desktop\project\20190503\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\App.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\App.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\DesignPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\DesignPage.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\WaitPage1.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\WaitPage1.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\MainPage.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\App.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\DesignPage.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\WaitPage1.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\MainPage.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\App.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\DesignPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Pages\WaitPage1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\MainPage.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Main_Page.pdb
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\priconfig.xml
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\resources.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\pri.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\qualifiers.txt
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\I1661\Desktop\project\20190503\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Resources\title.gif
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Resources\topbarbg.jpg
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Resources\topbarbg.png
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Models\Items.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\App.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\DesignPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\FilePage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\SearchResultPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Pages\WaitPage1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\MainPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Main_Page.pdb
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\resources.pri
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\AppxManifest.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\System.Runtime.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\I1661\Desktop\project\20190504\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\App.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\App.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\DesignPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\DesignPage.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FilePage.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FilePage.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\WaitPage1.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\WaitPage1.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\MainPage.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\App.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\DesignPage.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FilePage.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\WaitPage1.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\MainPage.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\App.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\DesignPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\FilePage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Pages\WaitPage1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\MainPage.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Main_Page.exe
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\Main_Page.pdb
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\priconfig.xml
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\resources.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\pri.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\qualifiers.txt
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\I1661\Desktop\project\20190504\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Resources\title.gif
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Resources\topbarbg.jpg
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Resources\topbarbg.png
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Models\Items.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\App.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\AudioPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\DesignPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\FilePage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\MediaPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\SearchResultPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\MainPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Main_Page.exe
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Main_Page.pdb
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\resources.pri
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\AppxManifest.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\System.Runtime.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\App.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\App.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\MainPage.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\App.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\MainPage.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\App.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\MainPage.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Main_Page.exe
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Main_Page.pdb
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\priconfig.xml
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\resources.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\pri.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\qualifiers.txt
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+\\FG204-N-EDITION\Users\I1661\Desktop\project\20190519\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Resources\title.gif
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Resources\topbarbg.jpg
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Resources\topbarbg.png
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Models\Items.cs
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\App.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\AudioPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\DesignPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\FilePage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\MediaPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\SearchResult.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\SearchResultPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\MainPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Main_Page.exe
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Main_Page.pdb
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\resources.pri
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\AppxManifest.xml
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\System.Runtime.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+G:\新建文件夹 (2)\20190519\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\App.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\App.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResult.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResult.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\MainPage.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\App.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResult.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\MainPage.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\App.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\AudioPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\DesignPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\FilePage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\MediaPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResult.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\SearchResultPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\MainPage.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Main_Page.exe
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\Main_Page.pdb
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\priconfig.xml
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\resources.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\pri.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\qualifiers.txt
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+G:\新建文件夹 (2)\20190519\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+D:\project\20190711\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+D:\project\20190711\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+D:\project\20190711\Main_Page\bin\x64\Debug\Resources\title.gif
+D:\project\20190711\Main_Page\bin\x64\Debug\Models\Items.cs
+D:\project\20190711\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\App.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\AudioPage.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\DOC_MAIN.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\Graphics.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\GUIDE_page.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\MAIN_FILE.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\MediaPage.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\MEDIA_MAIN.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\SearchResult.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Pages\Waitpage.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\MainPage.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+D:\project\20190711\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+D:\project\20190711\Main_Page\bin\x64\Debug\Main_Page.exe
+D:\project\20190711\Main_Page\bin\x64\Debug\Main_Page.pdb
+D:\project\20190711\Main_Page\bin\x64\Debug\resources.pri
+D:\project\20190711\Main_Page\bin\x64\Debug\AppxManifest.xml
+D:\project\20190711\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+D:\project\20190711\Main_Page\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
+D:\project\20190711\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+D:\project\20190711\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+D:\project\20190711\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\System.Runtime.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+D:\project\20190711\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\project\20190711\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+D:\project\20190711\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+D:\project\20190711\Main_Page\obj\x64\Debug\App.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\App.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\AudioPage.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\AudioPage.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Graphics.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Graphics.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\GUIDE_page.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\GUIDE_page.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MediaPage.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MediaPage.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\SearchResult.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\SearchResult.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Waitpage.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Waitpage.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\MainPage.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\project\20190711\Main_Page\obj\x64\Debug\App.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\AudioPage.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Graphics.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\GUIDE_page.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MediaPage.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\SearchResult.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Waitpage.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\MainPage.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+D:\project\20190711\Main_Page\obj\x64\Debug\App.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\AudioPage.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Graphics.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\GUIDE_page.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MediaPage.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\SearchResult.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\Pages\Waitpage.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\MainPage.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+D:\project\20190711\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+D:\project\20190711\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+D:\project\20190711\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+D:\project\20190711\Main_Page\obj\x64\Debug\Main_Page.exe
+D:\project\20190711\Main_Page\obj\x64\Debug\Main_Page.pdb
+D:\project\20190711\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+D:\project\20190711\Main_Page\obj\x64\Debug\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
+D:\project\20190711\Main_Page\obj\x64\Debug\priconfig.xml
+D:\project\20190711\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\resources.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\pri.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\qualifiers.txt
+D:\project\20190711\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\project\20190711\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+D:\project\20190711\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+D:\project\20190711\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+D:\project\20190711\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Resources\BF942982C59CEBF2640D14CD6F9420CB.png
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Resources\timg (1).jpg
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Resources\title.gif
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Models\Items.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\App.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\AudioPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\DOC_MAIN.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\FileAdd_Page.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\Graphics.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\GUIDE_page.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\ItemPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\MAIN_FILE.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\MAIN_Page1.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\MediaPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\MEDIA_MAIN.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\SearchResult.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\Search_Page_.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Pages\Waitpage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\UserControl_\UserControl_search_title.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\MainPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\UserControl_\Title_UserControl1.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Main_Page.xr.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Main_Page.exe
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Main_Page.pdb
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\resources.pri
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\AppxManifest.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Core\AppxManifest.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Core\ForBundle\AppxManifest.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Core\Main_Page.exe
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Main_Page.build.appxrecipe
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\System.Runtime.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\SQLitePCLRaw.batteries_winsqlite3.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\SQLitePCLRaw.core.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\DataAccessLibrary.dll
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\DataAccessLibrary.pdb
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Main_Page.csprojAssemblyReference.cache
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\App.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\App.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\AudioPage.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\AudioPage.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Graphics.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Graphics.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\GUIDE_page.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\GUIDE_page.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\ItemPage.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\ItemPage.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MediaPage.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MediaPage.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\SearchResult.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\SearchResult.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Search_Page_.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Waitpage.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Waitpage.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\MainPage.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\MainPage.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.i.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\XamlTypeInfo.g.cs
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\App.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\AudioPage.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Graphics.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\GUIDE_page.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\ItemPage.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MediaPage.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\SearchResult.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Search_Page_.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Waitpage.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\MainPage.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xaml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\App.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\AudioPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\DOC_MAIN.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\FileAdd_Page.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Graphics.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\GUIDE_page.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\ItemPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_FILE.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MAIN_Page1.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MediaPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\MEDIA_MAIN.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\SearchResult.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Search_Page_.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Pages\Waitpage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\UserControl_search_title.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\MainPage.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\UserControl_\Title_UserControl1.xbf
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\XamlSaveStateFile.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Main_Page.csproj.CoreCompileInputs.cache
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Main_Page.csproj.CopyComplete
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Main_Page.exe
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\Main_Page.pdb
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\ResourceHandlingTask.state
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\priconfig.xml
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\priconfig.xml.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\filtered.layout.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\filtered.layout.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\excluded.layout.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\excluded.layout.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\resources.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\resources.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\pri.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\pri.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\qualifiers.txt
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\qualifiers.txt.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\resources.en-us.resfiles
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\resources.en-us.resfiles.intermediate
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\ProjectArchitectures.txt
+D:\project\20190724(去除底部任务栏版本)\Main_Page\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758264200000000.json

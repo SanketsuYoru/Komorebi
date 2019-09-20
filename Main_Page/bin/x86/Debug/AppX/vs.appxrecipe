@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FG204-N-EDITION</Machine>
+    <WindowsUser>I1661</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>db33832f-b264-4d50-9fda-9db2717b763c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=I1661</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FC04C8F4E8C74B7176B6B9F5F36D5A3637C0F61D14427C8A639293672A6958A7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.12.0_x86__chyvw2mqqmk0w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>db33832f-b264-4d50-9fda-9db2717b763c_chyvw2mqqmk0w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>db33832f-b264-4d50-9fda-9db2717b763c</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=I1661</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.12.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-14T15:01:11.156</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Main_Page.exe">
+      <PackagePath>entrypoint\Main_Page.exe</PackagePath>
+      <Modified>2019-09-14T15:01:10.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.data.sqlite.core\2.2.4\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
+      <Modified>2019-03-21T21:06:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.toolkit.uwp.notifications\5.1.1\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2019-03-15T14:15:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\querystring.net\1.0.0\lib\dotnet\QueryString.NETCore.dll">
+      <PackagePath>QueryString.NETCore.dll</PackagePath>
+      <Modified>2015-09-11T05:10:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T14:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2019-01-24T07:30:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\sqlitepclraw.bundle_winsqlite3\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.batteries_winsqlite3.dll</PackagePath>
+      <Modified>2019-01-24T07:30:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\sqlitepclraw.core\1.1.13\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2019-01-24T07:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\sqlitepclraw.provider.winsqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.winsqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
+      <Modified>2019-01-24T07:30:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
+      <PackagePath>DataAccessLibrary.dll</PackagePath>
+      <Modified>2019-09-13T11:34:55.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-22T17:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Models\Items.cs">
+      <PackagePath>Models\Items.cs</PackagePath>
+      <Modified>2019-09-14T14:57:13.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905015251403_easyicon_net_512.bmp</PackagePath>
+      <Modified>2019-09-05T05:54:44.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905020244418_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905020244418_easyicon_net_512.bmp</PackagePath>
+      <Modified>2019-09-05T06:09:27.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905020427706_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905020427706_easyicon_net_512.bmp</PackagePath>
+      <Modified>2019-09-05T06:09:27.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-100.png">
+      <PackagePath>Assets\AppStartlogo.scale-100.png</PackagePath>
+      <Modified>2019-04-14T14:37:37.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-125.png">
+      <PackagePath>Assets\AppStartlogo.scale-125.png</PackagePath>
+      <Modified>2019-04-14T14:37:37.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-150.png">
+      <PackagePath>Assets\AppStartlogo.scale-150.png</PackagePath>
+      <Modified>2019-04-14T14:37:37.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-200.png">
+      <PackagePath>Assets\AppStartlogo.scale-200.png</PackagePath>
+      <Modified>2019-04-14T14:37:37.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-400.png">
+      <PackagePath>Assets\AppStartlogo.scale-400.png</PackagePath>
+      <Modified>2019-04-14T14:37:38.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.png">
+      <PackagePath>Assets\AppStartlogo_.png</PackagePath>
+      <Modified>2019-04-14T14:49:20.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-100.png">
+      <PackagePath>Assets\AppStartlogo_.scale-100.png</PackagePath>
+      <Modified>2019-05-03T15:41:14.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-125.png">
+      <PackagePath>Assets\AppStartlogo_.scale-125.png</PackagePath>
+      <Modified>2019-05-03T15:41:14.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-150.png">
+      <PackagePath>Assets\AppStartlogo_.scale-150.png</PackagePath>
+      <Modified>2019-05-03T15:41:14.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-200.png">
+      <PackagePath>Assets\AppStartlogo_.scale-200.png</PackagePath>
+      <Modified>2019-05-03T15:41:14.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-400.png">
+      <PackagePath>Assets\AppStartlogo_.scale-400.png</PackagePath>
+      <Modified>2019-05-03T15:41:14.580</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.955</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.969</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
+      <PackagePath>Assets\docs_53.375163398693px_1194915_easyicon.net.png</PackagePath>
+      <Modified>2019-09-05T05:35:55.500</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\music_105.60408684547px_1234881_easyicon.net.png">
+      <PackagePath>Assets\music_105.60408684547px_1234881_easyicon.net.png</PackagePath>
+      <Modified>2019-09-05T05:29:48.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\music_player_128px_1230170_easyicon.net.png">
+      <PackagePath>Assets\music_player_128px_1230170_easyicon.net.png</PackagePath>
+      <Modified>2019-09-05T05:58:36.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.162</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.456</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.113</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.149</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:09.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-02-14T06:33:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:08.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-02T03:28:07.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
+      <PackagePath>Resources\BF942982C59CEBF2640D14CD6F9420CB.png</PackagePath>
+      <Modified>2019-04-08T06:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-04-06T15:11:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\timg %281%29.jpg">
+      <PackagePath>Resources\timg %281%29.jpg</PackagePath>
+      <Modified>2019-04-08T06:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\title.gif">
+      <PackagePath>Resources\title.gif</PackagePath>
+      <Modified>2019-04-08T06:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Main_Page.xr.xml">
+      <PackagePath>Main_Page.xr.xml</PackagePath>
+      <Modified>2019-09-14T11:45:10.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+      <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\AudioPage.xbf">
+      <PackagePath>Pages\AudioPage.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\DOC_MAIN.xbf">
+      <PackagePath>Pages\DOC_MAIN.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\FileAdd_Page.xbf">
+      <PackagePath>Pages\FileAdd_Page.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Graphics.xbf">
+      <PackagePath>Pages\Graphics.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\GUIDE_page.xbf">
+      <PackagePath>Pages\GUIDE_page.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\ItemPage.xbf">
+      <PackagePath>Pages\ItemPage.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MAIN_FILE.xbf">
+      <PackagePath>Pages\MAIN_FILE.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MAIN_Page1.xbf">
+      <PackagePath>Pages\MAIN_Page1.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MediaPage.xbf">
+      <PackagePath>Pages\MediaPage.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MEDIA_MAIN.xbf">
+      <PackagePath>Pages\MEDIA_MAIN.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\SearchResult.xbf">
+      <PackagePath>Pages\SearchResult.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Search_Page_.xbf">
+      <PackagePath>Pages\Search_Page_.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Today_NewFile.xbf">
+      <PackagePath>Pages\Today_NewFile.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-09-14T15:01:09.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2018-10-22T17:41:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T16:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2019-06-07T03:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-09-14T14:40:54.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Core\Main_Page.exe">
+      <PackagePath>Main_Page.exe</PackagePath>
+      <Modified>2019-09-14T15:01:11.134</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.1.appx">
+      <Name>Microsoft.UI.Xaml.2.1</Name>
+      <Version>2.11906.6001.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.1, MinVersion = 2.11906.6001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\I1661\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\I1661\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

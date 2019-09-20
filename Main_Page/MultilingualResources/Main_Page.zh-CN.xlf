@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-CN" original="MAIN_PAGE/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6914.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="MAIN_PAGE/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="FileAdd_Page_Povit1_AddFolder.Text" translate="yes" xml:space="preserve">
+          <source>Add Folder</source>
+          <target state="final">添加文件夹</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit1_DeleteFolder.Text" translate="yes" xml:space="preserve">
+          <source>Delete Folder</source>
+          <target state="final" state-qualifier="tm-suggestion">删除文件夹</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit1_Folder.Header" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <target state="final" state-qualifier="tm-suggestion">文件夹</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit2_AOTM.Text" translate="yes" xml:space="preserve">
+          <source>Aways Open The Menu</source>
+          <target state="final">总是打开导航栏</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit2_Preference.Header" translate="yes" xml:space="preserve">
+          <source>Preference</source>
+          <target state="final">偏好设置</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit2_SFL.Text" translate="yes" xml:space="preserve">
+          <source>Number of files displayed</source>
+          <target state="needs-review-translation">文件显示数量</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit3_Confirm.Text" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">确认</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit3_CTC.Text" translate="yes" xml:space="preserve">
+          <source>Custom Theme Color</source>
+          <target state="final">自定义主题色</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit3_TC.Text" translate="yes" xml:space="preserve">
+          <source>Theme Color</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">主题颜色</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit3_Theme.Header" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">主题</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Povit4_HelpAndSupport.Header" translate="yes" xml:space="preserve">
+          <source>Help And Support</source>
+          <target state="final">帮助和支持</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Copy.Text" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="final" state-qualifier="tm-suggestion">复制</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Delete.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="final" state-qualifier="tm-suggestion">删除</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Delete_SubFly_Refuse" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final" state-qualifier="tm-suggestion">取消</target>
+        </trans-unit>
+        <trans-unit id="Flyout_MS.Text" translate="yes" xml:space="preserve">
+          <source>Mutiple Seletion</source>
+          <target state="final">多选</target>
+        </trans-unit>
+        <trans-unit id="Flyout_OTF.Text" translate="yes" xml:space="preserve">
+          <source>Open The Folder</source>
+          <target state="final">打开所在文件夹</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Refresh.Text" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">刷新</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Share.Text" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="final" state-qualifier="tm-suggestion">共享</target>
+        </trans-unit>
+        <trans-unit id="Flyout_SS.Text" translate="yes" xml:space="preserve">
+          <source>Single Selection</source>
+          <target state="final">单选</target>
+        </trans-unit>
+        <trans-unit id="MainPage_Nav_Doc.Content" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">文档</target>
+        </trans-unit>
+        <trans-unit id="MainPage_Nav_File.Content" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">文件</target>
+        </trans-unit>
+        <trans-unit id="MainPage_Nav_Find.Content" translate="yes" xml:space="preserve">
+          <source>Find</source>
+          <target state="final" state-qualifier="tm-suggestion">查找</target>
+        </trans-unit>
+        <trans-unit id="MainPage_Nav_Home.Content" translate="yes" xml:space="preserve">
+          <source>Home</source>
+          <target state="final" state-qualifier="tm-suggestion">主页</target>
+        </trans-unit>
+        <trans-unit id="MainPage_Nav_Media.Content" translate="yes" xml:space="preserve">
+          <source>Media</source>
+          <target state="final" state-qualifier="tm-suggestion">媒体</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_Doc.Text" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <target state="final" state-qualifier="tm-suggestion">文档</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_More.Text" translate="yes" xml:space="preserve">
+          <source>More</source>
+          <target state="final" state-qualifier="tm-suggestion">更多</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_Music.Text" translate="yes" xml:space="preserve">
+          <source>Music</source>
+          <target state="final" state-qualifier="tm-suggestion">音乐</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_NewFiles.Text" translate="yes" xml:space="preserve">
+          <source>New Files</source>
+          <target state="final">新文件</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_Refresh.Text" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="final" state-qualifier="tm-suggestion">刷新</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_RPAV.Text" translate="yes" xml:space="preserve">
+          <source>Recent Picture And Video</source>
+          <target state="final">最近的图片和视频</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Povit1_Search.Text" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">搜索</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Recent_All.Header" translate="yes" xml:space="preserve">
+          <source>All</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">全部</target>
+        </trans-unit>
+        <trans-unit id="MAIN_Page1_Recent_Media.Header" translate="yes" xml:space="preserve">
+          <source>Recent Media</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">最近的媒体</target>
+        </trans-unit>
+        <trans-unit id="SearchResult_All.Header" translate="yes" xml:space="preserve">
+          <source>All</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">全部</target>
+        </trans-unit>
+        <trans-unit id="SearchResult_Doc.Header" translate="yes" xml:space="preserve">
+          <source>Doc</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">文档</target>
+        </trans-unit>
+        <trans-unit id="SearchResult_File.Header" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">文件</target>
+        </trans-unit>
+        <trans-unit id="SearchResult_Media.Header" translate="yes" xml:space="preserve">
+          <source>Media</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">媒体</target>
+        </trans-unit>
+        <trans-unit id="Search_Page_HoldText.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Search For Something</source>
+          <target state="final">找点什么？</target>
+        </trans-unit>
+        <trans-unit id="Search_Page_Search.Text" translate="yes" xml:space="preserve">
+          <source>Search</source>
+          <target state="final" state-qualifier="tm-suggestion">搜索</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Delete_SubFly_Confirm.CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Refuse</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Delete_SubFly_Confirm.PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Confirm</source>
+          <target state="final" state-qualifier="tm-suggestion">确认</target>
+        </trans-unit>
+        <trans-unit id="Flyout_Delete_SubFly_Tip.Text" translate="yes" xml:space="preserve">
+          <source>Are you Sure to delete Those Files</source>
+          <target state="final">确认要删除这些文件吗？</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Area.Text" translate="yes" xml:space="preserve">
+          <source>Area</source>
+          <target state="final">区域</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Contact.Text" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <target state="final">联系</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Email.Text" translate="yes" xml:space="preserve">
+          <source>KomorenobiProject_2019@outlook.com</source>
+          <target state="final">KomorenobiProject_2019@outlook.com</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_LanguageSettings.Text" translate="yes" xml:space="preserve">
+          <source>Language Settings</source>
+          <target state="final">语言设置</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Opensource.Text" translate="yes" xml:space="preserve">
+          <source>Open Source License</source>
+          <target state="translated">开源声明</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Reference.Text" translate="yes" xml:space="preserve">
+          <source>Reference</source>
+          <target state="translated">引用</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_AppSettings.Text" translate="yes" xml:space="preserve">
+          <source>App Settings</source>
+          <target state="final">应用设置</target>
+        </trans-unit>
+        <trans-unit id="FileAdd_Page_Settings.Title" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">设置</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

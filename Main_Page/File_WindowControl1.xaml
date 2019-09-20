@@ -1,0 +1,34 @@
+﻿<UserControl
+    x:Class="Main_Page.File_WindowControl1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <RelativePanel Grid.Row="0">
+            <TextBlock RelativePanel.AlignLeftWithPanel="True" Width="300">Plase select a FILE</TextBlock>
+
+        </RelativePanel>
+        <RelativePanel Grid.Row="1" >
+            <TextBox Name="File_Textbox" Width="296" Height="32" FontSize="12" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True"></TextBox>
+            <Button Height= "32" Name="File_Button" Click="File_Button_Click" RelativePanel.RightOf="File_Textbox" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Center" Width="83">OPEN</Button>
+
+        </RelativePanel>
+        <RelativePanel Grid.Row="2" HorizontalAlignment="Right" >
+            <Button Name="File_OK_BUTTON" Width="82" Click="File_OK_BUTTON_Click" RelativePanel.AlignRightWithPanel="True" Margin="0,30,0,0">
+                Comfirm</Button>
+
+        </RelativePanel>
+
+    </Grid>
+</UserControl>
