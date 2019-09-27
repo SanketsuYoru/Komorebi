@@ -207,6 +207,14 @@
           <source>Settings</source>
           <target state="final">设置</target>
         </trans-unit>
+        <trans-unit id="GuidePage_PlaceHoldertext.Text" translate="yes" xml:space="preserve">
+          <source>No files found, add from the button below</source>
+          <target state="translated">没有找到任何文件，从下面的按钮开始添加</target>
+        </trans-unit>
+        <trans-unit id="Add Some Folders.Text" translate="yes" xml:space="preserve">
+          <source>Add Some Folders</source>
+          <target state="translated">添加文件夹</target>
+        </trans-unit>
       </group>
     </body>
   </file>

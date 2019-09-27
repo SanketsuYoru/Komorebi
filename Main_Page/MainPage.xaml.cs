@@ -59,6 +59,10 @@ namespace Main_Page
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
+
+
+
+
             if (NeedNav)
             {
                 Frame current = Window.Current.Content as Frame;

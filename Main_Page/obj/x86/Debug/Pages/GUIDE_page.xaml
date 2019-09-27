@@ -16,10 +16,10 @@
                    FontSize="36" 
                    FontStyle="Normal" 
                    FocusVisualPrimaryBrush="White" 
-                   FontFamily="Microsoft JhengHei UI" 
+                   FontFamily="Segoe UI" 
                   
                    TextWrapping="Wrap"
-                   Text="指定されたフォルダにファイルがないか、フォルダが追加されていません"></TextBlock>
+                   Text="没有发现任何文件，从下面开始添加" x:Uid="GuidePage_PlaceHoldertext"></TextBlock>
         <Button x:ConnectionId='3' 
             VerticalAlignment="Bottom" 
             HorizontalAlignment="Center" 
@@ -27,7 +27,7 @@
             Width="200" Height="60"                     >
             <RelativePanel Width="200" Height="60" >
                 <TextBlock x:ConnectionId='4' x:Name="icon" Text="&#xE1DA;"  FontFamily="segoe MDL2 Assets" FontSize="40" RelativePanel.AlignLeftWithPanel="True"></TextBlock>
-                <TextBlock Text="フォルダを追加" RelativePanel.RightOf="icon" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="20,0,0,0"></TextBlock>
+                <TextBlock Text="Add Some Folders" x:Uid="Add Some Folders" RelativePanel.RightOf="icon" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="20,0,0,0"></TextBlock>
             </RelativePanel>
         </Button>
     </Grid>

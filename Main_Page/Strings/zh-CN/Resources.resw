@@ -162,4 +162,10 @@
   <data name="FileAdd_Page_Settings.Title" xml:space="preserve">
     <value>设置</value>
   </data>
+  <data name="GuidePage_PlaceHoldertext.Text" xml:space="preserve">
+    <value>没有找到任何文件，从下面的按钮开始添加</value>
+  </data>
+  <data name="Add Some Folders.Text" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
 </root>

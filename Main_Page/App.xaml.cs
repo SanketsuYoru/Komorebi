@@ -21,6 +21,9 @@ using Main_Page.Models;
 using Windows.Storage;
 using Windows.Globalization;
 using Windows.UI.Xaml.Media.Animation;
+using Windows.ApplicationModel.Core;
+using Windows.UI.ViewManagement;
+using Windows.UI;
 
 namespace Main_Page
 {
@@ -58,6 +61,20 @@ namespace Main_Page
             // 只需确保窗口处于活动状态
             if (rootFrame == null)
             {
+               // var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+                //coreTitleBar.ExtendViewIntoTitleBar =false;
+                // Hide default title bar.
+                /*var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+                 * coreTitleBar.ExtendViewIntoTitleBar = true;
+                var titleBar = ApplicationView.GetForCurrentView().TitleBar;
+               
+                var userColor = UserSettings.GetBGColor();
+                var titlebarColor = new SolidColorBrush(Color.FromArgb(100, userColor.Color.R, userColor.Color.G, userColor.Color.B));
+
+                titleBar.ButtonBackgroundColor = titlebarColor.Color;*/
+                // titleBar.ButtonHoverBackgroundColor = titlebarColor.Color;
+
+                // Hide default title bar.
                 // 创建要充当导航上下文的框架，并导航到第一页
                 rootFrame = new Frame();
 

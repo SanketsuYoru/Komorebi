@@ -1,6 +1,7 @@
 ﻿using Main_Page.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -29,12 +30,51 @@ namespace Main_Page.Pages
     /// </summary>
     public sealed partial class AudioPage : Page
     {
-           private static Items Item_;
+        DispatcherTimer _timer = new DispatcherTimer();//定义定时器
+        private static Items Item_;
+        private static int currentIndex=0;
+        private ObservableCollection< Items > Item_list = new ObservableCollection<Items>();
         public AudioPage()
         {
             this.InitializeComponent();
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
+            //Media_in.MediaPlayer.MediaEnded += PlayNext;
+            _timer.Interval = TimeSpan.FromSeconds(0.5);
+            _timer.Tick += CurrentTime;
+            _timer.Start();
         }
+
+        private async void PlayNext()
+        {
+
+            currentIndex = (currentIndex + 1) % Item_list.Count;
+            PlayBackList.SelectedIndex = currentIndex;
+            PlayBackList.ScrollIntoView(Item_list[currentIndex]);
+           await setNewMediaSource(Item_list[currentIndex]);
+
+        }
+
+        private void CurrentTime(object sender, object e)
+        {
+
+            Timerofnow.Text = Media_in.MediaPlayer.PlaybackSession.Position.ToString(@"hh\:mm\:ss");
+            Timerofthis.Text = "/" + Media_in.MediaPlayer.PlaybackSession.NaturalDuration.ToString(@"hh\:mm\:ss");
+            if (Media_in.MediaPlayer.PlaybackSession.Position== Media_in.MediaPlayer.PlaybackSession.NaturalDuration&& Media_in.MediaPlayer.PlaybackSession.NaturalDuration.TotalSeconds!=0)
+            {
+                PlayNext();
+            }
+        }
+            private async Task  setNewMediaSource(Items Nextsource) {
+            Item_ = Nextsource;
+            Media_in.Source = ItemAccess.MediaProcess(Item_.StorageFile_);
+            CoverIMG.Source = await ItemAccess.ThumbnailProcess_HQ(Item_.StorageFile_);
+            Type_.Text = Item_.StorageFile_.DisplayType;
+            Date_.Text = Item_.Date;
+            NameBolck.Text = Item_.StorageFile_.DisplayName;
+            Size_.Text = await SizeOfFileAsync(Item_.StorageFile_);
+        }
+
+
 
         private void ShareRequested(DataTransferManager sender, DataRequestedEventArgs args)
         {
@@ -51,25 +91,35 @@ namespace Main_Page.Pages
         }
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-
             var Items_in = (Items)e.Parameter;
-            Item_ = Items_in;
-            Media_in.Source =  ItemAccess.MediaProcess(Items_in.StorageFile_);
-            CoverIMG.Source = await ItemAccess.ThumbnailProcess(Items_in.StorageFile_);
-            Date_.Text = Items_in.Date;
-            NameBolck.Text= Items_in.Name;
+            await setNewMediaSource(Items_in);
+            int count_ = 0;
+            for (int i= 0;i < ItemAccess.Cache.Count; i++)
+            {
+                if (FileType_check(ItemAccess.Cache[i]) == "Music")
+                {
+                    Item_list.Add(new Items { AccessSource = null, Date = ItemAccess.Cache[i].DateCreated.ToString(), Type = ItemAccess.Cache[i].DisplayType, Name = ItemAccess.Cache[i].Name, Path = ItemAccess.Cache[i].Path, StorageFile_ = ItemAccess.Cache[i], Size = await SizeOfFileAsync(ItemAccess.Cache[i]), Count = count_ });
+                    if(Item_.Name == ItemAccess.Cache[i].Name) {
+                        PlayBackList.SelectedIndex = count_;
+                        PlayBackList.ScrollIntoView(Item_list[count_]);
+                        currentIndex = count_;
+                    }
+                    count_++;
+                }
+            }
         }
 
         private void Page_Unloaded(object sender, RoutedEventArgs e)
         {
-          Media_in.MediaPlayer.IsMuted = true;
+         Media_in.MediaPlayer.IsMuted = true;
+            Item_list.Clear();
           //  Media_in.MediaPlayer.Dispose();
         }
 
 
         private void RelativePanel_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
-            ((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
+            //((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
         }
 
 
@@ -151,5 +201,27 @@ namespace Main_Page.Pages
             await ItemAccess.ExplorePath(await Item_.StorageFile_.GetParentAsync(), Item_.StorageFile_);
         }
 
+        private void Share_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            DataTransferManager.ShowShareUI();
+        }
+
+        private async void PlayBackList_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            _timer.Stop();
+            var ClickedItem = (e.ClickedItem as Items);
+            await setNewMediaSource(ClickedItem);
+            int i=0;
+            foreach (var item in Item_list) {
+                if (item.Name == ClickedItem.Name)
+                {
+                    currentIndex = i;
+                    break;
+                }
+                i++;
+            }
+            _timer.Start();
+        }
+      
     }
 }

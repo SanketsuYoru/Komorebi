@@ -50,13 +50,25 @@ namespace Main_Page.Pages
 
             //BackGround
             SolidColorBrush myBrush = GetBGColor();
+            var ButtonBrush= GetBGColor(200);
             this.Background = myBrush;
+            REFLASH.Background= ButtonBrush;
+            MB_1.Background = ButtonBrush;
+            MB_2.Background =ButtonBrush;
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
+            if (UserSettings.localSettings.Values["firstOpen998"] == null&& !Tip)
+            {
+                recentTip.IsOpen = true;
+                Tip = true;
+            }
         }
+
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
 
+           
+            //  UserSettings.localSettings.Values["firstOpen998"] = "opened";
         }
 
         ~MAIN_Page1()
@@ -428,6 +440,18 @@ namespace Main_Page.Pages
         {
             DOC.Background = new SolidColorBrush(Windows.UI.Colors.White);
             progressBar_Main.Visibility = Visibility.Collapsed;
+        }
+
+        private void HideTipsCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            UserSettings.localSettings.Values["firstOpen998"] ="hide";
+        }
+
+        private void Hyperlink_Click(Windows.UI.Xaml.Documents.Hyperlink sender, Windows.UI.Xaml.Documents.HyperlinkClickEventArgs args)
+        {
+            var Frame_page = this.Frame as Frame;
+            Frame_page.Navigate(typeof(Pages.FileAdd_Page));
+            recentTip.IsOpen = false;
         }
     }
  }

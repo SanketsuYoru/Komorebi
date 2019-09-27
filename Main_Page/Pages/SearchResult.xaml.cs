@@ -108,16 +108,16 @@ namespace Main_Page.Pages
                 if (flag >= 1)
                 {
 
-                    result.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile });
+                    result.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile, Size = await SizeOfFileAsync(inputFile) });
 
                     if (type == "Music" || type == "Picture" || type == "Video")
                     {
-                        result_media.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile });
+                        result_media.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile, Size = await SizeOfFileAsync(inputFile) });
                     }
                     else if (type == "Doc")
-                        result_doc.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile });
+                        result_doc.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile, Size = await SizeOfFileAsync(inputFile) });
                     else
-                        result_file.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile });
+                        result_file.Add(new Items { AccessSource = await ItemAccess.ThumbnailProcess(inputFile), Date = inputFile.DateCreated.ToString(), Type = inputFile.FileType, Name = inputFile.Name, Path = inputFile.Path, StorageFile_ = inputFile, Size = await SizeOfFileAsync(inputFile) });
                 }
                  
                 flag = 0;

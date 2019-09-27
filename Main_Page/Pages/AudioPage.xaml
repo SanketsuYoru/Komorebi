@@ -5,6 +5,7 @@
     xmlns:local="using:Main_Page.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Main_Page.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Unloaded="Page_Unloaded">
 
@@ -23,27 +24,75 @@
             </ContentDialog.TitleTemplate>
             <RelativePanel>
                 <Image x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
-                <TextBlock Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap">
-                </TextBlock>
+                <TextBlock Name="dialogText1" Margin="5,0,0,0" RelativePanel.AlignLeftWithPanel="True" TextWrapping="Wrap"></TextBlock>
                 <TextBlock Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
                 <TextBlock Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
             </RelativePanel>
         </ContentDialog>
-        <RelativePanel>
-            <StackPanel RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="0,0,0,50" >
-                <Image Name="CoverIMG" Width="469"  Height="300" HorizontalAlignment="Center"></Image>
-                <TextBlock Name="NameBolck" FontSize="20"  VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
-                <TextBlock FontSize="12" Name="Date_"  VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
-                <TextBlock FontSize="12" Name="Size_"  VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1" Margin="10,40,30,30" VerticalAlignment="Stretch">
+                <RelativePanel >
+                    <Image  Name="CoverIMG" MaxHeight="540" MaxWidth="540"  Margin="0,0,0,0"></Image>
+                    <StackPanel x:Name="Share"  Orientation="Horizontal" RelativePanel.Below="CoverIMG" RelativePanel.AlignLeftWith="CoverIMG" Tapped="Share_Tapped" Margin="0,20,0,0">
+                        <TextBlock FontSize="21" FontFamily="segoe MDL2 Assets" Text="&#xE72D;" Foreground="White"></TextBlock>
+                        <TextBlock FontSize="21" Text="Share" Foreground="White"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  RelativePanel.Below="CoverIMG"  RelativePanel.AlignLeftWith="CoverIMG"  Margin="100,20,0,0">
+                        <TextBlock FontSize="21" FontFamily="segoe MDL2 Assets" Text="&#xEB52;" Foreground="White"></TextBlock>
+                        <TextBlock FontSize="21" Text="Like" Foreground="White"></TextBlock>
+                    </StackPanel>
+                </RelativePanel>
+
             </StackPanel>
-            <MediaPlayerElement 
-            Name="Media_in"
-            AutoPlay="True"
-            MaxHeight="100"
-            AreTransportControlsEnabled="True"
-            RelativePanel.AlignBottomWithPanel="True"
-                />
-        </RelativePanel>
+            
+
+            <RelativePanel Grid.Column="0">
+            <StackPanel x:Name="LogoAndTitle"  Margin="40,30,0,50" >
+                    <TextBlock Name="Logo" FontSize="48" TextWrapping="Wrap"   HorizontalAlignment="Left" Text="Komorenobi" Foreground="White" ></TextBlock>
+                    <TextBlock Name="Title" FontSize="20" TextWrapping="Wrap"  HorizontalAlignment="Left" Foreground="White" Text="by Sanketsu Yoru in 2019"></TextBlock>
+                </StackPanel>
+
+                <RelativePanel x:Name="PlayArea" RelativePanel.Below="LogoAndTitle" Margin="40,0,0,20"> 
+                    <TextBlock Name="icon"></TextBlock>
+                    <TextBlock Name="NameBolck" TextWrapping="Wrap" FontSize="18" Width="280"  RelativePanel.RightOf="icon" Margin="0,0,0,0" Text="Utsuro Spark-レジェンド" Foreground="White" ></TextBlock>
+                    <TextBlock x:Name="Timerofnow" RelativePanel.LeftOf="Timerofthis" Foreground="White" Margin="0,0,0,0"></TextBlock>
+                    <TextBlock x:Name="Timerofthis"   RelativePanel.AlignRightWithPanel="True" Foreground="White" Margin="0,0,20,0"></TextBlock>
+                    <MediaPlayerElement Name="Media_in" AutoPlay="True" MaxHeight="50"    RelativePanel.RightOf="icon" AreTransportControlsEnabled="True" RelativePanel.Below="NameBolck" RequestedTheme="Dark" Margin="0,0,20,0">
+
+                        <MediaPlayerElement.TransportControls>
+                            <MediaTransportControls 
+                                IsCompact="True"  
+                                IsFullWindowEnabled="False" 
+                                IsFullWindowButtonVisible="False" 
+                                IsZoomButtonVisible="False" 
+                               IsVolumeButtonVisible="True"
+                             ></MediaTransportControls>
+                        </MediaPlayerElement.TransportControls>
+                    </MediaPlayerElement>
+                </RelativePanel>
+
+                <StackPanel x:Name="Info" RelativePanel.Below="PlayArea" Margin="40,0,0,50">
+                    <TextBlock FontSize="24" Name="Type_"  TextWrapping="Wrap" Foreground="White" Text="Digital Album" FontWeight="Bold"></TextBlock>
+                    <TextBlock FontSize="14" Name="Date_"  TextWrapping="Wrap"  Foreground="White" Text="2019"></TextBlock>
+                    <TextBlock FontSize="14" Name="Size_"   TextWrapping="Wrap" Foreground="White" Text="10mb"></TextBlock>
+                </StackPanel>
+                <ListView x:Name="PlayBackList" RelativePanel.Below="Info" ItemsSource="{x:Bind Item_list,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="400" IsItemClickEnabled="True" ItemClick="PlayBackList_ItemClick">
+                    <ListView.ItemTemplate>
+                        <DataTemplate  x:DataType="data:Items" >
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Name="icon_list"  FontFamily="segoe MDL2 Assets" Text="&#xF5B0;" Foreground="White" FontSize="24"  Margin="0,0,10,0"></TextBlock>
+                                <TextBlock Name="Number" Text="{x:Bind Count}" Foreground="White"   Margin="0,0,10,0"></TextBlock>
+                                <TextBlock  Text="{x:Bind Name}" Foreground="White" ></TextBlock>
+                            </StackPanel>
+                            
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RelativePanel>
         <FlyoutBase.AttachedFlyout>
             <MenuFlyout>
                 <MenuFlyoutItem Text="复制" x:Uid="Flyout_Copy" Click="MenuFlyoutItem_Click_Copy">
@@ -80,5 +129,6 @@
                 </MenuFlyoutItem>
             </MenuFlyout>
         </FlyoutBase.AttachedFlyout>
+    </Grid>
     </Grid>
 </Page>

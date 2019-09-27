@@ -185,7 +185,7 @@
         </trans-unit>
         <trans-unit id="FileAdd_Page_Email.Text" translate="yes" xml:space="preserve">
           <source>KomorenobiProject_2019@outlook.com</source>
-          <target state="new">KomorenobiProject_2019@outlook.com</target>
+          <target state="final">KomorenobiProject_2019@outlook.com</target>
         </trans-unit>
         <trans-unit id="FileAdd_Page_LanguageSettings.Text" translate="yes" xml:space="preserve">
           <source>Language Settings</source>
@@ -206,6 +206,14 @@
         <trans-unit id="FileAdd_Page_Settings.Title" translate="yes" xml:space="preserve">
           <source>Settings</source>
           <target state="final">設定</target>
+        </trans-unit>
+        <trans-unit id="GuidePage_PlaceHoldertext.Text" translate="yes" xml:space="preserve">
+          <source>No files found, add from the button below</source>
+          <target state="final">ファイルが見つかりません。下のボタンから追加してください</target>
+        </trans-unit>
+        <trans-unit id="Add Some Folders.Text" translate="yes" xml:space="preserve">
+          <source>Add Some Folders</source>
+          <target state="translated">フォルダーを追加</target>
         </trans-unit>
       </group>
     </body>

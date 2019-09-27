@@ -1,1 +1,1 @@
-D:\Code\20190914(通知还有问题，没文件多语言)\Main_Page\Main_Page.csproj;x86
+D:\Code\20190926\Main_Page\Main_Page.csproj;x86

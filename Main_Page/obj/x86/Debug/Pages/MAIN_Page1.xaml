@@ -7,12 +7,24 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:data="using:Main_Page.Models"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                      FontFamily="Segoe UI">
+      xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                      FontFamily="Segoe UI">
 
     <Grid >
+        <Grid.Resources>
+            <controls:TeachingTip x:ConnectionId='2' x:Name="recentTip"
+           PreferredPlacement="BottomRight"
+            Title="Saving automatically"
+            Subtitle="We save your changes as you go - so you never have to.">
+                <StackPanel>
+                    <CheckBox x:ConnectionId='3' x:Name="HideTipsCheckBox" Content="Don't show tips at start up"                                   />
+                    <TextBlock>You can change your tip preferences in <Hyperlink x:ConnectionId='4'                         >Settings</Hyperlink> if you change your mind.</TextBlock>
+                </StackPanel>
+            </controls:TeachingTip>
+        </Grid.Resources>
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='2' x:Name="VisualStateGroup">
-                <VisualState x:ConnectionId='3' x:Name="Phone">
+            <VisualStateGroup x:ConnectionId='5' x:Name="VisualStateGroup">
+                <VisualState x:ConnectionId='6' x:Name="Phone">
                     <VisualState.Setters>
                         <Setter Target="REFLASH.(UIElement.Visibility)" Value="Collapsed"/>
                         <Setter Target="stackPanel.(StackPanel.Orientation)" Value="Vertical"/>
@@ -61,12 +73,13 @@
                             </Setter.Value>
                         </Setter>
                         <Setter Target="progressBar_Main.(FrameworkElement.HorizontalAlignment)" Value="Left"/>
+                        <Setter Target="stackPanel2.(UIElement.Visibility)" Value="Collapsed"/>
                     </VisualState.Setters>
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0" MinWindowHeight="0"/>
                     </VisualState.StateTriggers>
                 </VisualState>
-                <VisualState x:ConnectionId='4' x:Name="Surface">
+                <VisualState x:ConnectionId='7' x:Name="Surface">
                     <VisualState.Setters>
                         <Setter Target="MainFlip.(FrameworkElement.Height)" Value="450"/>
                         <Setter Target="MB_2.(FrameworkElement.Margin)">
@@ -102,10 +115,10 @@
                         <Setter Target="DOC.(Control.FontFamily)" Value="Segoe UI"/>
                     </VisualState.Setters>
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="1150"/>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                 </VisualState>
-                <VisualState x:ConnectionId='5' x:Name="FullSceen">
+                <VisualState x:ConnectionId='8' x:Name="FullSceen">
                     <VisualState.Setters>
                         <Setter Target="MainFlip.(FrameworkElement.Height)" Value="740"/>
                         <Setter Target="MB_2.(FrameworkElement.Margin)">
@@ -150,7 +163,7 @@
 
 
 
-        <ContentDialog x:ConnectionId='6' x:Name="DeleteContentDialog" 
+        <ContentDialog x:ConnectionId='9' x:Name="DeleteContentDialog" 
            PrimaryButtonText="删除" x:Uid="Flyout_Delete_SubFly_Confirm"                                                             IsPrimaryButtonEnabled="True"
            CloseButtonText="可以但是没必要"
            VerticalAlignment="Top" HorizontalAlignment="Center">
@@ -163,28 +176,28 @@
                 </DataTemplate>
             </ContentDialog.TitleTemplate>
             <RelativePanel>
-                <Image x:ConnectionId='72' x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
-                <TextBlock x:ConnectionId='73' Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap" FontFamily="Segoe UI">
+                <Image x:ConnectionId='82' x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
+                <TextBlock x:ConnectionId='83' Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap" FontFamily="Segoe UI">
                 </TextBlock>
-                <TextBlock x:ConnectionId='74' Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
-                <TextBlock x:ConnectionId='75' Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='84' Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
+                <TextBlock x:ConnectionId='85' Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
             </RelativePanel>
         </ContentDialog>
 
 
 
-        <Pivot x:ConnectionId='7'  x:Name="povit_main" >
-            <PivotItem Header="最近的媒体" x:Uid="MAIN_Page1_Recent_Media" Background="White"  >
+        <Pivot x:ConnectionId='10'  x:Name="povit_main" >
+            <PivotItem x:ConnectionId='11' Header="最近的媒体" x:Uid="MAIN_Page1_Recent_Media" Name="recent" Background="White"  >
 
-                <RefreshContainer x:ConnectionId='23' x:Name="RefreshContainer_02"                                                      >
-                    <ScrollViewer x:ConnectionId='24' x:Name="scrollViewer" >
+                <RefreshContainer x:ConnectionId='28' x:Name="RefreshContainer_02"                                                      >
+                    <ScrollViewer x:ConnectionId='29' x:Name="scrollViewer" >
                         <Grid>
 
                             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                                <StackPanel x:ConnectionId='25' x:Name="stackPanel" Orientation="Horizontal">
-                                    <StackPanel x:ConnectionId='33' HorizontalAlignment="Left" x:Name="Flipview">
+                                <StackPanel x:ConnectionId='30' x:Name="stackPanel" Orientation="Horizontal">
+                                    <StackPanel x:ConnectionId='40' HorizontalAlignment="Left" x:Name="Flipview">
                                         <TextBlock Text="最近的图片和视频" x:Uid="MAIN_Page1_Povit1_RPAV" Margin="0,0,0,0" FontSize="18"></TextBlock>
-                                        <FlipView x:ConnectionId='62' x:Name="MainFlip" 
+                                        <FlipView x:ConnectionId='71' x:Name="MainFlip" 
                             Width="800" Height="460"  
                             Margin="0,10,0,0"
                                                                                                                                       BorderBrush="#FFD6DDE6" BorderThickness="0.5">
@@ -193,10 +206,10 @@
                                             </FlipView.Background>
                                             <FlipView.ItemTemplate >
                                                 <DataTemplate x:Name="Data_A"                          >
-                                                    <StackPanel x:ConnectionId='63'                                                             VerticalAlignment="Center" HorizontalAlignment="Stretch"                           >
+                                                    <StackPanel x:ConnectionId='73'                                                             VerticalAlignment="Center" HorizontalAlignment="Stretch"                           >
                                                         <FlyoutBase.AttachedFlyout>
-                                                            <MenuFlyout x:ConnectionId='64'                           >
-                                                                <MenuFlyoutItem x:ConnectionId='65' Text="复制" x:Uid="Flyout_Copy"                                  >
+                                                            <MenuFlyout x:ConnectionId='74'                           >
+                                                                <MenuFlyoutItem x:ConnectionId='75' Text="复制" x:Uid="Flyout_Copy"                                  >
                                                                     <MenuFlyoutItem.Icon>
                                                                         <FontIcon Glyph="&#xE16F;"/>
                                                                     </MenuFlyoutItem.Icon>
@@ -204,7 +217,7 @@
                                                                         <KeyboardAccelerator Key="C" Modifiers="Control"/>
                                                                     </MenuFlyoutItem.KeyboardAccelerators>
                                                                 </MenuFlyoutItem>
-                                                                <MenuFlyoutItem x:ConnectionId='66' Text="删除" x:Uid="Flyout_Delete"                                    >
+                                                                <MenuFlyoutItem x:ConnectionId='76' Text="删除" x:Uid="Flyout_Delete"                                    >
                                                                     <MenuFlyoutItem.Icon>
                                                                         <FontIcon Glyph="&#xE74D;"/>
                                                                     </MenuFlyoutItem.Icon>
@@ -212,7 +225,7 @@
                                                                         <KeyboardAccelerator Key="D" Modifiers="Control"/>
                                                                     </MenuFlyoutItem.KeyboardAccelerators>
                                                                 </MenuFlyoutItem>
-                                                                <MenuFlyoutItem x:ConnectionId='67' Text="共享" x:Uid="Flyout_Share"                                    >
+                                                                <MenuFlyoutItem x:ConnectionId='77' Text="共享" x:Uid="Flyout_Share"                                    >
                                                                     <MenuFlyoutItem.Icon>
                                                                         <FontIcon Glyph="&#xE72D;"/>
                                                                     </MenuFlyoutItem.Icon>
@@ -220,7 +233,7 @@
                                                                         <KeyboardAccelerator Key="S" Modifiers="Control"/>
                                                                     </MenuFlyoutItem.KeyboardAccelerators>
                                                                 </MenuFlyoutItem>
-                                                                <MenuFlyoutItem x:ConnectionId='68' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
+                                                                <MenuFlyoutItem x:ConnectionId='78' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
                                                                     <MenuFlyoutItem.Icon>
                                                                         <FontIcon Glyph="&#xE838;"/>
                                                                     </MenuFlyoutItem.Icon>
@@ -229,23 +242,23 @@
                                                                     </MenuFlyoutItem.KeyboardAccelerators>
                                                                 </MenuFlyoutItem>
                                                                 <MenuFlyoutSeparator></MenuFlyoutSeparator>
-                                                                <MenuFlyoutItem x:ConnectionId='69' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
+                                                                <MenuFlyoutItem x:ConnectionId='79' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
                                                                     <MenuFlyoutItem.Icon>
                                                                         <FontIcon Glyph="&#xE1CD;"/>
                                                                     </MenuFlyoutItem.Icon>
                                                                 </MenuFlyoutItem>
                                                             </MenuFlyout>
                                                         </FlyoutBase.AttachedFlyout>
-                                                        <Image x:ConnectionId='70'                                 VerticalAlignment="Center" HorizontalAlignment="Stretch"></Image>
+                                                        <Image x:ConnectionId='80'                                 VerticalAlignment="Center" HorizontalAlignment="Stretch"></Image>
                                                     </StackPanel>
                                                 </DataTemplate>
                                             </FlipView.ItemTemplate>
                                         </FlipView>
                                     </StackPanel>
-                                    <StackPanel x:ConnectionId='34' x:Name="stackPanel1">
-                                        <StackPanel x:ConnectionId='35' x:Name="Music">
+                                    <StackPanel x:ConnectionId='41' x:Name="stackPanel1">
+                                        <StackPanel x:ConnectionId='42' x:Name="Music">
                                             <TextBlock Text="音乐"  x:Uid="MAIN_Page1_Povit1_Music" Margin="5,0,0,0" FontSize="18"></TextBlock>
-                                            <FlipView x:ConnectionId='52' x:Name="MUSIC" 
+                                            <FlipView x:ConnectionId='60' x:Name="MUSIC" 
                             Width="250" Height="250"  
                             Margin="5,10,0,0"
                                                                                                                                       BorderBrush="#FFD6DDE6" BorderThickness="0.5">
@@ -259,10 +272,10 @@
                                                 </FlipView.ItemsPanel>
                                                 <FlipView.ItemTemplate >
                                                     <DataTemplate x:Name="Data_M"                          >
-                                                        <StackPanel x:ConnectionId='53' x:Name="Music_stack"                                                                                        >
+                                                        <StackPanel x:ConnectionId='62' x:Name="Music_stack"                                                                                        >
                                                             <FlyoutBase.AttachedFlyout>
-                                                                <MenuFlyout x:ConnectionId='54'                           >
-                                                                    <MenuFlyoutItem x:ConnectionId='55' Text="复制" x:Uid="Flyout_Copy"                                  >
+                                                                <MenuFlyout x:ConnectionId='63'                           >
+                                                                    <MenuFlyoutItem x:ConnectionId='64' Text="复制" x:Uid="Flyout_Copy"                                  >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE16F;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -270,7 +283,7 @@
                                                                             <KeyboardAccelerator Key="C" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='56' Text="删除" x:Uid="Flyout_Delete"                                    >
+                                                                    <MenuFlyoutItem x:ConnectionId='65' Text="删除" x:Uid="Flyout_Delete"                                    >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE74D;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -278,7 +291,7 @@
                                                                             <KeyboardAccelerator Key="D" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='57' Text="共享" x:Uid="Flyout_Share"                                    >
+                                                                    <MenuFlyoutItem x:ConnectionId='66' Text="共享" x:Uid="Flyout_Share"                                    >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE72D;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -286,7 +299,7 @@
                                                                             <KeyboardAccelerator Key="S" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='58' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
+                                                                    <MenuFlyoutItem x:ConnectionId='67' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE838;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -295,7 +308,7 @@
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
                                                                     <MenuFlyoutSeparator></MenuFlyoutSeparator>
-                                                                    <MenuFlyoutItem x:ConnectionId='59' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
+                                                                    <MenuFlyoutItem x:ConnectionId='68' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE1CD;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -303,14 +316,14 @@
                                                                 </MenuFlyout>
                                                             </FlyoutBase.AttachedFlyout>
                                                             <RelativePanel>
-                                                                <Image x:ConnectionId='60'                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
+                                                                <Image x:ConnectionId='69'                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
                                                                 <Rectangle  Height="40" Width="400" RelativePanel.AlignBottomWithPanel="True"  Margin="0,0,0,0">
                                                                     <Rectangle.Fill>
                                                                         <SolidColorBrush Color="{ThemeResource  SystemAltMediumColor}" >
                                                                         </SolidColorBrush>
                                                                     </Rectangle.Fill>
                                                                 </Rectangle>
-                                                                <TextBlock x:ConnectionId='61' RelativePanel.AlignBottomWithPanel="True"                      VerticalAlignment="Top" Margin="0,0,0,20"></TextBlock>
+                                                                <TextBlock x:ConnectionId='70' RelativePanel.AlignBottomWithPanel="True"                      VerticalAlignment="Top" Margin="0,0,0,20"></TextBlock>
                                                             </RelativePanel>
                                                         </StackPanel>
                                                     </DataTemplate>
@@ -319,9 +332,9 @@
                                         </StackPanel>
 
 
-                                        <StackPanel x:ConnectionId='36' x:Name="Doc" RelativePanel.RightOf="Flipview" RelativePanel.Below="Music" >
-                                            <TextBlock x:ConnectionId='39' x:Name="textBlock3" x:Uid="MAIN_Page1_Povit1_Doc" Text="文档"  Margin="5,0,0,0" FontSize="18"></TextBlock>
-                                            <FlipView x:ConnectionId='40' x:Name="DOC" 
+                                        <StackPanel x:ConnectionId='43' x:Name="Doc" RelativePanel.RightOf="Flipview" RelativePanel.Below="Music" >
+                                            <TextBlock x:ConnectionId='46' x:Name="textBlock3" x:Uid="MAIN_Page1_Povit1_Doc" Text="文档"  Margin="5,0,0,0" FontSize="18"></TextBlock>
+                                            <FlipView x:ConnectionId='47' x:Name="DOC" 
                             Width="250" Height="95"  
                             Margin="5,10,0,0"
                                                                                                                                     BorderBrush="#FFD6DDE6" BorderThickness="0.5">
@@ -330,10 +343,10 @@
                                                 </FlipView.Background>
                                                 <FlipView.ItemTemplate >
                                                     <DataTemplate x:Name="Data_F"                          >
-                                                        <RelativePanel x:ConnectionId='41'                                                             >
+                                                        <RelativePanel x:ConnectionId='49'                                                             >
                                                             <FlyoutBase.AttachedFlyout>
-                                                                <MenuFlyout x:ConnectionId='42'                           >
-                                                                    <MenuFlyoutItem x:ConnectionId='43' Text="复制" x:Uid="Flyout_Copy"                                  >
+                                                                <MenuFlyout x:ConnectionId='50'                           >
+                                                                    <MenuFlyoutItem x:ConnectionId='51' Text="复制" x:Uid="Flyout_Copy"                                  >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE16F;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -341,7 +354,7 @@
                                                                             <KeyboardAccelerator Key="C" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='44' Text="删除" x:Uid="Flyout_Delete"                                    >
+                                                                    <MenuFlyoutItem x:ConnectionId='52' Text="删除" x:Uid="Flyout_Delete"                                    >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE74D;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -349,7 +362,7 @@
                                                                             <KeyboardAccelerator Key="D" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='45' Text="共享" x:Uid="Flyout_Share"                                    >
+                                                                    <MenuFlyoutItem x:ConnectionId='53' Text="共享" x:Uid="Flyout_Share"                                    >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE72D;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -357,7 +370,7 @@
                                                                             <KeyboardAccelerator Key="S" Modifiers="Control"/>
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
-                                                                    <MenuFlyoutItem x:ConnectionId='46' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
+                                                                    <MenuFlyoutItem x:ConnectionId='54' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE838;"/>
                                                                         </MenuFlyoutItem.Icon>
@@ -366,17 +379,17 @@
                                                                         </MenuFlyoutItem.KeyboardAccelerators>
                                                                     </MenuFlyoutItem>
                                                                     <MenuFlyoutSeparator></MenuFlyoutSeparator>
-                                                                    <MenuFlyoutItem x:ConnectionId='47' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
+                                                                    <MenuFlyoutItem x:ConnectionId='55' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
                                                                         <MenuFlyoutItem.Icon>
                                                                             <FontIcon Glyph="&#xE1CD;"/>
                                                                         </MenuFlyoutItem.Icon>
                                                                     </MenuFlyoutItem>
                                                                 </MenuFlyout>
                                                             </FlyoutBase.AttachedFlyout>
-                                                            <Image x:ConnectionId='48' Name="File_img"  Width="80" Height="80"                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"></Image>
-                                                            <StackPanel x:ConnectionId='49'  x:Name="Doc_stack"   RelativePanel.RightOf="File_img" RelativePanel.AlignVerticalCenterWithPanel="True"                          >
-                                                                <TextBlock x:ConnectionId='50'                      Margin="0,0,0,0" FontSize="10" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
-                                                                <TextBlock x:ConnectionId='51'                       Margin="0,0,0,0" FontSize="8"></TextBlock>
+                                                            <Image x:ConnectionId='56' Name="File_img"  Width="80" Height="80"                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True"></Image>
+                                                            <StackPanel x:ConnectionId='57'  x:Name="Doc_stack"   RelativePanel.RightOf="File_img" RelativePanel.AlignVerticalCenterWithPanel="True"                          >
+                                                                <TextBlock x:ConnectionId='58'                      Margin="0,0,0,0" FontSize="10" TextWrapping="Wrap" VerticalAlignment="Center"></TextBlock>
+                                                                <TextBlock x:ConnectionId='59'                       Margin="0,0,0,0" FontSize="8"></TextBlock>
                                                             </StackPanel>
                                                         </RelativePanel>
                                                     </DataTemplate>
@@ -384,31 +397,35 @@
                                             </FlipView>
                                         </StackPanel>
                                         <StackPanel >
-                                            <Button x:ConnectionId='37'   Name="REFLASH"  Width="250" Height="96" Margin="5,0,0,0"                       BorderBrush="#FFD6DDE6">
+                                            <Button x:ConnectionId='44'   Name="REFLASH"  Width="250" Height="96" Margin="5,0,0,0"                       BorderBrush="#FFD6DDE6">
                                                 <StackPanel HorizontalAlignment ="Left" Orientation="Horizontal" Margin="0,0,0,2" Width="215">
-                                                    <TextBlock x:ConnectionId='38' x:Name="textBlock2" Text="&#xE1CD;" FontFamily="SegoE mdl2 Assets" FontSize="40" Margin="0,0,0,0"/>
+                                                    <TextBlock x:ConnectionId='45' x:Name="textBlock2" Text="&#xE1CD;" FontFamily="SegoE mdl2 Assets" FontSize="40" Margin="0,0,0,0"/>
                                                     <TextBlock Text="刷新" x:Uid="MAIN_Page1_Povit1_Refresh" Margin="0,30,0,0" FontSize="26"></TextBlock>
                                                 </StackPanel>
                                             </Button>
                                         </StackPanel>
                                     </StackPanel>
                                 </StackPanel>
-                                <RelativePanel x:ConnectionId='26' x:Name="Button_Block" RelativePanel.Below="Flipview"  Margin="10,20,0,0" >
-                                    <TextBlock x:ConnectionId='28' x:Name="MT_MORE" Text="更多" x:Uid="MAIN_Page1_Povit1_More" FontSize="18"></TextBlock>
-                                    <Button x:ConnectionId='29' x:Name="MB_1" RelativePanel.Below="MT_MORE" Width="250" Height="100"                    BorderBrush="#FFD6DDE6">
+                                <RelativePanel x:ConnectionId='31' x:Name="Button_Block" RelativePanel.Below="Flipview"  Margin="10,20,0,0" >
+                                    <TextBlock x:ConnectionId='33' x:Name="MT_MORE" Text="更多" x:Uid="MAIN_Page1_Povit1_More" FontSize="18"></TextBlock>
+                                    <Button x:ConnectionId='34' x:Name="MB_1" RelativePanel.Below="MT_MORE" Width="250" Height="100"                    BorderBrush="#FFD6DDE6">
                                         <StackPanel HorizontalAlignment ="Left" Orientation="Horizontal" Margin="-15,0,0,2" Width="215">
                                             <TextBlock Text="&#xE130;" FontFamily="SegoE mdl2 Assets" FontSize="40" Margin="0,10,0,0"/>
-                                            <TextBlock x:ConnectionId='32' x:Name="textBlock" x:Uid="MAIN_Page1_Povit1_NewFiles" Text="新文件" Margin="0,0,0,0" FontSize="26"/>
+                                            <TextBlock x:ConnectionId='39' x:Name="textBlock" x:Uid="MAIN_Page1_Povit1_NewFiles" Text="新文件" Margin="0,0,0,0" FontSize="26"/>
                                         </StackPanel>
                                     </Button>
-                                    <Button x:ConnectionId='30' x:Name="MB_2" RelativePanel.Below="MT_MORE" RelativePanel.RightOf="MB_1" Width="250" Height="100"                    BorderBrush="#FFD6DDE6">
+                                    <Button x:ConnectionId='35' x:Name="MB_2" RelativePanel.Below="MT_MORE" RelativePanel.RightOf="MB_1" Width="250" Height="100"                    BorderBrush="#FFD6DDE6">
                                         <StackPanel HorizontalAlignment ="Left" Orientation="Horizontal" Margin="-15,0,0,2" Width="215">
                                             <TextBlock Text="&#xE1A3;" FontFamily="SegoE mdl2 Assets" FontSize="40" Margin="0,10,0,0"/>
-                                            <TextBlock x:ConnectionId='31' x:Name="textBlock1" x:Uid="MAIN_Page1_Povit1_Search" Text="搜索" Margin="0,0,0,0" FontSize="26"></TextBlock>
+                                            <TextBlock x:ConnectionId='38' x:Name="textBlock1" x:Uid="MAIN_Page1_Povit1_Search" Text="搜索" Margin="0,0,0,0" FontSize="26"></TextBlock>
                                         </StackPanel>
                                     </Button>
+                                    <StackPanel x:ConnectionId='36' x:Name="stackPanel2" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True">
+                                        <ProgressBar x:ConnectionId='37' x:Name="ScanPbar"  Height="30" Width="200"></ProgressBar>
+                                    </StackPanel>
+
                                 </RelativePanel>
-                                <ProgressBar x:ConnectionId='27' Name="progressBar_Main" Margin="0,0,0,0" Width="300" Height="30" IsIndeterminate="True"></ProgressBar>
+                                <ProgressBar x:ConnectionId='32' Name="progressBar_Main" Margin="0,0,0,0" Width="300" Height="30" IsIndeterminate="True"></ProgressBar>
                             </StackPanel>
 
 
@@ -423,8 +440,8 @@
                 </RefreshContainer>
             </PivotItem>
             <PivotItem  Header="全部" x:Uid="MAIN_Page1_Recent_All" Background="White" >
-                <RefreshContainer x:ConnectionId='8' x:Name="RefreshContainer"                                                      >
-                    <GridView x:ConnectionId='9' 
+                <RefreshContainer x:ConnectionId='12' x:Name="RefreshContainer"                                                      >
+                    <GridView x:ConnectionId='13' 
                      Margin="0,0,0,0"
                      Name="Source_"  
                                                                                                                             
@@ -432,10 +449,10 @@
                      IsItemClickEnabled="True"  SelectionMode="Single"                                              VerticalAlignment="Center" HorizontalAlignment="Center">
                         <GridView.ItemTemplate  >
                             <DataTemplate  x:Name="DataT"                          >
-                                <StackPanel x:ConnectionId='10' Margin="10,0,10,10" Name="adap_stackpanel"  Width="328"  Height="232"                                                                   >
+                                <StackPanel x:ConnectionId='15' Margin="10,0,10,10" Name="adap_stackpanel"  Width="328"  Height="232"                                                                   >
                                     <FlyoutBase.AttachedFlyout>
-                                        <MenuFlyout x:ConnectionId='11'                           >
-                                            <MenuFlyoutItem x:ConnectionId='12' Text="复制" x:Uid="Flyout_Copy"                                  >
+                                        <MenuFlyout x:ConnectionId='16'                           >
+                                            <MenuFlyoutItem x:ConnectionId='17' Text="复制" x:Uid="Flyout_Copy"                                  >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE16F;"/>
                                                 </MenuFlyoutItem.Icon>
@@ -443,7 +460,7 @@
                                                     <KeyboardAccelerator Key="C" Modifiers="Control"/>
                                                 </MenuFlyoutItem.KeyboardAccelerators>
                                             </MenuFlyoutItem>
-                                            <MenuFlyoutItem x:ConnectionId='13' Text="删除" x:Uid="Flyout_Delete"                                    >
+                                            <MenuFlyoutItem x:ConnectionId='18' Text="删除" x:Uid="Flyout_Delete"                                    >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE74D;"/>
                                                 </MenuFlyoutItem.Icon>
@@ -451,7 +468,7 @@
                                                     <KeyboardAccelerator Key="D" Modifiers="Control"/>
                                                 </MenuFlyoutItem.KeyboardAccelerators>
                                             </MenuFlyoutItem>
-                                            <MenuFlyoutItem x:ConnectionId='14' Text="共享" x:Uid="Flyout_Share"                                    >
+                                            <MenuFlyoutItem x:ConnectionId='19' Text="共享" x:Uid="Flyout_Share"                                    >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE72D;"/>
                                                 </MenuFlyoutItem.Icon>
@@ -459,7 +476,7 @@
                                                     <KeyboardAccelerator Key="S" Modifiers="Control"/>
                                                 </MenuFlyoutItem.KeyboardAccelerators>
                                             </MenuFlyoutItem>
-                                            <MenuFlyoutItem x:ConnectionId='15' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
+                                            <MenuFlyoutItem x:ConnectionId='20' Text="打开所在文件夹" x:Uid="Flyout_OTF"                              >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE838;"/>
                                                 </MenuFlyoutItem.Icon>
@@ -468,23 +485,23 @@
                                                 </MenuFlyoutItem.KeyboardAccelerators>
                                             </MenuFlyoutItem>
                                             <MenuFlyoutSeparator></MenuFlyoutSeparator>
-                                            <MenuFlyoutItem x:ConnectionId='16' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
+                                            <MenuFlyoutItem x:ConnectionId='21' x:Name="Reflash" x:Uid="Flyout_Refresh" Text="刷新"                      >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE1CD;"/>
                                                 </MenuFlyoutItem.Icon>
                                             </MenuFlyoutItem>
-                                            <MenuFlyoutItem x:ConnectionId='17' x:Name="Multiple"  Text="多选"                             >
+                                            <MenuFlyoutItem x:ConnectionId='22' x:Name="Multiple"  Text="多选"                             >
                                                 <MenuFlyoutItem.Icon>
                                                     <FontIcon Glyph="&#xE923;"/>
                                                 </MenuFlyoutItem.Icon>
                                             </MenuFlyoutItem>
                                         </MenuFlyout>
                                     </FlyoutBase.AttachedFlyout>
-                                    <Image x:ConnectionId='18' Name="CoverIMG"  Width="288" Height="162"                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"            ></Image>
-                                    <TextBlock x:ConnectionId='19' Name="NameBolck" FontSize="16"                                      ></TextBlock>
-                                    <TextBlock x:ConnectionId='20' FontSize="10" Name="Date_"                                  ></TextBlock>
-                                    <TextBlock x:ConnectionId='21' FontSize="10" Name="Type_"                                  ></TextBlock>
-                                    <TextBlock x:ConnectionId='22' FontSize="10" Name="Size_"                                  ></TextBlock>
+                                    <Image x:ConnectionId='23' Name="CoverIMG"  Width="288" Height="162"                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch"            ></Image>
+                                    <TextBlock x:ConnectionId='24' Name="NameBolck" FontSize="16"                                      ></TextBlock>
+                                    <TextBlock x:ConnectionId='25' FontSize="10" Name="Date_"                                  ></TextBlock>
+                                    <TextBlock x:ConnectionId='26' FontSize="10" Name="Type_"                                  ></TextBlock>
+                                    <TextBlock x:ConnectionId='27' FontSize="10" Name="Size_"                                  ></TextBlock>
                                 </StackPanel>
                             </DataTemplate>
                         </GridView.ItemTemplate>

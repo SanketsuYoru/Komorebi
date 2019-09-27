@@ -249,11 +249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj",
+      "projectUniqueName": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj",
       "projectName": "DataAccessLibrary",
-      "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj",
+      "projectPath": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj",
       "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\obj\\",
+      "outputPath": "D:\\Code\\20190926\\DataAccessLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

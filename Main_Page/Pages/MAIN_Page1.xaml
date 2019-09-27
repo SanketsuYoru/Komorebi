@@ -7,9 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:data="using:Main_Page.Models"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded" FontFamily="Segoe UI">
+      xmlns:controls="using:Microsoft.UI.Xaml.Controls"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded" FontFamily="Segoe UI">
 
     <Grid >
+        <Grid.Resources>
+            <controls:TeachingTip x:Name="recentTip"
+           PreferredPlacement="BottomRight"
+            Title="Saving automatically"
+            Subtitle="We save your changes as you go - so you never have to.">
+                <StackPanel>
+                    <CheckBox x:Name="HideTipsCheckBox" Content="Don't show tips at start up" Checked="HideTipsCheckBox_Checked"/>
+                    <TextBlock>You can change your tip preferences in <Hyperlink  Click="Hyperlink_Click">Settings</Hyperlink> if you change your mind.</TextBlock>
+                </StackPanel>
+            </controls:TeachingTip>
+        </Grid.Resources>
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="Phone">
@@ -61,6 +73,7 @@
                             </Setter.Value>
                         </Setter>
                         <Setter Target="progressBar_Main.(FrameworkElement.HorizontalAlignment)" Value="Left"/>
+                        <Setter Target="stackPanel2.(UIElement.Visibility)" Value="Collapsed"/>
                     </VisualState.Setters>
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0" MinWindowHeight="0"/>
@@ -102,7 +115,7 @@
                         <Setter Target="DOC.(Control.FontFamily)" Value="Segoe UI"/>
                     </VisualState.Setters>
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="1150"/>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                 </VisualState>
                 <VisualState x:Name="FullSceen">
@@ -174,7 +187,7 @@
 
 
         <Pivot  x:Name="povit_main" >
-            <PivotItem Header="最近的媒体" x:Uid="MAIN_Page1_Recent_Media" Background="White"  >
+            <PivotItem Header="最近的媒体" x:Uid="MAIN_Page1_Recent_Media" Name="recent" Background="White"  >
 
                 <RefreshContainer x:Name="RefreshContainer_02" RefreshRequested="RefreshContainer_RefreshRequested" >
                     <ScrollViewer x:Name="scrollViewer" >
@@ -407,6 +420,10 @@
                                             <TextBlock x:Name="textBlock1" x:Uid="MAIN_Page1_Povit1_Search" Text="搜索" Margin="0,0,0,0" FontSize="26"></TextBlock>
                                         </StackPanel>
                                     </Button>
+                                    <StackPanel x:Name="stackPanel2" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True">
+                                        <ProgressBar x:Name="ScanPbar"  Height="30" Width="200"></ProgressBar>
+                                    </StackPanel>
+
                                 </RelativePanel>
                                 <ProgressBar Name="progressBar_Main" Margin="0,0,0,0" Width="300" Height="30" IsIndeterminate="True"></ProgressBar>
                             </StackPanel>

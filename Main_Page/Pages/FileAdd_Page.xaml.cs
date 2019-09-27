@@ -142,8 +142,8 @@ namespace Main_Page.Pages
                 {
                     localSettings.Values["Apha_BG"] = 255;
                     localSettings.Values["Red_BG"] = 255;
-                    localSettings.Values["Green_BG"] =249;
-                    localSettings.Values["Blue_BG"] = 92;
+                    localSettings.Values["Green_BG"] =233;
+                    localSettings.Values["Blue_BG"] =87;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;
@@ -155,8 +155,8 @@ namespace Main_Page.Pages
                 {
                     localSettings.Values["Apha_BG"] = 255;
                     localSettings.Values["Red_BG"] = 255;
-                    localSettings.Values["Green_BG"] =255;
-                    localSettings.Values["Blue_BG"] =255;
+                    localSettings.Values["Green_BG"] =250;
+                    localSettings.Values["Blue_BG"] =250;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;
@@ -167,9 +167,9 @@ namespace Main_Page.Pages
                 else
                 {
                     localSettings.Values["Apha_BG"] = 255;
-                    localSettings.Values["Red_BG"] = 46;
-                    localSettings.Values["Green_BG"] =46;
-                    localSettings.Values["Blue_BG"] =46;
+                    localSettings.Values["Red_BG"] = 220;
+                    localSettings.Values["Green_BG"] =220;
+                    localSettings.Values["Blue_BG"] =220;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;

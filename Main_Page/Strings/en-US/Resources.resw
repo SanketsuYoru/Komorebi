@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Add Some Folders.Text" xml:space="preserve">
+    <value>Add Some Folders</value>
+  </data>
   <data name="FileAdd_Page_AppSettings.Text" xml:space="preserve">
     <value>App Settings</value>
   </data>
@@ -206,6 +209,9 @@
   </data>
   <data name="Flyout_SS.Text" xml:space="preserve">
     <value>Single Selection</value>
+  </data>
+  <data name="GuidePage_PlaceHoldertext.Text" xml:space="preserve">
+    <value>No files found, add from the button below</value>
   </data>
   <data name="MainPage_Nav_Doc.Content" xml:space="preserve">
     <value>Document</value>

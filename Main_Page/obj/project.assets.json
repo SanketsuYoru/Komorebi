@@ -9083,11 +9083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj",
+      "projectUniqueName": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
       "projectName": "Main_Page",
-      "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\Main_Page.csproj",
+      "projectPath": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
       "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\Main_Page\\obj\\",
+      "outputPath": "D:\\Code\\20190926\\Main_Page\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9107,8 +9107,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "D:\\Code\\20190914(通知还有问题，没文件多语言)\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }

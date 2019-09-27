@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>db33832f-b264-4d50-9fda-9db2717b763c</PackageIdentityName>
     <PackageIdentityPublisher>CN=I1661</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Code\20190926\Main_Page\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Code\20190926\Main_Page\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Main_Page.exe">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Main_Page.exe">
       <PackagePath>entrypoint\Main_Page.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.data.sqlite.core\2.2.4\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
@@ -52,345 +52,345 @@
     <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\sqlitepclraw.provider.winsqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.winsqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
+    <AppxPackagedFile Include="D:\Code\20190926\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
       <PackagePath>DataAccessLibrary.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Models\Items.cs">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Models\Items.cs">
       <PackagePath>Models\Items.cs</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905015251403_easyicon_net_512.bmp</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905020244418_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\20190905020244418_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905020244418_easyicon_net_512.bmp</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\20190905020427706_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\20190905020427706_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905020427706_easyicon_net_512.bmp</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo.scale-100.png">
       <PackagePath>Assets\AppStartlogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo.scale-125.png">
       <PackagePath>Assets\AppStartlogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo.scale-150.png">
       <PackagePath>Assets\AppStartlogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo.scale-200.png">
       <PackagePath>Assets\AppStartlogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo.scale-400.png">
       <PackagePath>Assets\AppStartlogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.png">
       <PackagePath>Assets\AppStartlogo_.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.scale-100.png">
       <PackagePath>Assets\AppStartlogo_.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.scale-125.png">
       <PackagePath>Assets\AppStartlogo_.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.scale-150.png">
       <PackagePath>Assets\AppStartlogo_.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.scale-200.png">
       <PackagePath>Assets\AppStartlogo_.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\AppStartlogo_.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\AppStartlogo_.scale-400.png">
       <PackagePath>Assets\AppStartlogo_.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
       <PackagePath>Assets\docs_53.375163398693px_1194915_easyicon.net.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\music_105.60408684547px_1234881_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\music_105.60408684547px_1234881_easyicon.net.png">
       <PackagePath>Assets\music_105.60408684547px_1234881_easyicon.net.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\music_player_128px_1230170_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\music_player_128px_1230170_easyicon.net.png">
       <PackagePath>Assets\music_player_128px_1230170_easyicon.net.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
       <PackagePath>Resources\BF942982C59CEBF2640D14CD6F9420CB.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\timg %281%29.jpg">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Resources\timg %281%29.jpg">
       <PackagePath>Resources\timg %281%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\Resources\title.gif">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\Resources\title.gif">
       <PackagePath>Resources\title.gif</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Main_Page.xr.xml">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Main_Page.xr.xml">
       <PackagePath>Main_Page.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\AudioPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\AudioPage.xbf">
       <PackagePath>Pages\AudioPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\DOC_MAIN.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\DOC_MAIN.xbf">
       <PackagePath>Pages\DOC_MAIN.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\FileAdd_Page.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\FileAdd_Page.xbf">
       <PackagePath>Pages\FileAdd_Page.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Graphics.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\Graphics.xbf">
       <PackagePath>Pages\Graphics.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\GUIDE_page.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\GUIDE_page.xbf">
       <PackagePath>Pages\GUIDE_page.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\ItemPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\ItemPage.xbf">
       <PackagePath>Pages\ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MAIN_FILE.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\MAIN_FILE.xbf">
       <PackagePath>Pages\MAIN_FILE.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MAIN_Page1.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\MAIN_Page1.xbf">
       <PackagePath>Pages\MAIN_Page1.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MediaPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\MediaPage.xbf">
       <PackagePath>Pages\MediaPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\MEDIA_MAIN.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\MEDIA_MAIN.xbf">
       <PackagePath>Pages\MEDIA_MAIN.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\SearchResult.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\SearchResult.xbf">
       <PackagePath>Pages\SearchResult.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Search_Page_.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\Search_Page_.xbf">
       <PackagePath>Pages\Search_Page_.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Pages\Today_NewFile.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Pages\Today_NewFile.xbf">
       <PackagePath>Pages\Today_NewFile.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+    <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20190914%28通知还有问题，没文件多语言%29\Main_Page\bin\x86\Debug\Core\Main_Page.exe">
+    <AppxPackagedFile Include="D:\Code\20190926\Main_Page\bin\x86\Debug\Core\Main_Page.exe">
       <PackagePath>Main_Page.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

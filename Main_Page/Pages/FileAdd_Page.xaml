@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Name="Thispage" Loaded="Thispage_Loaded">
 
 
-    <Grid Name="BackGrid">
+    <Grid Name="BackGrid" >
         <ContentDialog x:Name="Confirm_Dia" Width="400" Height="300" PrimaryButtonText="确认" VerticalAlignment="Top" >
             <ContentDialog.TitleTemplate>
                 <DataTemplate>

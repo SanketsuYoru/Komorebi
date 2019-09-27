@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Name="Thispage"                         >
 
 
-    <Grid x:ConnectionId='2' Name="BackGrid">
+    <Grid x:ConnectionId='2' Name="BackGrid" >
         <ContentDialog x:ConnectionId='3' x:Name="Confirm_Dia" Width="400" Height="300" PrimaryButtonText="确认" VerticalAlignment="Top" >
             <ContentDialog.TitleTemplate>
                 <DataTemplate>
@@ -42,7 +42,7 @@
                                                 </SolidColorBrush>
                                             </Rectangle.Fill>
                                         </Rectangle>
-                                        <CheckBox x:ConnectionId='28' Name="CheckBoxlist" Width="205" Height="65"  Content="{Binding}"                                                            RelativePanel.Below="Rec">
+                                        <CheckBox x:ConnectionId='29' Name="CheckBoxlist" Width="205" Height="65"  Content="{Binding}"                                                            RelativePanel.Below="Rec">
                                         </CheckBox>
                                     </RelativePanel>
                                 </DataTemplate>
