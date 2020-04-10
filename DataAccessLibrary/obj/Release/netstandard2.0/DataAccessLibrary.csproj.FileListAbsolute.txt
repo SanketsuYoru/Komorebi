@@ -20,3 +20,19 @@ D:\project\20190725\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibra
 D:\project\20190725\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.csproj.CopyComplete
 D:\project\20190725\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.dll
 D:\project\20190725\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190930\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190930\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190930\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190930\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20190930\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190930\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190930\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190930\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190930 - 副本\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20190930 - 副本\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190930 - 副本\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20190930 - 副本\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.csprojAssemblyReference.cache
+D:\Code\20190930 - 副本\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20190930 - 副本\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20190930 - 副本\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20190930 - 副本\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.pdb

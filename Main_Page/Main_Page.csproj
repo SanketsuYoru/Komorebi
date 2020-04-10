@@ -23,8 +23,11 @@
     <AppxPackageDir>C:\Users\I1661\Desktop\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
-    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerUpdateFrequency>0</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
+    <GenerateTestArtifacts>True</GenerateTestArtifacts>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -135,43 +138,43 @@
     <Compile Include="Models\Items.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Pages\AudioPage.xaml.cs">
+    <Compile Include="Pages\SubPages\AudioPage.xaml.cs">
       <DependentUpon>AudioPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\DOC_MAIN.xaml.cs">
-      <DependentUpon>DOC_MAIN.xaml</DependentUpon>
+    <Compile Include="Pages\MainPages\MainDoc.xaml.cs">
+      <DependentUpon>MainDoc.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\FileAdd_Page.xaml.cs">
-      <DependentUpon>FileAdd_Page.xaml</DependentUpon>
+    <Compile Include="Pages\Others\Sittings.xaml.cs">
+      <DependentUpon>Sittings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Graphics.xaml.cs">
+    <Compile Include="Pages\SubPages\Graphics.xaml.cs">
       <DependentUpon>Graphics.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\GUIDE_page.xaml.cs">
-      <DependentUpon>GUIDE_page.xaml</DependentUpon>
+    <Compile Include="Pages\Others\GuidePage.xaml.cs">
+      <DependentUpon>GuidePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ItemPage.xaml.cs">
-      <DependentUpon>ItemPage.xaml</DependentUpon>
+    <Compile Include="Pages\SubPages\FilePage.xaml.cs">
+      <DependentUpon>FilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MAIN_FILE.xaml.cs">
-      <DependentUpon>MAIN_FILE.xaml</DependentUpon>
+    <Compile Include="Pages\MainPages\FileMain.xaml.cs">
+      <DependentUpon>FileMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MAIN_Page1.xaml.cs">
-      <DependentUpon>MAIN_Page1.xaml</DependentUpon>
+    <Compile Include="Pages\MainPages\DefultMain.xaml.cs">
+      <DependentUpon>DefultMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MediaPage.xaml.cs">
+    <Compile Include="Pages\SubPages\MediaPage.xaml.cs">
       <DependentUpon>MediaPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MEDIA_MAIN.xaml.cs">
-      <DependentUpon>MEDIA_MAIN.xaml</DependentUpon>
+    <Compile Include="Pages\MainPages\MediaMain.xaml.cs">
+      <DependentUpon>MediaMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\SearchResult.xaml.cs">
+    <Compile Include="Pages\Others\SearchResult.xaml.cs">
       <DependentUpon>SearchResult.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Search_Page_.xaml.cs">
-      <DependentUpon>Search_Page_.xaml</DependentUpon>
+    <Compile Include="Pages\Others\SearchPage.xaml.cs">
+      <DependentUpon>SearchPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Today_NewFile.xaml.cs">
+    <Compile Include="Pages\Others\Today_NewFile.xaml.cs">
       <DependentUpon>Today_NewFile.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
@@ -229,6 +232,11 @@
     <Content Include="Assets\Square150x150Logo.scale-125.png" />
     <Content Include="Assets\Square150x150Logo.scale-150.png" />
     <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
     <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-16.png" />
     <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-256.png" />
     <Content Include="Assets\Square44x44Logo.altform-unplated_targetsize-32.png" />
@@ -273,55 +281,55 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Pages\AudioPage.xaml">
+    <Page Include="Pages\SubPages\AudioPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\DOC_MAIN.xaml">
+    <Page Include="Pages\MainPages\MainDoc.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\FileAdd_Page.xaml">
+    <Page Include="Pages\Others\Sittings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Graphics.xaml">
+    <Page Include="Pages\SubPages\Graphics.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\GUIDE_page.xaml">
+    <Page Include="Pages\Others\GuidePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\ItemPage.xaml">
+    <Page Include="Pages\SubPages\FilePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\MAIN_FILE.xaml">
+    <Page Include="Pages\MainPages\FileMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\MAIN_Page1.xaml">
+    <Page Include="Pages\MainPages\DefultMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\MediaPage.xaml">
+    <Page Include="Pages\SubPages\MediaPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\MEDIA_MAIN.xaml">
+    <Page Include="Pages\MainPages\MediaMain.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\SearchResult.xaml">
+    <Page Include="Pages\Others\SearchResult.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Search_Page_.xaml">
+    <Page Include="Pages\Others\SearchPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Today_NewFile.xaml">
+    <Page Include="Pages\Others\Today_NewFile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -359,9 +367,7 @@
       <Name>DataAccessLibrary</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserControl_\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <XliffResource Include="MultilingualResources\Main_Page.ja-JP.xlf" />
     <XliffResource Include="MultilingualResources\Main_Page.zh-CN.xlf" />
@@ -370,7 +376,7 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.PriResources.targets')" />

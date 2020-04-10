@@ -1,0 +1,263 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Main_Page.Pages.FileAdd_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page.Pages"
+    xmlns:Color_="using:Main_Page.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Name="Thispage"                         >
+
+
+    <Grid x:ConnectionId='2' Name="BackGrid" >
+        <ContentDialog x:ConnectionId='3' x:Name="Confirm_Dia" Width="400" Height="300" PrimaryButtonText="确认" VerticalAlignment="Top" >
+            <ContentDialog.TitleTemplate>
+                <DataTemplate>
+                    <TextBlock Text="Already set up"></TextBlock>
+                </DataTemplate>
+            </ContentDialog.TitleTemplate>
+        </ContentDialog>
+
+        <Pivot x:ConnectionId='4' Title="设置" x:Uid="FileAdd_Page_Settings"  x:Name="myPivot"  Grid.Row="0" >
+
+            <PivotItem x:Uid="FileAdd_Page_Povit1_Folder" Header="文件夹" Background="White" Margin="0,0,0,0">
+                <Grid>
+
+                    <RelativePanel Margin="10,40,0,0">
+                        <Button x:ConnectionId='24' Name="Button_add"  Width="200" Height="85"  Background="Yellow"                          BorderBrush="#FFDBE1EC" >
+                            <RelativePanel Width="205" Height="90">
+                                <TextBlock  x:Uid="FileAdd_Page_Povit1_AddFolder" Text="添加文件夹" RelativePanel.AlignLeftWithPanel="True" FontSize="14"></TextBlock>
+                                <TextBlock Text="&#xE1DA;"  FontFamily="segoe MDL2 Assets"  Margin="0,0,30,30" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" FontSize="28"></TextBlock>
+                            </RelativePanel>
+                        </Button>
+                        <GridView x:ConnectionId='25' Name="Output" RelativePanel.RightOf="Button_add"  Margin=" 10,0,0,0">
+
+                            <GridView.ItemTemplate>
+                                <DataTemplate >
+                                    <RelativePanel  VerticalAlignment="Top"  Margin=" 10,0,0,0">
+                                        <Rectangle Name="Rec" Width="205" Height="25" >
+                                            <Rectangle.Fill>
+                                                <SolidColorBrush x:Name="Color_Rec" Color="#FF5F91EA"  >
+                                                </SolidColorBrush>
+                                            </Rectangle.Fill>
+                                        </Rectangle>
+                                        <CheckBox x:ConnectionId='29' Name="CheckBoxlist" Width="205" Height="65"  Content="{Binding}"                                                            RelativePanel.Below="Rec">
+                                        </CheckBox>
+                                    </RelativePanel>
+                                </DataTemplate>
+                            </GridView.ItemTemplate>
+                        </GridView>
+
+
+                        <Button x:ConnectionId='26' Name="Delete" Margin="0,20,0,0" Width="200" Height="85"  Background="Yellow"                          RelativePanel.Below="Button_add" BorderBrush="#FFDCE2EC">
+                            <RelativePanel Width="205" Height="90">
+                                <TextBlock x:Uid="FileAdd_Page_Povit1_DeleteFolder" Text="删除文件夹" RelativePanel.AlignLeftWithPanel="True"  FontSize="14"></TextBlock>
+                                <TextBlock Text="&#xE74D;"  FontFamily="segoe MDL2 Assets"  Margin="0,0,30,30" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" FontSize="28"></TextBlock>
+                            </RelativePanel>
+                        </Button>
+
+                    </RelativePanel>
+                </Grid>
+            </PivotItem>
+
+            <PivotItem Header="偏好设置"  x:Uid="FileAdd_Page_Povit2_Preference" Background="White" Margin="0,0,0,0">
+
+
+
+                <StackPanel>
+                    <TextBlock
+                               x:Uid="FileAdd_Page_AppSettings"
+                               Text="应用设置" 
+                               VerticalAlignment="Center" 
+                               FontSize="24"
+                               Margin="0,0,0,0" FontFamily="Segoe UI" >
+                    </TextBlock>
+
+                    <TextBlock Grid.Row="8" 
+                               x:Uid="FileAdd_Page_Povit2_SFL"
+                               Text="扫描的文件数目限制" 
+                               VerticalAlignment="Center" 
+                               FontSize="18"
+                               Margin="10,10,0,0">
+
+                    </TextBlock>
+                    <ComboBox x:ConnectionId='21'  Margin="10,10,0,0"  x:Name="MaxNum" Width="100"                                          >
+                        <x:String>30</x:String>
+                        <x:String>50</x:String>
+                        <x:String>100</x:String>
+                        <x:String>200</x:String>
+                        <x:String>500</x:String>
+                        <x:String>1000</x:String>
+                    </ComboBox>
+
+                    <TextBlock
+                               x:Uid="FileAdd_Page_Povit2_AOTM"
+                               Text="始终打开主页面菜单" 
+                               VerticalAlignment="Center" 
+                               FontSize="18"
+                               Margin="10,20,0,0">
+                    </TextBlock>
+                    
+                    
+
+                    <ToggleSwitch x:ConnectionId='22' x:Name="Toggle_Menu" Margin="10,0,0,0"                               >
+                        <ToggleSwitch.OffContent>
+                            <TextBlock Text="OFF"  FontSize="20"/>
+                        </ToggleSwitch.OffContent>
+                        <ToggleSwitch.OnContent>
+                            <TextBlock Text="ON"  FontSize="20"/>
+                        </ToggleSwitch.OnContent>
+                    </ToggleSwitch>
+
+                    
+                    <TextBlock
+                               x:Uid="FileAdd_Page_Area"
+                               Text="区域" 
+                               VerticalAlignment="Center" 
+                               FontSize="24"
+                               Margin="0,30,0,0" FontFamily="Segoe UI">
+                    </TextBlock>
+                    <TextBlock
+                               x:Uid="FileAdd_Page_LanguageSettings"
+                               Text="语言设置" 
+                               VerticalAlignment="Center" 
+                               FontSize="18"
+                               Margin="10,10,0,0">
+                    </TextBlock>
+                    <ComboBox x:ConnectionId='23'  Margin="10,10,0,0"  x:Name="Language" Width="150"                                          >
+                        <x:String>en-US English</x:String>
+                        <x:String>ja-JP 日本語</x:String>
+                        <x:String>zh-CN 简体中文</x:String>
+                    </ComboBox>
+                </StackPanel>
+            </PivotItem>
+
+
+
+            <PivotItem Header="主题"  x:Uid="FileAdd_Page_Povit3_Theme" Background="White"  Margin="0,0,0,0">
+                <ScrollViewer>
+                    <Grid  Margin="10,10,0,0">
+                        <StackPanel 
+                      Margin="0,10,0,10" 
+                      Orientation="Vertical">
+                            <TextBlock Grid.Row="8" 
+                               Text="主题色" 
+                               x:Uid="FileAdd_Page_Povit3_TC"
+                               VerticalAlignment="Center" 
+                               FontSize="20"
+                               Margin="5,10,0,0"/>
+
+                            <ComboBox x:ConnectionId='14' x:Name="combo"                                       Background="White" Height="40" Width="315" Margin="20,10,0,0">
+                                <Border x:ConnectionId='18' Name="Yellow" Margin="0,5,10,0" Width="150" Height="30" >
+                                    <StackPanel Orientation="Horizontal" >
+                                        <Rectangle Width="15" Height="15" Margin="40,0,0,10" Fill="Yellow"/>
+                                        <TextBlock Text="キイロ/黄" FontSize="15" Margin="10,0,0,5"/>
+                                    </StackPanel>
+                                </Border>
+                                <Border x:ConnectionId='19' Margin="0,5,10,0" Width="150" Height="30" Name="White">
+                                    <StackPanel Orientation="Horizontal" >
+                                        <Rectangle Width="15" Height="15" Fill="White" Margin="40,0,0,10"/>
+                                        <TextBlock Text="シロ/白" FontSize="15" Margin="10,0,0,5"/>
+                                    </StackPanel>
+                                </Border>
+                                <Border x:ConnectionId='20' Margin="0,5,10,0" Width="150" Height="30" Name="Black">
+                                    <StackPanel Orientation="Horizontal" >
+                                        <Rectangle Width="15" Height="15" Fill="Black" Margin="40,0,0,10"/>
+                                        <TextBlock Text="ハイイロ/灰" FontSize="15" Margin="10,0,0,5"/>
+                                    </StackPanel>
+                                </Border>
+                            </ComboBox>
+
+
+                            <TextBlock x:ConnectionId='15'  
+                               Text="自定义颜色" 
+                                x:Uid="FileAdd_Page_Povit3_CTC"
+                               VerticalAlignment="Center" 
+                               FontSize="20"
+                             Margin="5,10,0,0"
+                               Name="ColorText"
+                            Grid.Row="1" />
+                            <RelativePanel Grid.Row="2" Margin="10">
+
+
+                                <ColorPicker x:ConnectionId='17' x:Name="myColorPicker"
+                              IsAlphaEnabled="False"
+                              ColorSpectrumShape="Box"
+                              IsColorChannelTextInputVisible="False"
+                              IsHexInputVisible="False" Margin="20,10,0,0"/>
+                            </RelativePanel>
+
+                            <Button x:ConnectionId='16' x:Name="Confirm"                            Margin="0,20,0,0" Width="200" Height="85"  Background="Yellow" BorderBrush="#FFDCE2EC" >
+                                <RelativePanel Width="205" Height="90">
+                                    <TextBlock Text="确认" x:Uid="FileAdd_Page_Povit3_Confirm" RelativePanel.AlignLeftWithPanel="True" FontSize="24"></TextBlock>
+                                    <TextBlock Text="&#xECC8;"  FontFamily="segoe MDL2 Assets"  Margin="0,0,30,30" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignBottomWithPanel="True" FontSize="28"></TextBlock>
+                                </RelativePanel>
+                            </Button>
+
+
+                        </StackPanel>
+
+                    </Grid>
+                </ScrollViewer>
+            </PivotItem>
+
+            <PivotItem Header="帮助&amp;反馈" x:Uid="FileAdd_Page_Povit4_HelpAndSupport" Background="White"  Margin="0,0,0,0">
+                <ScrollViewer>
+                    <RelativePanel>
+                        <TextBlock x:ConnectionId='5' Name="Title1" x:Uid="FileAdd_Page_Opensource" Text=" 开源声明" Margin="0,10,0,0" FontSize="24"/>
+                        <TextBlock x:ConnectionId='6' Name="ref_" x:Uid="FileAdd_Page_Reference" Text=" 引用" FontSize="22" Margin="20" RelativePanel.Below="Title1"/>
+                        <TextBlock x:ConnectionId='7' x:Name="Ref_Name1" Margin="20,10,0,0" RelativePanel.Below="ref_" FontSize="16">Microsoft.Data.Sqlite.Core</TextBlock>
+                        <TextBlock x:ConnectionId='8' x:Name="content1" Margin="20,10,0,0" RelativePanel.Below="Ref_Name1" TextWrapping="Wrap">Copyright (c) .NET Foundation and Contributors All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied. See the License for the
+specific language governing permissions and limitations under the License.</TextBlock>
+
+                        <TextBlock x:ConnectionId='9' x:Name="Ref2" RelativePanel.Below="content1"  Margin="20,10,0,0" FontSize="16">SQLitePCLRaw.bundle_winsqlite3</TextBlock>
+                        <TextBlock x:ConnectionId='10' x:Name="content2" Margin="20,10,0,0" RelativePanel.Below="Ref2" TextWrapping="Wrap">Copyright (c) Komorenobi Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+
+distributed under the License is distributed on an "AS IS" BASIS,
+
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and
+
+limitations under the License.</TextBlock>
+
+                        <TextBlock x:ConnectionId='11' Name="Title2" Text=" 联系作者" x:Uid="FileAdd_Page_Contact" Margin="0,10,0,0" FontSize="24" RelativePanel.Below="content2"/>
+                        <TextBlock x:ConnectionId='12' Name="Email" Text=" 邮件:KomorenobiProject_2019@outlook.com"  x:Uid="FileAdd_Page_Email" RelativePanel.Below="Title2" FontSize="22" Margin="20,20,0,0" ></TextBlock>
+                        <Button x:ConnectionId='13' x:Name="Email_B" RelativePanel.RightOf="Email"  RelativePanel.Below="Title2" Margin="0,20,0,0" Width="40" Height="30" FontFamily="segoe MDL2 Assets" Content="&#xED5C;" FontSize="18"                      ></Button>
+                    </RelativePanel>
+                    
+                </ScrollViewer>
+
+            </PivotItem>
+
+
+        </Pivot>
+
+
+
+
+
+    </Grid>
+
+</Page>
+

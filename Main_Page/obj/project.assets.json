@@ -4947,12 +4947,13 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
-        "NETStandard.Library.2.0.3.nupkg.sha512",
         "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -5070,7 +5071,8 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._"
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.3.nupkg.sha512"
       ]
     },
     "QueryString.NET/1.0.0": {
@@ -9083,11 +9085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
+      "projectUniqueName": "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj",
       "projectName": "Main_Page",
-      "projectPath": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
+      "projectPath": "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj",
       "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\20190926\\Main_Page\\obj\\",
+      "outputPath": "D:\\Code\\20200215\\Main_Page\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9107,8 +9109,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }

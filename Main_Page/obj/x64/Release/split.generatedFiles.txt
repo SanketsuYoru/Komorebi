@@ -1,5 +1,9 @@
 obj\x64\Release\split.pri
 obj\x64\Release\split.map.txt
+obj\x64\Release\split.language-ja.pri
+obj\x64\Release\split.language-ja.map.txt
+obj\x64\Release\split.language-zh-hans.pri
+obj\x64\Release\split.language-zh-hans.map.txt
 obj\x64\Release\split.scale-100.pri
 obj\x64\Release\split.scale-100.map.txt
 obj\x64\Release\split.scale-125.pri

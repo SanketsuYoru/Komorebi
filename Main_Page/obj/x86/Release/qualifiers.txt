@@ -1,3 +1,4 @@
+AlternateForm=LIGHTUNPLATED
 AlternateForm=UNPLATED
 Scale=200
 Scale=400
@@ -9,3 +10,6 @@ TargetSize=16
 TargetSize=24
 TargetSize=32
 TargetSize=48
+Language=EN-US
+Language=JA-JP
+Language=ZH-CN

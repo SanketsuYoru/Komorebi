@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj": {}
+    "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj": {}
   },
   "projects": {
-    "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+    "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectUniqueName": "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj",
         "projectName": "DataAccessLibrary",
-        "projectPath": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectPath": "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj",
         "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\20190926\\DataAccessLibrary\\obj\\",
+        "outputPath": "D:\\Code\\20200215\\DataAccessLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -53,21 +53,27 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj": {
+    "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
+        "projectUniqueName": "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj",
         "projectName": "Main_Page",
-        "projectPath": "D:\\Code\\20190926\\Main_Page\\Main_Page.csproj",
+        "projectPath": "D:\\Code\\20200215\\Main_Page\\Main_Page.csproj",
         "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\20190926\\Main_Page\\obj\\",
+        "outputPath": "D:\\Code\\20200215\\Main_Page\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -87,8 +93,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-                "projectPath": "D:\\Code\\20190926\\DataAccessLibrary\\DataAccessLibrary.csproj"
+              "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+                "projectPath": "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj"
               }
             }
           }

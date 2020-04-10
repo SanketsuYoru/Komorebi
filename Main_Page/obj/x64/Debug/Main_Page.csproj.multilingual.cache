@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Strings\en-US\Resources.resw</FileName>
+    <Checksum>12711810024410531872332172432441092938652</Checksum>
+    <ModifiedTime>2019-09-22T20:32:29.5897824</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Main_Page.ja-JP.xlf</FileName>
+    <Checksum>1811121611714712238193135178139155200230170246</Checksum>
+    <ModifiedTime>2019-10-04T13:47:35.4051839+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>更新 1 资源字符串与现有的翻译并将其应用到 XLIFF 文件。 相关的翻译都不变改，但应检查，以确保它们仍然有效，更新的源字符串。</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\ja-JP\Resources.resw</FileName>
+    <Checksum>10212820419169163210331101734441112710540</Checksum>
+    <ModifiedTime>2019-10-04T13:47:35.4161609+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Main_Page.zh-CN.xlf</FileName>
+    <Checksum>23811421911583211641942291484716206164236174</Checksum>
+    <ModifiedTime>2019-10-04T13:47:35.4321377+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>更新 1 资源字符串与现有的翻译并将其应用到 XLIFF 文件。 相关的翻译都不变改，但应检查，以确保它们仍然有效，更新的源字符串。</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Strings\zh-CN\Resources.resw</FileName>
+    <Checksum>888911715111432217176215152435921223211519</Checksum>
+    <ModifiedTime>2019-10-04T13:47:35.4430899+08:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

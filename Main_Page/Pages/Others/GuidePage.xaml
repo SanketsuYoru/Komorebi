@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Main_Page.Pages.GUIDE_page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Main_Page.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+     >
+
+    <Grid>
+        <TextBlock Name="hold_text" 
+                  VerticalAlignment="Center"
+                   HorizontalAlignment="Center" 
+                   FontWeight="Normal" 
+                   FontSize="36" 
+                   FontStyle="Normal" 
+                   FocusVisualPrimaryBrush="White" 
+                   FontFamily="Segoe UI" 
+                  
+                   TextWrapping="Wrap"
+                   Text="没有发现任何文件，从下面开始添加" x:Uid="GuidePage_PlaceHoldertext"></TextBlock>
+        <Button 
+            VerticalAlignment="Bottom" 
+            HorizontalAlignment="Center" 
+            Margin="0,0,0,180"
+            Width="200" Height="60" Click="Button_Click">
+            <RelativePanel Width="200" Height="60" >
+                <TextBlock x:Name="icon" Text="&#xE1DA;"  FontFamily="segoe MDL2 Assets" FontSize="40" RelativePanel.AlignLeftWithPanel="True"></TextBlock>
+                <TextBlock Text="Add Some Folders" x:Uid="Add Some Folders" RelativePanel.RightOf="icon" RelativePanel.AlignVerticalCenterWithPanel="True" Margin="20,0,0,0"></TextBlock>
+            </RelativePanel>
+        </Button>
+    </Grid>
+</Page>

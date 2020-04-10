@@ -89,6 +89,21 @@ namespace Main_Page.Models
     public static class UserSettings {
         public static string PrimaryLanguage;
        public static ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+        public static double GetVolume() {
+            double Volume = 0;
+            try
+            {
+                Volume = Convert.ToDouble((UserSettings.localSettings.Values["Volume"]).ToString());
+            }
+            catch (System.NullReferenceException)
+            {
+                UserSettings.localSettings.Values["Volume"] = "0.5";
+            }
+
+            return Volume;
+        }
+
+
         public static int GetMaxNumber()
         {
             var MaxNumber = 0;
@@ -277,7 +292,6 @@ namespace Main_Page.Models
         
         public static string Exception_ ="";
         public static bool NeedNav = false;
-        public static bool Tip=false;
         public static bool SettingChanged = false;
         public static bool Noticed = false;
         public static bool Refreshing = false;
@@ -311,6 +325,75 @@ namespace Main_Page.Models
             await ItemAccess.RecentShowItemAsync();
             await ItemAccess.SortAsync();
             Refreshing = false;
+        }
+
+        public static async Task<StorageFile> GetnextFileAsync(string PorN, Items source)
+        {
+            var temp = source;
+            var filetype = FileType_check(source.StorageFile_);
+            int currentIndex = 0;
+            for (int i = 0; i < ItemAccess.Cache.Count; i++)
+            {
+                    if (source.StorageFile_.Name== ItemAccess.Cache[i].Name)
+                    {
+                        currentIndex = i;
+                    }
+            }
+
+            if (PorN == "Preview")
+            {
+                try
+                {
+                    for (int i = currentIndex; i >=0; i--)
+                    {
+                        if (FileType_check(ItemAccess.Cache[i]) == filetype)
+                        {
+                            Debug.WriteLine(" Item_list.count" + ItemAccess.Cache[i].Name);
+                            return ItemAccess.Cache[i];
+                        }
+                    }
+                }
+                catch (Exception e1)
+                {
+                    //TODO: 保存用户数据
+                    await new ContentDialog
+                    {
+                        Title = "Error Occored",
+                        Content = e1.Message,
+                        CloseButtonText = "Closed",
+                        DefaultButton = ContentDialogButton.Close
+                    }.ShowAsync();
+                }
+            }
+            else
+            {
+                try
+                {
+                    for (int i = 0; i < ItemAccess.Cache.Count; i++)
+                    {
+                        if (FileType_check(ItemAccess.Cache[i]) == filetype)
+                        {
+                            Debug.WriteLine(" Item_list.count" + ItemAccess.Cache[i].Name);
+                            return ItemAccess.Cache[i];
+                        }
+                    }
+                }
+                catch (Exception e1)
+                {
+                    //TODO: 保存用户数据
+                    await new ContentDialog
+                    {
+                        Title = "Error Occored",
+                        Content = e1.Message,
+                        CloseButtonText = "Closed",
+                        DefaultButton = ContentDialogButton.Close
+                    }.ShowAsync();
+                }
+
+
+            }
+            return temp.StorageFile_;
+        
         }
 
         public static string FileType_check(StorageFile inputFile)
@@ -581,7 +664,7 @@ namespace Main_Page.Models
             }
 
             await source.SetBitmapAsync(softwareBitmap);
-            softwareBitmap.Dispose();//如果有机器慢的话就删除这句
+           // softwareBitmap.Dispose();//如果有机器慢的话就删除这句
             return source;
         }
 

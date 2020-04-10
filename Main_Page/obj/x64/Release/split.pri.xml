@@ -2,7 +2,7 @@
 <PriInfo>
 	<ResourceMap name="db33832f-b264-4d50-9fda-9db2717b763c" version="1.0" primary="true">
 		<Qualifiers>
-			<AlternateForm>UNPLATED</AlternateForm>
+			<AlternateForm>LIGHTUNPLATED,UNPLATED</AlternateForm>
 			<Language>EN-US</Language>
 			<Scale>200</Scale>
 			<TargetSize>256,16,24,32,48</TargetSize>
@@ -24,6 +24,21 @@
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Assets">
+				<NamedResource name="20190905015251403_easyicon_net_512.bmp" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/20190905015251403_easyicon_net_512.bmp">
+					<Candidate type="Path">
+						<Value>Assets\20190905015251403_easyicon_net_512.bmp</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="20190905020244418_easyicon_net_512.bmp" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/20190905020244418_easyicon_net_512.bmp">
+					<Candidate type="Path">
+						<Value>Assets\20190905020244418_easyicon_net_512.bmp</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="20190905020427706_easyicon_net_512.bmp" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/20190905020427706_easyicon_net_512.bmp">
+					<Candidate type="Path">
+						<Value>Assets\20190905020427706_easyicon_net_512.bmp</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="AppStartlogo.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/AppStartlogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\AppStartlogo.scale-200.png</Value>
@@ -42,6 +57,11 @@
 						<Value>Assets\BadgeLogo.scale-200.png</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="docs_53.375163398693px_1194915_easyicon.net.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/docs_53.375163398693px_1194915_easyicon.net.png">
+					<Candidate type="Path">
+						<Value>Assets\docs_53.375163398693px_1194915_easyicon.net.png</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="LargeTile.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/LargeTile.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\LargeTile.scale-200.png</Value>
@@ -50,6 +70,16 @@
 				<NamedResource name="LockScreenLogo.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/LockScreenLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
 						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="music_105.60408684547px_1234881_easyicon.net.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/music_105.60408684547px_1234881_easyicon.net.png">
+					<Candidate type="Path">
+						<Value>Assets\music_105.60408684547px_1234881_easyicon.net.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="music_player_128px_1230170_easyicon.net.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/music_player_128px_1230170_easyicon.net.png">
+					<Candidate type="Path">
+						<Value>Assets\music_player_128px_1230170_easyicon.net.png</Value>
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="SmallTile.png" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Assets/SmallTile.png">
@@ -71,11 +101,17 @@
 					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
 					</Candidate>
+					<Candidate qualifiers="TargetSize-48, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</Value>
+					</Candidate>
 					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
 					</Candidate>
 					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</Value>
 					</Candidate>
 					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
@@ -83,17 +119,26 @@
 					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
 					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</Value>
+					</Candidate>
 					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
 					</Candidate>
 					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
 					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</Value>
+					</Candidate>
 					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
 					</Candidate>
 					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
 						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-LIGHTUNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</Value>
 					</Candidate>
 					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
@@ -183,7 +228,7 @@
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Waitpage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Waitpage.xbf">
+				<NamedResource name="Today_NewFile.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Today_NewFile.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
@@ -210,18 +255,6 @@
 				<NamedResource name="title.gif" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Resources/title.gif">
 					<Candidate type="Path">
 						<Value>Resources\title.gif</Value>
-					</Candidate>
-				</NamedResource>
-			</ResourceMapSubtree>
-			<ResourceMapSubtree name="UserControl_">
-				<NamedResource name="Title_UserControl1.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/UserControl_/Title_UserControl1.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="UserControl_search_title.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/UserControl_/UserControl_search_title.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
@@ -389,6 +422,368 @@
 					<Value>No mapping exists from object type {typeName} to a known managed provider native type.</Value>
 				</Candidate>
 			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="Flyout_Delete_SubFly_Refuse" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Delete_SubFly_Refuse">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Cancel</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Add Some Folders">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Add Some Folders/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Add Some Folders</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_AppSettings">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_AppSettings/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>App Settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Area">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Area/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Area</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Contact">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Contact/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Contact</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Email">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Email/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>KomorenobiProject_2019@outlook.com</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_LanguageSettings">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_LanguageSettings/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Language Settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Opensource">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Opensource/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Open Source License</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit1_AddFolder">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit1_AddFolder/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Add Folder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit1_DeleteFolder">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit1_DeleteFolder/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Delete Folder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit1_Folder">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit1_Folder/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Folder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit2_AOTM">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit2_AOTM/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Aways Open The Menu</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit2_Preference">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit2_Preference/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Preference</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit2_SFL">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit2_SFL/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Number of files displayed</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit3_Confirm">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit3_Confirm/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Confirm</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit3_CTC">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit3_CTC/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Custom Theme Color</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit3_TC">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit3_TC/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Theme Color</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit3_Theme">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit3_Theme/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Theme</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Povit4_HelpAndSupport">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Povit4_HelpAndSupport/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Help And Support</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Reference">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Reference/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Reference</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="FileAdd_Page_Settings">
+				<NamedResource name="Title" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/FileAdd_Page_Settings/Title">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Settings</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Copy">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Copy/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Copy</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Delete">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Delete/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Delete</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Delete_SubFly_Confirm">
+				<NamedResource name="CloseButtonText" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Delete_SubFly_Confirm/CloseButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refuse</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PrimaryButtonText" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Delete_SubFly_Confirm/PrimaryButtonText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Confirm</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Delete_SubFly_Tip">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Delete_SubFly_Tip/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Are you Sure to delete Those Files</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_MS">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_MS/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Mutiple Seletion</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_OTF">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_OTF/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Open The Folder</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Refresh">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Refresh/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refresh</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_Share">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_Share/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Share</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Flyout_SS">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Flyout_SS/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Single Selection</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="GuidePage_PlaceHoldertext">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/GuidePage_PlaceHoldertext/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>No files found, add from the button below</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Nav_Doc">
+				<NamedResource name="Content" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MainPage_Nav_Doc/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Document</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Nav_File">
+				<NamedResource name="Content" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MainPage_Nav_File/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>File</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Nav_Find">
+				<NamedResource name="Content" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MainPage_Nav_Find/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Find</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Nav_Home">
+				<NamedResource name="Content" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MainPage_Nav_Home/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Home</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MainPage_Nav_Media">
+				<NamedResource name="Content" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MainPage_Nav_Media/Content">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Media</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_Doc">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_Doc/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Document</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_More">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_More/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>More</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_Music">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_Music/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Music</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_NewFiles">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_NewFiles/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>New Files</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_Refresh">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_Refresh/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Refresh</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_RPAV">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_RPAV/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Recent Picture And Video</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Povit1_Search">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Povit1_Search/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Search</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Recent_All">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Recent_All/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>All</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="MAIN_Page1_Recent_Media">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/MAIN_Page1_Recent_Media/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Recent Media</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SearchResult_All">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/SearchResult_All/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>All</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SearchResult_Doc">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/SearchResult_Doc/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Doc</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SearchResult_File">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/SearchResult_File/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>File</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="SearchResult_Media">
+				<NamedResource name="Header" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/SearchResult_Media/Header">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Media</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Search_Page_HoldText">
+				<NamedResource name="PlaceholderText" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Search_Page_HoldText/PlaceholderText">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Search For Something</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Search_Page_Search">
+				<NamedResource name="Text" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Resources/Search_Page_Search/Text">
+					<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+						<Value>Search</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>
 </PriInfo>

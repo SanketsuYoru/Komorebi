@@ -6,9 +6,9 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="D:\project\20190724(去除底部任务栏版本)\Main_Page\bin\x64\Debug\resources.pri">
+  <index root="\" startIndexAt="D:\Code\20190930\Main_Page\bin\x64\Debug\resources.pri">
     <default>
-      <qualifier name="Language" value="zh-CN" />
+      <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />
       <qualifier name="Scale" value="200" />
       <qualifier name="HomeRegion" value="001" />

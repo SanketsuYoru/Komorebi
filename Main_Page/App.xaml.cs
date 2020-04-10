@@ -43,8 +43,35 @@ namespace Main_Page
             this.Suspending += OnSuspending;
             FaTokenDataAccess.InitializefaTokenDatabase();
             MruTokenDataAccess.InitializemruTokenDatabase();
-            //ApplicationLanguages.PrimaryLanguageOverride = "zh-CN";
+            UnhandledException += OnUnhandledExceptionAsync;
+            AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledExceptionAsync;
+        }
 
+
+        private async void CurrentDomain_UnhandledExceptionAsync(object sender, System.UnhandledExceptionEventArgs e)
+        {
+            //TODO: 保存用户数据
+            await new ContentDialog
+            {
+                Title = "Error Occored",
+                Content = e.ToString(),
+                CloseButtonText = "Closed",
+                DefaultButton = ContentDialogButton.Close
+            }.ShowAsync();
+            // throw new NotImplementedException();
+        }
+        private async void OnUnhandledExceptionAsync(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs e)
+        {
+            e.Handled = true;
+            //TODO: 保存用户数据
+            await new ContentDialog
+            {
+                Title = "Error Occored",
+                Content = e.Message,
+                CloseButtonText = "Closed",
+                DefaultButton = ContentDialogButton.Close
+            }.ShowAsync();
+           // throw new NotImplementedException();
         }
 
         /// <summary>

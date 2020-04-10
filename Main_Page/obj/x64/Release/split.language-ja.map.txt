@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ja"
+"ResourceDimensions"		"language-ja-jp"
+
+[Files]
+"D:\Code\20190930\Main_Page\obj\x64\Release\split.language-ja.pri"			"resources.pri"

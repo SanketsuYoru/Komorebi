@@ -10,274 +10,320 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>db33832f-b264-4d50-9fda-9db2717b763c</PackageIdentityName>
     <PackageIdentityPublisher>CN=I1661</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\project\20190725\Main_Page\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Code\20190930 - 副本\Main_Page\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\project\20190725\Main_Page\bin\x86\Release\AppX</LayoutDir>
+    <LayoutDir>D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\20190905015251403_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905015251403_easyicon_net_512.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\20190905020244418_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905020244418_easyicon_net_512.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\20190905020427706_easyicon_net_512.bmp">
+      <PackagePath>Assets\20190905020427706_easyicon_net_512.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-100.png">
       <PackagePath>Assets\AppStartlogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-125.png">
       <PackagePath>Assets\AppStartlogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-150.png">
       <PackagePath>Assets\AppStartlogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-200.png">
       <PackagePath>Assets\AppStartlogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo.scale-400.png">
       <PackagePath>Assets\AppStartlogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.png">
       <PackagePath>Assets\AppStartlogo_.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-100.png">
       <PackagePath>Assets\AppStartlogo_.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-125.png">
       <PackagePath>Assets\AppStartlogo_.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-150.png">
       <PackagePath>Assets\AppStartlogo_.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-200.png">
       <PackagePath>Assets\AppStartlogo_.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\AppStartlogo_.scale-400.png">
       <PackagePath>Assets\AppStartlogo_.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
+      <PackagePath>Assets\docs_53.375163398693px_1194915_easyicon.net.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\music_105.60408684547px_1234881_easyicon.net.png">
+      <PackagePath>Assets\music_105.60408684547px_1234881_easyicon.net.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\music_player_128px_1230170_easyicon.net.png">
+      <PackagePath>Assets\music_player_128px_1230170_easyicon.net.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Main_Page.dll">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Main_Page.dll">
       <PackagePath>Main_Page.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Main_Page.exe">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Main_Page.exe">
       <PackagePath>Main_Page.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Main_Page.pdb">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Main_Page.pdb">
       <PackagePath>Main_Page.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Models\Items.cs">
+      <PackagePath>Models\Items.cs</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
       <PackagePath>Resources\BF942982C59CEBF2640D14CD6F9420CB.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Resources\timg %281%29.jpg">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Resources\timg %281%29.jpg">
       <PackagePath>Resources\timg %281%29.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\project\20190725\Main_Page\bin\x86\Release\ilc\Resources\title.gif">
+    <AppxPackagedFile Include="D:\Code\20190930 - 副本\Main_Page\bin\x86\Release\ilc\Resources\title.gif">
       <PackagePath>Resources\title.gif</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

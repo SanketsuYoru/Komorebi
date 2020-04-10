@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "3bae127afbff436162ddb560107611f3c39f4f19"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -10,8 +10,7 @@
       "DataAccessLibrary/1.0.0": {
         "dependencies": {
           "Microsoft.Data.Sqlite.Core": "2.2.4",
-          "NETStandard.Library": "2.0.3",
-          "Windows.Foundation.UniversalApiContract": "7.0.0.0"
+          "NETStandard.Library": "2.0.3"
         },
         "runtime": {
           "DataAccessLibrary.dll": {}
@@ -42,14 +41,6 @@
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
             "assemblyVersion": "1.1.12.351",
             "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Windows.Foundation.UniversalApiContract/7.0.0.0": {
-        "runtime": {
-          "Windows.Foundation.UniversalApiContract.winmd": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "10.0.17746.1000"
           }
         }
       }
@@ -88,11 +79,6 @@
       "sha512": "sha512-S4hr+tE275ran5jyKFW/FYPG6Bz6nsHUp9H8chqKxzk21PxJadLd9LnvLe6LMRP/IqY5+LOIIDQF3m/2iDlZ7Q==",
       "path": "sqlitepclraw.core/1.1.12",
       "hashPath": "sqlitepclraw.core.1.1.12.nupkg.sha512"
-    },
-    "Windows.Foundation.UniversalApiContract/7.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

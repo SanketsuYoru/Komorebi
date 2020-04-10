@@ -85,7 +85,7 @@ namespace Main_Page
                     nvSample.PaneDisplayMode = NavigationViewPaneDisplayMode.LeftCompact;
                 }
             }
-            catch (System.NullReferenceException)
+            catch (Exception)
             {
                nvSample.PaneDisplayMode = NavigationViewPaneDisplayMode.LeftCompact;
                 localSettings.Values["ToggleSwitch_Menu"] = "Close";
@@ -114,12 +114,16 @@ namespace Main_Page
                     await ItemAccess.RecentShowItemAsync();
                     await ItemAccess.SortAsync();
                 }
-                catch (System.ArgumentException)
+                catch (Exception Excep)
                 {
-                    FaTokenDataAccess.DeleteData(Exception_);
-                    MruTokenDataAccess.DeleteData(Exception_);
+                    await new ContentDialog
+                    {
+                        Title = "发生错误",
+                        Content = Excep.Message,
+                        CloseButtonText = "关闭",
+                        DefaultButton = ContentDialogButton.Close
+                    }.ShowAsync();
                 }
-                Exception_ = "";
             }
             if (ItemAccess.Cache.Count == 0 && !Refreshing)
             {

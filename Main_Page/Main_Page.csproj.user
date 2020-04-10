@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SplashScreenSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</SplashScreenSource>
-    <AppIconSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</AppIconSource>
-    <Source>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</Source>
-    <SmallTileSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</SmallTileSource>
-    <MediumTileSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</MediumTileSource>
-    <WideTileSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</WideTileSource>
-    <LargeTileSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</LargeTileSource>
-    <PackageLogoSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</PackageLogoSource>
+    <SplashScreenSource>C:\Users\I1661\Desktop\未标题-1.png</SplashScreenSource>
+    <AppIconSource>C:\Users\I1661\Desktop\未标题-1.png</AppIconSource>
+    <Source>C:\Users\I1661\Desktop\未标题-1.png</Source>
+    <SmallTileSource>C:\Users\I1661\Desktop\未标题-1.png</SmallTileSource>
+    <MediumTileSource>C:\Users\I1661\Desktop\未标题-1.png</MediumTileSource>
+    <WideTileSource>C:\Users\I1661\Desktop\未标题-1.png</WideTileSource>
+    <LargeTileSource>C:\Users\I1661\Desktop\未标题-1.png</LargeTileSource>
+    <PackageLogoSource>C:\Users\I1661\Desktop\未标题-1.png</PackageLogoSource>
     <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
-    <BadgeLogoSource>C:\Users\I1661\Desktop\批注 2019-09-02 111007.jpg</BadgeLogoSource>
+    <BadgeLogoSource>C:\Users\I1661\Desktop\未标题-1.png</BadgeLogoSource>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
@@ -27,7 +27,7 @@
     <RemoteDebugEnabled>false</RemoteDebugEnabled>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <RemoteDebugEnabled>true</RemoteDebugEnabled>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
     <RemoteDebugMachine>DESKTOP-BQQFH3D</RemoteDebugMachine>
   </PropertyGroup>
 </Project>

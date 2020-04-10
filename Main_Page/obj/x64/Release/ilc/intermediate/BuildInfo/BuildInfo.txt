@@ -11,10 +11,12 @@ clrcompression.dll                                    : 4.6.27328.03 @BuiltBy: d
 DataAccessLibrary.dll                                 : 1.0.0.0
 Microsoft.CSharp.dll                                  : 4.6.27328.03
 Microsoft.Data.Sqlite.dll                             : 2.2.4.19081
+Microsoft.Toolkit.Uwp.Notifications.dll               : 5.1.1.182
 Microsoft.VisualBasic.dll                             : 4.6.27328.03
 Microsoft.Win32.Primitives.dll                        : 4.6.27328.03
 mscorlib.dll                                          : 4.6.27328.03
 netstandard.dll                                       : 4.6.27328.3
+QueryString.NETCore.dll                               : 1.0.0.0
 SQLitePCLRaw.batteries_v2.dll                         : 1.0.0.0
 SQLitePCLRaw.batteries_winsqlite3.dll                 : 1.0.0.0
 SQLitePCLRaw.core.dll                                 : 1.0.0.0

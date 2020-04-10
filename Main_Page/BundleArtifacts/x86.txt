@@ -1,2 +1,2 @@
-MainPackage=D:\project\20190725\Main_Page\bin\x86\Release\Main_Page_1.0.12.0_x86.msix
-SymbolPackage=D:\project\20190725\Main_Page\obj\x86\Release\Symbols\Main_Page_1.0.12.0_x86.appxsym
+MainPackage=D:\Code\20190930\Main_Page\bin\x86\Release\Main_Page_1.0.15.0_x86.msix
+SymbolPackage=D:\Code\20190930\Main_Page\obj\x86\Release\Symbols\Main_Page_1.0.15.0_x86.appxsym
