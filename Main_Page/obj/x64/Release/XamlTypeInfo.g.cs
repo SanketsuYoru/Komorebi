@@ -13,17 +13,17 @@ namespace Main_Page
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace Main_Page
     }
 }
 
-namespace Main_Page.Main_Page_XamlTypeInfo
+namespace komorebi.komorebi_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace Main_Page.Main_Page_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }
@@ -127,7 +127,7 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::komorebi.komorebi_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForType(type);
@@ -166,7 +166,7 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 {
                     xamlType = CreateXamlType(typeIndex);
                 }
-                var userXamlType = xamlType as global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType;
+                var userXamlType = xamlType as global::komorebi.komorebi_XamlTypeInfo.XamlUserType;
                 if(xamlType == null || (userXamlType != null && userXamlType.IsReturnTypeStub && !userXamlType.IsLocalType))
                 {
                     global::Windows.UI.Xaml.Markup.IXamlType libXamlType = CheckOtherMetadataProvidersForName(typeName);
@@ -372,8 +372,8 @@ namespace Main_Page.Main_Page_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType userType;
+            global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::komorebi.komorebi_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -381,22 +381,22 @@ namespace Main_Page.Main_Page_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.ResourceDictionary"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.ResourceDictionary"));
                 userType.Activator = Activate_0_XamlControlsResources;
                 userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.ResourceDictionary
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Object
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Microsoft.UI.Xaml.Controls.TeachingTip
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
                 userType.Activator = Activate_3_TeachingTip;
                 userType.AddMemberName("PreferredPlacement");
                 userType.AddMemberName("Title");
@@ -423,11 +423,11 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 break;
 
             case 4:   //  Windows.UI.Xaml.Controls.ContentControl
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 5:   //  Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Auto);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Top);
                 userType.AddEnumValue("Bottom", global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode.Bottom);
@@ -446,25 +446,25 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 break;
 
             case 6:   //  System.Enum
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
             case 7:   //  System.ValueType
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case 8:   //  String
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 9:   //  Windows.UI.Xaml.FrameworkElement
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 10:   //  Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Auto);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Visible);
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility.Collapsed);
@@ -472,25 +472,25 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 break;
 
             case 11:   //  Boolean
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 12:   //  Windows.UI.Xaml.Thickness
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 13:   //  Microsoft.UI.Xaml.Controls.IconSource
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 14:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 15:   //  Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Auto);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Top);
                 userType.AddEnumValue("Bottom", global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode.Bottom);
@@ -498,133 +498,133 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 break;
 
             case 16:   //  Windows.UI.Xaml.UIElement
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 17:   //  Windows.UI.Xaml.Style
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 18:   //  System.Windows.Input.ICommand
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 19:   //  Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 20:   //  Main_Page.Pages.AudioPage
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_20_AudioPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 21:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 22:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 23:   //  Main_Page.Pages.DOC_MAIN
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_23_DOC_MAIN;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 24:   //  Main_Page.Pages.FileAdd_Page
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_24_FileAdd_Page;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 25:   //  Main_Page.Pages.Graphics
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_25_Graphics;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 26:   //  Main_Page.Pages.GUIDE_page
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_26_GUIDE_page;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 27:   //  Main_Page.Pages.ItemPage
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_27_ItemPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 28:   //  Main_Page.Pages.MAIN_FILE
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_28_MAIN_FILE;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 29:   //  Main_Page.Pages.MAIN_Page1
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_29_MAIN_Page1;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 30:   //  Main_Page.Pages.MediaPage
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_30_MediaPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 31:   //  Main_Page.Pages.MEDIA_MAIN
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_31_MEDIA_MAIN;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 32:   //  Main_Page.Pages.SearchResult
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_32_SearchResult;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 33:   //  Main_Page.Pages.Search_Page_
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_33_Search_Page_;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 34:   //  Main_Page.Pages.Today_NewFile
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_34_Today_NewFile;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 35:   //  Main_Page.MainPage
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_35_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 36:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_36_TreeViewNode;
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -638,14 +638,14 @@ namespace Main_Page.Main_Page_XamlTypeInfo
                 break;
 
             case 37:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType = new global::komorebi.komorebi_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.CollectionAdd = VectorAdd_37_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 38:   //  Int32
-                xamlType = new global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -964,201 +964,201 @@ namespace Main_Page.Main_Page_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::Main_Page.Main_Page_XamlTypeInfo.XamlMember xamlMember = null;
-            global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType userType;
+            global::komorebi.komorebi_XamlTypeInfo.XamlMember xamlMember = null;
+            global::komorebi.komorebi_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "PreferredPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "PreferredPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_TeachingTip_PreferredPlacement;
                 xamlMember.Setter = set_0_TeachingTip_PreferredPlacement;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Title":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Title", "String");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Title", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_1_TeachingTip_Title;
                 xamlMember.Setter = set_1_TeachingTip_Title;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Subtitle", "String");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Subtitle", "String");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_2_TeachingTip_Subtitle;
                 xamlMember.Setter = set_2_TeachingTip_Subtitle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.Target":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Target", "Windows.UI.Xaml.FrameworkElement");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Target", "Windows.UI.Xaml.FrameworkElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_3_TeachingTip_Target;
                 xamlMember.Setter = set_3_TeachingTip_Target;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "TailVisibility", "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "TailVisibility", "Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_4_TeachingTip_TailVisibility;
                 xamlMember.Setter = set_4_TeachingTip_TailVisibility;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "ShouldConstrainToRootBounds", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "ShouldConstrainToRootBounds", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_5_TeachingTip_ShouldConstrainToRootBounds;
                 xamlMember.Setter = set_5_TeachingTip_ShouldConstrainToRootBounds;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "PlacementMargin", "Windows.UI.Xaml.Thickness");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "PlacementMargin", "Windows.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_6_TeachingTip_PlacementMargin;
                 xamlMember.Setter = set_6_TeachingTip_PlacementMargin;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "IsOpen", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_7_TeachingTip_IsOpen;
                 xamlMember.Setter = set_7_TeachingTip_IsOpen;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "IsLightDismissEnabled", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "IsLightDismissEnabled", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_8_TeachingTip_IsLightDismissEnabled;
                 xamlMember.Setter = set_8_TeachingTip_IsLightDismissEnabled;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.IconSource":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_9_TeachingTip_IconSource;
                 xamlMember.Setter = set_9_TeachingTip_IconSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "HeroContentPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "HeroContentPlacement", "Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_10_TeachingTip_HeroContentPlacement;
                 xamlMember.Setter = set_10_TeachingTip_HeroContentPlacement;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "HeroContent", "Windows.UI.Xaml.UIElement");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "HeroContent", "Windows.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_11_TeachingTip_HeroContent;
                 xamlMember.Setter = set_11_TeachingTip_HeroContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Windows.UI.Xaml.Style");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_12_TeachingTip_CloseButtonStyle;
                 xamlMember.Setter = set_12_TeachingTip_CloseButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "CloseButtonContent", "Object");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "CloseButtonContent", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_13_TeachingTip_CloseButtonContent;
                 xamlMember.Setter = set_13_TeachingTip_CloseButtonContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_14_TeachingTip_CloseButtonCommandParameter;
                 xamlMember.Setter = set_14_TeachingTip_CloseButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_15_TeachingTip_CloseButtonCommand;
                 xamlMember.Setter = set_15_TeachingTip_CloseButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "ActionButtonStyle", "Windows.UI.Xaml.Style");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "ActionButtonStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_16_TeachingTip_ActionButtonStyle;
                 xamlMember.Setter = set_16_TeachingTip_ActionButtonStyle;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "ActionButtonContent", "Object");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "ActionButtonContent", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_17_TeachingTip_ActionButtonContent;
                 xamlMember.Setter = set_17_TeachingTip_ActionButtonContent;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "ActionButtonCommandParameter", "Object");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "ActionButtonCommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_18_TeachingTip_ActionButtonCommandParameter;
                 xamlMember.Setter = set_18_TeachingTip_ActionButtonCommandParameter;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "ActionButtonCommand", "System.Windows.Input.ICommand");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "ActionButtonCommand", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_19_TeachingTip_ActionButtonCommand;
                 xamlMember.Setter = set_19_TeachingTip_ActionButtonCommand;
                 break;
             case "Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettings":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TeachingTip");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_20_TeachingTip_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_21_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_21_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
                 xamlMember.Getter = get_22_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_22_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Content", "Object");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_23_TreeViewNode_Content;
                 xamlMember.Setter = set_23_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_24_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_25_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_26_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::Main_Page.Main_Page_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+                userType = (global::komorebi.komorebi_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::komorebi.komorebi_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember.Getter = get_27_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -1218,10 +1218,10 @@ namespace Main_Page.Main_Page_XamlTypeInfo
 
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::Main_Page.Main_Page_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::komorebi.komorebi_XamlTypeInfo.XamlSystemBaseType
         , global::Windows.UI.Xaml.Markup.IXamlType2
     {
-        global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -1236,7 +1236,7 @@ namespace Main_Page.Main_Page_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -1451,7 +1451,7 @@ namespace Main_Page.Main_Page_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -1460,7 +1460,7 @@ namespace Main_Page.Main_Page_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

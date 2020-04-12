@@ -156,15 +156,23 @@ namespace Main_Page.Pages
 
         private void ProgressCheck(object sender, object e) {
             if (ItemAccess.Cache.Count != 0) {
+                if (!Refreshing)
+                {
+                    Progress.Text = 100 + "%";
+                    ScanPbar.Value = 100;
+                }
+                else
+                {
                 var Value_ = (((double)ItemAccess.Cache.Count / (double)UserSettings.GetMaxNumber()) * 100);
                 ScanPbar.Value = Value_;
                 Progress.Text = ScanPbar.Value.ToString()+"%";
+                }
             }
                 //ScanPbar.Value =100;
                
             else
                 ScanPbar.Value = 0;
-            if (ScanPbar.Value == 100)
+            if (!Refreshing)
             {
                 REFLASH.IsEnabled = true;
                 //ProgressBar_timer.Stop();
@@ -412,11 +420,7 @@ namespace Main_Page.Pages
         {
             REFLASH.IsEnabled = false;
             progressBar_Main.Visibility = Visibility.Visible;
-
-            if (Refresh().IsCompleted)
-            {
-                REFLASH.IsEnabled = true;
-            }
+            await Refresh();
         }
 
         private void MainFlip_Tapped(object sender, TappedRoutedEventArgs e)

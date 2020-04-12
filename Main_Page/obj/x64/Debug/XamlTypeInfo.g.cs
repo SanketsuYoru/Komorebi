@@ -13,17 +13,17 @@ namespace Main_Page
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Main_Page.Main_Page_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::komorebi.komorebi_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace Main_Page
     }
 }
 
-namespace Main_Page.Main_Page_XamlTypeInfo
+namespace komorebi.komorebi_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace Main_Page.Main_Page_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Main_Page.Main_Page_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::komorebi.komorebi_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

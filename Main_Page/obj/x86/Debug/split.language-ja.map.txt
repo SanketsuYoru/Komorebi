@@ -3,4 +3,4 @@
 "ResourceDimensions"		"language-ja-jp"
 
 [Files]
-"D:\Code\20190930\Main_Page\obj\x86\Debug\split.language-ja.pri"			"resources.pri"
+"D:\Code\20200412\Main_Page\obj\x86\Debug\split.language-ja.pri"			"resources.pri"

@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="db33832f-b264-4d50-9fda-9db2717b763c" Publisher="CN=I1661" Version="1.0.14.0" ProcessorArchitecture="x64" />
+  <Identity Name="db33832f-b264-4d50-9fda-9db2717b763c" Publisher="CN=SANKETSU, C=CN" Version="1.0.17.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="db33832f-b264-4d50-9fda-9db2717b763c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Komorenobi_Project2019</DisplayName>
@@ -19,15 +19,13 @@
     <PackageDependency Name="Microsoft.UI.Xaml.2.1" MinVersion="2.11906.6001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.NET.CoreRuntime.2.2" MinVersion="2.2.27404.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.NET.CoreFramework.Debug.2.2" MinVersion="2.2.27505.2" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
-    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.27323.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.27810.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
-    <Resource Language="JA-JP" />
-    <Resource Language="ZH-CN" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="Main_Page.exe" EntryPoint="Komorebi.App">
+    <Application Id="App" Executable="komorebi.exe" EntryPoint="Komorebi.App">
       <uap:VisualElements DisplayName="Komorebi" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Komorebi" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png"></uap:DefaultTile>
         <uap:InitialRotationPreference>
@@ -60,8 +58,8 @@
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="16.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.18362.356 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29230.47" />
+    <build:Item Name="OperatingSystem" Version="10.0.18362.718 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.29903.111" />
     <build:Item Name="ProjectGUID" Value="{902ED382-5E7E-43AA-8699-1502AF2F1A91}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />

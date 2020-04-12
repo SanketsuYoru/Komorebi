@@ -1,8 +1,6 @@
-MainPackage=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_x64.msix
-SymbolPackage=D:\Code\20190930\Main_Page\obj\x64\Release\Symbols\Main_Page_1.0.15.0_x64.appxsym
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_language-ja.msix
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_language-zh-hans.msix
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_scale-100.msix
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_scale-125.msix
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_scale-150.msix
-ResourcePack=D:\Code\20190930\Main_Page\bin\x64\Release\Main_Page_1.0.15.0_scale-400.msix
+MainPackage=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.19.0_x64.msix
+SymbolPackage=D:\Code\20200412\Main_Page\obj\x64\Release\Symbols\komorebi_1.0.19.0_x64.appxsym
+ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.19.0_scale-100.msix
+ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.19.0_scale-125.msix
+ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.19.0_scale-150.msix
+ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.19.0_scale-400.msix

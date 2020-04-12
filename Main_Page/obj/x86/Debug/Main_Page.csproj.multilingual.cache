@@ -9,33 +9,29 @@
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\Main_Page.ja-JP.xlf</FileName>
-    <Checksum>1811121611714712238193135178139155200230170246</Checksum>
-    <ModifiedTime>2019-10-10T12:35:05.81119+08:00</ModifiedTime>
+    <Checksum>1331256579207189851112417437143810614078</Checksum>
+    <ModifiedTime>2020-04-12T19:17:26.9302719+08:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
-    <WarningMessage>
-      <string>更新 1 资源字符串与现有的翻译并将其应用到 XLIFF 文件。 相关的翻译都不变改，但应检查，以确保它们仍然有效，更新的源字符串。</string>
-    </WarningMessage>
+    <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\ja-JP\Resources.resw</FileName>
-    <Checksum>10212820419169163210331101734441112710540</Checksum>
-    <ModifiedTime>2019-10-10T12:35:05.8241503+08:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2020-04-12T19:17:26.939227+08:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>MultilingualResources\Main_Page.zh-CN.xlf</FileName>
-    <Checksum>23811421911583211641942291484716206164236174</Checksum>
-    <ModifiedTime>2019-10-10T12:35:05.8491123+08:00</ModifiedTime>
+    <Checksum>1261082031881841031022724107131151802187244</Checksum>
+    <ModifiedTime>2020-04-12T19:17:26.9632005+08:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
-    <WarningMessage>
-      <string>更新 1 资源字符串与现有的翻译并将其应用到 XLIFF 文件。 相关的翻译都不变改，但应检查，以确保它们仍然有效，更新的源字符串。</string>
-    </WarningMessage>
+    <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\zh-CN\Resources.resw</FileName>
-    <Checksum>888911715111432217176215152435921223211519</Checksum>
-    <ModifiedTime>2019-10-10T12:35:05.8500853+08:00</ModifiedTime>
+    <Checksum>19525178173832441949178108532091416317160</Checksum>
+    <ModifiedTime>2020-04-12T19:17:26.9632005+08:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>

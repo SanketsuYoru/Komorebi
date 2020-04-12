@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RsyBIej3Ptw9CSOA+EMnwEs9pw+2ZUz4RjrI8Sj2Cw2WC7JJ0Al5qO/Msx8cFB91Orp0fuVq3VrzHBKc+cZYqQ==",
+  "dgSpecHash": "EsDl/GVYLQnBRRe3R3I8Ms6G+I5gbCUklEK/BdJRdGsVXRFxmj+JZcCAym3wwNqAlU2iXQPGay3HCOZ4SRLxBA==",
   "success": true,
-  "projectFilePath": "D:\\Code\\20200215\\DataAccessLibrary\\DataAccessLibrary.csproj",
+  "projectFilePath": "D:\\Code\\20200412\\DataAccessLibrary\\DataAccessLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I1661\\.nuget\\packages\\microsoft.data.sqlite.core\\2.2.4\\microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
     "C:\\Users\\I1661\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

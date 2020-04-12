@@ -13,14 +13,14 @@
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
+			<NamedResource name="komorebi.xr.xml" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/komorebi.xr.xml">
+				<Candidate type="Path">
+					<Value>komorebi.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
 			<NamedResource name="MainPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/MainPage.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
-				</Candidate>
-			</NamedResource>
-			<NamedResource name="Main_Page.xr.xml" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Main_Page.xr.xml">
-				<Candidate type="Path">
-					<Value>Main_Page.xr.xml</Value>
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="Assets">
@@ -168,71 +168,77 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Pages">
-				<NamedResource name="AudioPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/AudioPage.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="DOC_MAIN.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/DOC_MAIN.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="FileAdd_Page.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/FileAdd_Page.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="Graphics.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Graphics.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="GUIDE_page.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/GUIDE_page.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="ItemPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/ItemPage.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="MAIN_FILE.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MAIN_FILE.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="MAIN_Page1.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MAIN_Page1.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="MediaPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MediaPage.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="MEDIA_MAIN.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MEDIA_MAIN.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="SearchResult.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/SearchResult.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="Search_Page_.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Search_Page_.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="Today_NewFile.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Today_NewFile.xbf">
-					<Candidate type="EmbeddedData">
-						<Base64Value>[Embedded Binary Data]</Base64Value>
-					</Candidate>
-				</NamedResource>
+				<ResourceMapSubtree name="MainPages">
+					<NamedResource name="DefultMain.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MainPages/DefultMain.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FileMain.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MainPages/FileMain.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MainDoc.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MainPages/MainDoc.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MediaMain.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/MainPages/MediaMain.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Others">
+					<NamedResource name="GuidePage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Others/GuidePage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SearchPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Others/SearchPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SearchResult.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Others/SearchResult.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Sittings.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Others/Sittings.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Today_NewFile.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/Others/Today_NewFile.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="SubPages">
+					<NamedResource name="AudioPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/SubPages/AudioPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="FilePage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/SubPages/FilePage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="Graphics.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/SubPages/Graphics.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="MediaPage.xbf" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Pages/SubPages/MediaPage.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Properties">
 				<NamedResource name="Default.rd.xml" uri="ms-resource://db33832f-b264-4d50-9fda-9db2717b763c/Files/Properties/Default.rd.xml">

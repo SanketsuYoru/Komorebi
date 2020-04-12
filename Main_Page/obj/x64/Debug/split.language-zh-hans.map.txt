@@ -3,4 +3,4 @@
 "ResourceDimensions"		"language-zh-cn"
 
 [Files]
-"D:\Code\20190930\Main_Page\obj\x64\Debug\split.language-zh-hans.pri"			"resources.pri"
+"D:\Code\20200412\Main_Page\obj\x64\Debug\split.language-zh-hans.pri"			"resources.pri"

@@ -111,8 +111,7 @@ namespace Main_Page
                 Cache_Recent_Doc.Clear();
                 try
                 {
-                    await ItemAccess.RecentShowItemAsync();
-                    await ItemAccess.SortAsync();
+                    await Refresh();
                 }
                 catch (Exception Excep)
                 {

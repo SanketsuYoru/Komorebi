@@ -295,6 +295,7 @@ namespace Main_Page.Models
         public static bool SettingChanged = false;
         public static bool Noticed = false;
         public static bool Refreshing = false;
+        //public static bool Refreshed = true;
         public static bool Cache_flag = false;
         public static bool End_sort = false;
         public static ObservableCollection<StorageFile> Cache= new ObservableCollection<StorageFile>();
@@ -325,6 +326,7 @@ namespace Main_Page.Models
             await ItemAccess.RecentShowItemAsync();
             await ItemAccess.SortAsync();
             Refreshing = false;
+            //Refreshed = true;
         }
 
         public static async Task<StorageFile> GetnextFileAsync(string PorN, Items source)

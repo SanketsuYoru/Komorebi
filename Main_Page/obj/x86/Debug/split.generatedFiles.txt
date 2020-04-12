@@ -1,9 +1,5 @@
 obj\x86\Debug\split.pri
 obj\x86\Debug\split.map.txt
-obj\x86\Debug\split.language-ja.pri
-obj\x86\Debug\split.language-ja.map.txt
-obj\x86\Debug\split.language-zh-hans.pri
-obj\x86\Debug\split.language-zh-hans.map.txt
 obj\x86\Debug\split.scale-100.pri
 obj\x86\Debug\split.scale-100.map.txt
 obj\x86\Debug\split.scale-125.pri
