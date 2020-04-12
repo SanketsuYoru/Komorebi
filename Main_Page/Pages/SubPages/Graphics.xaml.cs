@@ -18,6 +18,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
 using static Main_Page.Models.UserSettings;
@@ -47,6 +48,7 @@ namespace Main_Page.Pages
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
+            
             Item_ = (Items)e.Parameter;
             img_dispaly.Source = await BitmapProcess(Item_.StorageFile_);
         }
@@ -148,16 +150,22 @@ namespace Main_Page.Pages
 
         private async void Preview_ClickAsync(object sender, RoutedEventArgs e)
         {
-            Item_.StorageFile_=await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_);
+            var StorageFile_ = await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_);
             //img_dispaly.Source =await BitmapProcess(Item_.StorageFile_);
-            img_dispaly.Source = await BitmapProcess(await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_));
+            //img_dispaly.Source = await BitmapProcess(await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_));
+            img_dispaly.Source = await BitmapProcess(StorageFile_);
+            Item_= new Items { AccessSource = await ThumbnailProcess(StorageFile_), Date = StorageFile_.DateCreated.ToString(), Type = StorageFile_.DisplayType, Name = StorageFile_.Name, Path = StorageFile_.Path, StorageFile_ = StorageFile_, Size = await SizeOfFileAsync(StorageFile_) };
+
         }
 
         private async void Next_ClickAsync(object sender, RoutedEventArgs e)
         {
-            Item_.StorageFile_ = await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_);
+            var StorageFile_ = await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_);
             //img_dispaly.Source =await BitmapProcess(Item_.StorageFile_);
-            img_dispaly.Source = await BitmapProcess(await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_));
+            //img_dispaly.Source = await BitmapProcess(await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_));
+            img_dispaly.Source = await BitmapProcess(StorageFile_);
+            Item_ = new Items { AccessSource = await ThumbnailProcess(StorageFile_), Date = StorageFile_.DateCreated.ToString(), Type = StorageFile_.DisplayType, Name = StorageFile_.Name, Path = StorageFile_.Path, StorageFile_ = StorageFile_, Size = await SizeOfFileAsync(StorageFile_) };
+
         }
 
     }

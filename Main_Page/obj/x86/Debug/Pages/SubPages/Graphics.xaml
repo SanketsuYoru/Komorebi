@@ -10,9 +10,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <ContentDialog x:ConnectionId='2' x:Name="DeleteContentDialog" 
            PrimaryButtonText="删除" x:Uid="Flyout_Delete_SubFly_Confirm"                                                             IsPrimaryButtonEnabled="True"
@@ -34,9 +34,8 @@
                 <TextBlock x:ConnectionId='15' Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
             </RelativePanel>
         </ContentDialog>
-        <Button x:ConnectionId='3' x:Name="Preview" Grid.Column="0" Width="40" VerticalAlignment="Stretch"                            >P</Button>
-        <Button x:ConnectionId='4' x:Name="Next"  Grid.Column="2"  Width="40" VerticalAlignment="Stretch"                          HorizontalAlignment="Right">N</Button>
-        <StackPanel x:ConnectionId='5' x:Name="ContentStackPanel" Grid.Column="1"  >
+        
+        <StackPanel x:ConnectionId='3' x:Name="ContentStackPanel" Grid.Column="0"  Grid.ColumnSpan="3" >
 
             <Image x:ConnectionId='6'  x:Name="img_dispaly"                                         >
                 <FlyoutBase.AttachedFlyout>
@@ -77,7 +76,8 @@
                 </FlyoutBase.AttachedFlyout>
             </Image>
         </StackPanel>
-        
+        <Button x:ConnectionId='4' x:Name="Preview" Grid.Column="0" Width="40" VerticalAlignment="Center"                             Foreground="#FFF7F7F7" Content="&#xE09E;" FontFamily="segoe MDL2 Assets" ></Button>
+        <Button x:ConnectionId='5' x:Name="Next"  Grid.Column="2"  Width="40" VerticalAlignment="Center"                          Foreground="#FFF7F7F7"  HorizontalAlignment="Right" Content="&#xE09F;" FontFamily="segoe MDL2 Assets" ></Button>
     </Grid>
 </Page>
 

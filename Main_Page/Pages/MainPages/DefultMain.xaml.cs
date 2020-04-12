@@ -38,6 +38,7 @@ namespace Main_Page.Pages
     {
         DispatcherTimer _timer = new DispatcherTimer();//定义定时器
         DispatcherTimer ProgressBar_timer = new DispatcherTimer();//定义定时器
+        Image Img_mc = new Image();
         Items item_;
         public MAIN_Page1()
         {
@@ -61,6 +62,18 @@ namespace Main_Page.Pages
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
         }
 
+
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            
+            //MUSIC.PrepareConnectedAnimation("portrait", item, "PortraitEllipse");
+            //ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation_mc", MUSIC);
+            // ContactsListView.PrepareConnectedAnimation("portrait", item, "PortraitEllipse");
+            // You don't need to explicitly set the Configuration property because
+            // the recommended Gravity configuration is default.
+            // For custom animation, use:
+            // animation.Configuration = new BasicConnectedAnimationConfiguration();
+        }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -193,8 +206,20 @@ namespace Main_Page.Pages
                     }
                 case "Music":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation_mc", temp, "CoverIMG");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
+
+
+
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.AudioPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
+                        //Frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 default:
@@ -415,8 +440,12 @@ namespace Main_Page.Pages
                     }
                 case "Music":
                     {
+
+                        ConnectedAnimation animation =
+            ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation_mc", Img_mc);
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.AudioPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
+                        /*Frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());*/
                         break;
                     }
                 default:
@@ -478,6 +507,16 @@ namespace Main_Page.Pages
         {
             ProgressBar_timer.Stop();
             _timer.Stop();
+        }
+
+        private void MUSIC_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MusicSourceImg_Loaded(object sender, RoutedEventArgs e)
+        {
+            Img_mc = sender as Image;
         }
     }
  }

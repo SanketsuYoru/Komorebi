@@ -248,9 +248,10 @@
                                         <StackPanel x:Name="Music">
                                             <TextBlock Text="音乐"  x:Uid="MAIN_Page1_Povit1_Music" Margin="5,0,0,0" FontSize="18"></TextBlock>
                                             <FlipView x:Name="MUSIC" 
-                            Width="250" Height="250"  
-                            Margin="5,10,0,0"
-                            ItemsSource="{x:Bind data:ItemAccess.Cache_Recent_Music,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" BorderBrush="#FFD6DDE6" BorderThickness="0.5">
+                                                      Width="250" Height="250"  
+                                                      Margin="5,10,0,0"
+                                                      Loaded="MUSIC_Loaded"
+                                                      ItemsSource="{x:Bind data:ItemAccess.Cache_Recent_Music,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" BorderBrush="#FFD6DDE6" BorderThickness="0.5">
                                                 <FlipView.Background>
                                                     <ImageBrush ImageSource="/Assets/20190905020244418_easyicon_net_512.bmp" Stretch="Uniform"></ImageBrush>
                                                 </FlipView.Background>
@@ -305,7 +306,7 @@
                                                                 </MenuFlyout>
                                                             </FlyoutBase.AttachedFlyout>
                                                             <RelativePanel>
-                                                                <Image Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
+                                                                <Image Loaded="MusicSourceImg_Loaded" x:Name="MusicSourceImg" Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
                                                                 <Rectangle  Height="40" Width="400" RelativePanel.AlignBottomWithPanel="True"  Margin="0,0,0,0">
                                                                     <Rectangle.Fill>
                                                                         <SolidColorBrush Color="{ThemeResource  SystemAltMediumColor}" >

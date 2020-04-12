@@ -20,6 +20,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
 using static Main_Page.Models.UserSettings;
@@ -125,9 +126,20 @@ namespace Main_Page.Pages
         }
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
+
+            
             var Items_in = (Items)e.Parameter;
             Item_ = Items_in;
             await setNewMediaSource(Items_in);
+
+            base.OnNavigatedTo(e);
+
+            ConnectedAnimation animation =
+                ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation_mc");
+            if (animation != null)
+            {
+                animation.TryStart(CoverIMG, new UIElement[] { LogoAndTitle, PlayArea, Info ,PlayBackList});
+            }
             int count_ = 0;
             try
             {

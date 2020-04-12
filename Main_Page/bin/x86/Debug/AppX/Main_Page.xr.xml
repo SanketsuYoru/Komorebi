@@ -87,7 +87,9 @@
       <RootProperty Name="Height" />
       <RootEvent Name="PrimaryButtonClick" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
@@ -197,6 +199,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="RightTapped" />
+      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Main_Page.Pages.AudioPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
@@ -251,6 +254,7 @@
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Name" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Flyout" />
       <RootEvent Name="Click" />
@@ -333,6 +337,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemsPanel" />
+      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />

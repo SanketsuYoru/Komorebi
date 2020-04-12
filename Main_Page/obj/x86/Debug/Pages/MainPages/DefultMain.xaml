@@ -248,9 +248,10 @@
                                         <StackPanel x:ConnectionId='40' x:Name="Music">
                                             <TextBlock Text="音乐"  x:Uid="MAIN_Page1_Povit1_Music" Margin="5,0,0,0" FontSize="18"></TextBlock>
                                             <FlipView x:ConnectionId='58' x:Name="MUSIC" 
-                            Width="250" Height="250"  
-                            Margin="5,10,0,0"
-                                                                                                                                      BorderBrush="#FFD6DDE6" BorderThickness="0.5">
+                                                      Width="250" Height="250"  
+                                                      Margin="5,10,0,0"
+                                                                           
+                                                                                                                                                                BorderBrush="#FFD6DDE6" BorderThickness="0.5">
                                                 <FlipView.Background>
                                                     <ImageBrush ImageSource="/Assets/20190905020244418_easyicon_net_512.bmp" Stretch="Uniform"></ImageBrush>
                                                 </FlipView.Background>
@@ -305,7 +306,7 @@
                                                                 </MenuFlyout>
                                                             </FlyoutBase.AttachedFlyout>
                                                             <RelativePanel>
-                                                                <Image x:ConnectionId='67'                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
+                                                                <Image x:ConnectionId='67'                                x:Name="MusicSourceImg"                                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
                                                                 <Rectangle  Height="40" Width="400" RelativePanel.AlignBottomWithPanel="True"  Margin="0,0,0,0">
                                                                     <Rectangle.Fill>
                                                                         <SolidColorBrush Color="{ThemeResource  SystemAltMediumColor}" >

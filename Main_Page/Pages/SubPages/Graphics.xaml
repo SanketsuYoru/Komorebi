@@ -10,9 +10,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+            <ColumnDefinition Width="0.5*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <ContentDialog x:Name="DeleteContentDialog" 
            PrimaryButtonText="删除" x:Uid="Flyout_Delete_SubFly_Confirm" PrimaryButtonClick="DeleteContentDialog_PrimaryButtonClick" IsPrimaryButtonEnabled="True"
@@ -34,9 +34,8 @@
                 <TextBlock Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
             </RelativePanel>
         </ContentDialog>
-        <Button x:Name="Preview" Grid.Column="0" Width="40" VerticalAlignment="Stretch" Click="Preview_ClickAsync" >P</Button>
-        <Button x:Name="Next"  Grid.Column="2"  Width="40" VerticalAlignment="Stretch" Click="Next_ClickAsync"  HorizontalAlignment="Right">N</Button>
-        <StackPanel x:Name="ContentStackPanel" Grid.Column="1"  >
+        
+        <StackPanel x:Name="ContentStackPanel" Grid.Column="0"  Grid.ColumnSpan="3" >
 
             <Image  x:Name="img_dispaly"  RightTapped="RelativePanel_RightTapped">
                 <FlyoutBase.AttachedFlyout>
@@ -77,6 +76,7 @@
                 </FlyoutBase.AttachedFlyout>
             </Image>
         </StackPanel>
-        
+        <Button x:Name="Preview" Grid.Column="0" Width="40" VerticalAlignment="Center"  Click="Preview_ClickAsync" Foreground="#FFF7F7F7" Content="&#xE09E;" FontFamily="segoe MDL2 Assets" ></Button>
+        <Button x:Name="Next"  Grid.Column="2"  Width="40" VerticalAlignment="Center"  Click="Next_ClickAsync" Foreground="#FFF7F7F7"  HorizontalAlignment="Right" Content="&#xE09F;" FontFamily="segoe MDL2 Assets" ></Button>
     </Grid>
 </Page>

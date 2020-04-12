@@ -337,6 +337,7 @@ namespace Main_Page.Models
                     if (source.StorageFile_.Name== ItemAccess.Cache[i].Name)
                     {
                         currentIndex = i;
+                    break;
                     }
             }
 
@@ -344,11 +345,18 @@ namespace Main_Page.Models
             {
                 try
                 {
-                    for (int i = currentIndex; i >=0; i--)
+                    for (int i = currentIndex-1; i >=0; i--)
                     {
                         if (FileType_check(ItemAccess.Cache[i]) == filetype)
                         {
-                            Debug.WriteLine(" Item_list.count" + ItemAccess.Cache[i].Name);
+                            if (source.StorageFile_.Name == ItemAccess.Cache[i].Name)
+                            {
+                                i++;
+                                continue;
+                            }
+                            Debug.WriteLine("currentIndex" + currentIndex);
+                            Debug.WriteLine("Next i" + i);
+                            Debug.WriteLine("Pre" + ItemAccess.Cache[i].Name);
                             return ItemAccess.Cache[i];
                         }
                     }
@@ -369,11 +377,18 @@ namespace Main_Page.Models
             {
                 try
                 {
-                    for (int i = 0; i < ItemAccess.Cache.Count; i++)
+                    for (int i = currentIndex+1; i < ItemAccess.Cache.Count; i++)
                     {
                         if (FileType_check(ItemAccess.Cache[i]) == filetype)
                         {
-                            Debug.WriteLine(" Item_list.count" + ItemAccess.Cache[i].Name);
+                            if (source.StorageFile_.Name == ItemAccess.Cache[i].Name)
+                            {
+                                i++;
+                                continue;
+                            }
+                            Debug.WriteLine("currentIndex" + currentIndex);
+                            Debug.WriteLine("Next i" + i);
+                            Debug.WriteLine("Next item" + ItemAccess.Cache[i].Name);
                             return ItemAccess.Cache[i];
                         }
                     }
@@ -389,11 +404,8 @@ namespace Main_Page.Models
                         DefaultButton = ContentDialogButton.Close
                     }.ShowAsync();
                 }
-
-
             }
-            return temp.StorageFile_;
-        
+            return source.StorageFile_;
         }
 
         public static string FileType_check(StorageFile inputFile)
@@ -467,11 +479,11 @@ namespace Main_Page.Models
             Cache_Recent_Media.Clear();
             Cache_Recent_Music.Clear();
             Cache_Processed_Today.Clear();
-            Debug.WriteLine(" Sort_in");
+/*            Debug.WriteLine(" Sort_in");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
             MaxNumber = UserSettings.GetMaxNumber();
             try {
                 for (int i = 0; i < ItemAccess.Cache.Count; i++)
@@ -530,11 +542,11 @@ namespace Main_Page.Models
                     }
                     // if (Cache_Processed_Today.Count > 0) ;
                     //Notifications_.Notifications_Tocast(Cache_Processed_Today[0].StorageFile_);
-                    Debug.WriteLine(" Sort_out");
+/*                    Debug.WriteLine(" Sort_out");
                     Debug.WriteLine(ItemAccess.Cache.Count);
                     Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
                     Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-                    Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+                    Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
                 }
             }
             catch {
@@ -557,11 +569,11 @@ namespace Main_Page.Models
             Cache_Recent_Media.Clear();
             Cache_Recent_Music.Clear();
             Cache_Processed_Today.Clear();
-            Debug.WriteLine(" Sort_in");
+/*            Debug.WriteLine(" Sort_in");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
             MaxNumber = UserSettings.GetMaxNumber();
              var inputFiles = new ObservableCollection<StorageFile>();
             foreach (var input in ItemAccess.Cache) {
@@ -571,11 +583,11 @@ namespace Main_Page.Models
             }
             while (inputFiles.Count != 0 && !End_sort)
             {
-                Debug.WriteLine(" Sorting");
+/*                Debug.WriteLine(" Sorting");
                 Debug.WriteLine(ItemAccess.Cache.Count);
                 Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
                 Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-                Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+                Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
                 StorageFile inputFile = inputFiles.LastOrDefault();
                 for (int i = inputFiles.Count - 1; i >= 0; i--)
                 {
@@ -629,11 +641,11 @@ namespace Main_Page.Models
             inputFiles.Clear();
            // if (Cache_Processed_Today.Count > 0) ;
             //Notifications_.Notifications_Tocast(Cache_Processed_Today[0].StorageFile_);
-            Debug.WriteLine(" Sort_out");
+/*            Debug.WriteLine(" Sort_out");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
 
         }
 

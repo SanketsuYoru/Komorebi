@@ -10891,3 +10891,4 @@ D:\Code\20200215\Main_Page\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Code\20200215\Main_Page\obj\x86\Debug\Microsoft.Toolkit.Uwp.Notifications.pri.xml
 D:\Code\20200215\Main_Page\obj\x86\Debug\ProjectArchitectures.txt
 D:\Code\20200215\Main_Page\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885022160000000.json
+D:\Code\20200215\Main_Page\obj\x86\Debug\Main_Page.csproj.CoreCompileInputs.cache

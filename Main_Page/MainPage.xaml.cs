@@ -40,7 +40,7 @@ namespace Main_Page
         {
           
             this.InitializeComponent();
-            this.NavigationCacheMode = NavigationCacheMode.Required;
+           this.NavigationCacheMode = NavigationCacheMode.Required;
             //主导航处
             if (Flag_Choose == false)
             {
