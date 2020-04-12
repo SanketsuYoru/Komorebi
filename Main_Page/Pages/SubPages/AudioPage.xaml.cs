@@ -51,6 +51,19 @@ namespace Main_Page.Pages
             _timer.Tick += CurrentTime;
             _timer.Start();
         }
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+           if (e.NavigationMode == NavigationMode.Back)
+            {
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc", CoverIMG);
+                ConnectedAnimation animationinfo =
+                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc_info", Info);
+                // Use the recommended configuration for back animation.
+                animation.Configuration = new DirectConnectedAnimationConfiguration();
+                animationinfo.Configuration = new DirectConnectedAnimationConfiguration();
+            }
+        }
 
         private async void MediaPlayer_VolumeChangedAsync(MediaPlayer sender, object args)
         {
@@ -130,16 +143,23 @@ namespace Main_Page.Pages
             
             var Items_in = (Items)e.Parameter;
             Item_ = Items_in;
+            CoverIMG.Visibility = Visibility.Collapsed;
+            PlayArea.Visibility= Visibility.Collapsed;
             await setNewMediaSource(Items_in);
-
+            
             base.OnNavigatedTo(e);
 
             ConnectedAnimation animation =
                 ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation_mc");
+            ConnectedAnimation animation_info =
+               ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation_mcinfo");
             if (animation != null)
-            {
-                animation.TryStart(CoverIMG, new UIElement[] { LogoAndTitle, PlayArea, Info ,PlayBackList});
-            }
+                animation.TryStart(CoverIMG);
+            if (animation_info != null)
+                animation_info.TryStart(LogoAndTitle, new UIElement[] {  PlayArea, Info, PlayBackList });
+               
+            CoverIMG.Visibility = Visibility.Visible;
+            PlayArea.Visibility = Visibility.Visible;
             int count_ = 0;
             try
             {

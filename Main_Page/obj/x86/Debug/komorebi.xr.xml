@@ -199,7 +199,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="RightTapped" />
-      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Main_Page.Pages.AudioPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
@@ -225,6 +224,7 @@
       <RootProperty Name="FontFamily" />
       <RootEvent Name="ItemClick" />
       <RootEvent Name="SelectionChanged" />
+      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutSeparator" />
     <RootType FullName="Main_Page.Pages.DOC_MAIN" />

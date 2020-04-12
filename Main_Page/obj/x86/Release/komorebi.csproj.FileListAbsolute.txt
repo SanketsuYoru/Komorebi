@@ -367,6 +367,7 @@ D:\Code\20200412\Main_Page\obj\x86\Release\Microsoft.Toolkit.Uwp.Notifications.p
 D:\Code\20200412\Main_Page\obj\x86\Release\komorebi.exe
 D:\Code\20200412\Main_Page\obj\x86\Release\komorebi.pdb
 D:\Code\20200412\Main_Page\obj\x86\Release\ResourceHandlingTask.state
+D:\Code\20200412\Main_Page\obj\x86\Release\Microsoft.Data.Sqlite\en-US\Microsoft.Data.Sqlite.Properties.Resources.resw
 D:\Code\20200412\Main_Page\obj\x86\Release\priconfig.xml
 D:\Code\20200412\Main_Page\obj\x86\Release\priconfig.xml.intermediate
 D:\Code\20200412\Main_Page\obj\x86\Release\unfiltered.layout.resfiles

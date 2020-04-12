@@ -199,7 +199,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="RightTapped" />
-      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Main_Page.Pages.AudioPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
@@ -337,7 +336,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemsPanel" />
-      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />

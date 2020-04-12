@@ -46,11 +46,36 @@ namespace Main_Page.Pages
         }
 
 
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            if (e.NavigationMode == NavigationMode.Back)
+            {
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationMedia", img_dispaly);
+                // Use the recommended configuration for back animation.
+                animation.Configuration = new DirectConnectedAnimationConfiguration();
+/*                ConnectedAnimation animationinfo =
+                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc_info", img_dispaly);
+                // Use the recommended configuration for back animation.
+                animationinfo.Configuration = new DirectConnectedAnimationConfiguration();*/
+            }
+        }
+
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             
             Item_ = (Items)e.Parameter;
+            img_dispaly.Visibility = Visibility.Collapsed;
             img_dispaly.Source = await BitmapProcess(Item_.StorageFile_);
+            
+            ConnectedAnimation animation =
+    ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation");
+            if (animation != null )
+            {
+                animation.TryStart(img_dispaly );
+                
+            }
+            img_dispaly.Visibility = Visibility.Visible;
         }
 
         private void ShareRequested(DataTransferManager sender, DataRequestedEventArgs args)

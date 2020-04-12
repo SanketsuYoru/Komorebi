@@ -89,6 +89,21 @@ namespace Main_Page.Models
     public static class UserSettings {
         public static string PrimaryLanguage;
        public static ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+        public static double GetVolume() {
+            double Volume = 0;
+            try
+            {
+                Volume = Convert.ToDouble((UserSettings.localSettings.Values["Volume"]).ToString());
+            }
+            catch (System.NullReferenceException)
+            {
+                UserSettings.localSettings.Values["Volume"] = "0.5";
+            }
+
+            return Volume;
+        }
+
+
         public static int GetMaxNumber()
         {
             var MaxNumber = 0;
@@ -274,12 +289,13 @@ namespace Main_Page.Models
 
         public static class ItemAccess
     {
-        
+        public static Items itemforbackanimation;
         public static string Exception_ ="";
         public static bool NeedNav = false;
         public static bool SettingChanged = false;
         public static bool Noticed = false;
         public static bool Refreshing = false;
+        //public static bool Refreshed = true;
         public static bool Cache_flag = false;
         public static bool End_sort = false;
         public static ObservableCollection<StorageFile> Cache= new ObservableCollection<StorageFile>();
@@ -310,6 +326,88 @@ namespace Main_Page.Models
             await ItemAccess.RecentShowItemAsync();
             await ItemAccess.SortAsync();
             Refreshing = false;
+            //Refreshed = true;
+        }
+
+        public static async Task<StorageFile> GetnextFileAsync(string PorN, Items source)
+        {
+            var temp = source;
+            var filetype = FileType_check(source.StorageFile_);
+            int currentIndex = 0;
+            for (int i = 0; i < ItemAccess.Cache.Count; i++)
+            {
+                    if (source.StorageFile_.Name== ItemAccess.Cache[i].Name)
+                    {
+                        currentIndex = i;
+                    break;
+                    }
+            }
+
+            if (PorN == "Preview")
+            {
+                try
+                {
+                    for (int i = currentIndex-1; i >=0; i--)
+                    {
+                        if (FileType_check(ItemAccess.Cache[i]) == filetype)
+                        {
+                            if (source.StorageFile_.Name == ItemAccess.Cache[i].Name)
+                            {
+                                i++;
+                                continue;
+                            }
+                            Debug.WriteLine("currentIndex" + currentIndex);
+                            Debug.WriteLine("Next i" + i);
+                            Debug.WriteLine("Pre" + ItemAccess.Cache[i].Name);
+                            return ItemAccess.Cache[i];
+                        }
+                    }
+                }
+                catch (Exception e1)
+                {
+                    //TODO: 保存用户数据
+                    await new ContentDialog
+                    {
+                        Title = "Error Occored",
+                        Content = e1.Message,
+                        CloseButtonText = "Closed",
+                        DefaultButton = ContentDialogButton.Close
+                    }.ShowAsync();
+                }
+            }
+            else
+            {
+                try
+                {
+                    for (int i = currentIndex+1; i < ItemAccess.Cache.Count; i++)
+                    {
+                        if (FileType_check(ItemAccess.Cache[i]) == filetype)
+                        {
+                            if (source.StorageFile_.Name == ItemAccess.Cache[i].Name)
+                            {
+                                i++;
+                                continue;
+                            }
+                            Debug.WriteLine("currentIndex" + currentIndex);
+                            Debug.WriteLine("Next i" + i);
+                            Debug.WriteLine("Next item" + ItemAccess.Cache[i].Name);
+                            return ItemAccess.Cache[i];
+                        }
+                    }
+                }
+                catch (Exception e1)
+                {
+                    //TODO: 保存用户数据
+                    await new ContentDialog
+                    {
+                        Title = "Error Occored",
+                        Content = e1.Message,
+                        CloseButtonText = "Closed",
+                        DefaultButton = ContentDialogButton.Close
+                    }.ShowAsync();
+                }
+            }
+            return source.StorageFile_;
         }
 
         public static string FileType_check(StorageFile inputFile)
@@ -383,11 +481,11 @@ namespace Main_Page.Models
             Cache_Recent_Media.Clear();
             Cache_Recent_Music.Clear();
             Cache_Processed_Today.Clear();
-            Debug.WriteLine(" Sort_in");
+/*            Debug.WriteLine(" Sort_in");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
             MaxNumber = UserSettings.GetMaxNumber();
             try {
                 for (int i = 0; i < ItemAccess.Cache.Count; i++)
@@ -446,11 +544,11 @@ namespace Main_Page.Models
                     }
                     // if (Cache_Processed_Today.Count > 0) ;
                     //Notifications_.Notifications_Tocast(Cache_Processed_Today[0].StorageFile_);
-                    Debug.WriteLine(" Sort_out");
+/*                    Debug.WriteLine(" Sort_out");
                     Debug.WriteLine(ItemAccess.Cache.Count);
                     Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
                     Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-                    Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+                    Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
                 }
             }
             catch {
@@ -473,11 +571,11 @@ namespace Main_Page.Models
             Cache_Recent_Media.Clear();
             Cache_Recent_Music.Clear();
             Cache_Processed_Today.Clear();
-            Debug.WriteLine(" Sort_in");
+/*            Debug.WriteLine(" Sort_in");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
             MaxNumber = UserSettings.GetMaxNumber();
              var inputFiles = new ObservableCollection<StorageFile>();
             foreach (var input in ItemAccess.Cache) {
@@ -487,11 +585,11 @@ namespace Main_Page.Models
             }
             while (inputFiles.Count != 0 && !End_sort)
             {
-                Debug.WriteLine(" Sorting");
+/*                Debug.WriteLine(" Sorting");
                 Debug.WriteLine(ItemAccess.Cache.Count);
                 Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
                 Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-                Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+                Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
                 StorageFile inputFile = inputFiles.LastOrDefault();
                 for (int i = inputFiles.Count - 1; i >= 0; i--)
                 {
@@ -545,11 +643,11 @@ namespace Main_Page.Models
             inputFiles.Clear();
            // if (Cache_Processed_Today.Count > 0) ;
             //Notifications_.Notifications_Tocast(Cache_Processed_Today[0].StorageFile_);
-            Debug.WriteLine(" Sort_out");
+/*            Debug.WriteLine(" Sort_out");
             Debug.WriteLine(ItemAccess.Cache.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Media.Count);
             Debug.WriteLine(ItemAccess.Cache_Processed_Doc.Count);
-            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);
+            Debug.WriteLine(ItemAccess.Cache_Processed_File.Count);*/
 
         }
 
@@ -580,7 +678,7 @@ namespace Main_Page.Models
             }
 
             await source.SetBitmapAsync(softwareBitmap);
-            softwareBitmap.Dispose();//如果有机器慢的话就删除这句
+           // softwareBitmap.Dispose();//如果有机器慢的话就删除这句
             return source;
         }
 

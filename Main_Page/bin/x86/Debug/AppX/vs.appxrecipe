@@ -19,24 +19,24 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Code\20200412\Main_Page\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>8A0A66428AC80F77447706B647C8E4B7302975DD9DB0CC06B61479D44FA85762</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.18.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>AFA9541BC7261EF29601F85F97E665485780063D0B15D0B0C3E0D7C906ACD1AF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.25.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>db33832f-b264-4d50-9fda-9db2717b763c_bhgmfpab5cpbp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>db33832f-b264-4d50-9fda-9db2717b763c</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=SANKETSU, C=CN</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.18.0</RegisteredVersion>
+    <RegisteredVersion>1.0.25.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-12T11:59:19.674</Modified>
+      <Modified>2020-04-12T19:00:32.415</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\komorebi.exe">
       <PackagePath>entrypoint\komorebi.exe</PackagePath>
-      <Modified>2020-04-12T11:59:18.580</Modified>
+      <Modified>2020-04-12T19:00:31.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.data.sqlite.core\2.2.4\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
       <PackagePath>DataAccessLibrary.dll</PackagePath>
-      <Modified>2020-04-12T11:01:10.901</Modified>
+      <Modified>2020-04-12T15:49:33.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -80,7 +80,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Models\Items.cs">
       <PackagePath>Models\Items.cs</PackagePath>
-      <Modified>2020-04-12T11:52:24.663</Modified>
+      <Modified>2020-04-12T19:00:27.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905015251403_easyicon_net_512.bmp</PackagePath>
@@ -447,71 +447,71 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\komorebi.xr.xml">
       <PackagePath>komorebi.xr.xml</PackagePath>
-      <Modified>2020-04-12T10:57:45.325</Modified>
+      <Modified>2020-04-12T14:20:12.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.205</Modified>
+      <Modified>2020-04-12T18:53:23.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.205</Modified>
+      <Modified>2020-04-12T18:53:23.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\AudioPage.xbf">
       <PackagePath>Pages\SubPages\AudioPage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.124</Modified>
+      <Modified>2020-04-12T18:53:23.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\MainDoc.xbf">
       <PackagePath>Pages\MainPages\MainDoc.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.205</Modified>
+      <Modified>2020-04-12T18:53:23.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\Sittings.xbf">
       <PackagePath>Pages\Others\Sittings.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.137</Modified>
+      <Modified>2020-04-12T18:53:23.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\Graphics.xbf">
       <PackagePath>Pages\SubPages\Graphics.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\GuidePage.xbf">
       <PackagePath>Pages\Others\GuidePage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\FilePage.xbf">
       <PackagePath>Pages\SubPages\FilePage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\FileMain.xbf">
       <PackagePath>Pages\MainPages\FileMain.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\DefultMain.xbf">
       <PackagePath>Pages\MainPages\DefultMain.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.178</Modified>
+      <Modified>2020-04-12T18:53:23.365</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\MediaPage.xbf">
       <PackagePath>Pages\SubPages\MediaPage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\MediaMain.xbf">
       <PackagePath>Pages\MainPages\MediaMain.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\SearchResult.xbf">
       <PackagePath>Pages\Others\SearchResult.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.206</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\SearchPage.xbf">
       <PackagePath>Pages\Others\SearchPage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.207</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\Today_NewFile.xbf">
       <PackagePath>Pages\Others\Today_NewFile.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.207</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-12T11:59:18.207</Modified>
+      <Modified>2020-04-12T18:53:23.393</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -527,11 +527,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-12T11:42:06.326</Modified>
+      <Modified>2020-04-12T17:35:03.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Core\komorebi.exe">
       <PackagePath>komorebi.exe</PackagePath>
-      <Modified>2020-04-12T11:59:19.669</Modified>
+      <Modified>2020-04-12T19:00:32.407</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

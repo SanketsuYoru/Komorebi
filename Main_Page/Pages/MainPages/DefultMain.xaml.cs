@@ -38,13 +38,13 @@ namespace Main_Page.Pages
     {
         DispatcherTimer _timer = new DispatcherTimer();//定义定时器
         DispatcherTimer ProgressBar_timer = new DispatcherTimer();//定义定时器
-        Image Img_mc = new Image();
         Items item_;
         public MAIN_Page1()
         {
 
             this.InitializeComponent();
             //Timer
+            comlpeteEvents += refreshComplete;
             _timer.Interval = TimeSpan.FromSeconds(4.5);
             _timer.Tick += ChangeImage_MainFlip;
             _timer.Tick += ChangeImage_Music;
@@ -77,8 +77,8 @@ namespace Main_Page.Pages
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            REFLASH.IsEnabled = true;
 
-           
             //  UserSettings.localSettings.Values["firstOpen998"] = "opened";
         }
 
@@ -86,8 +86,11 @@ namespace Main_Page.Pages
 
         private void ChangeImage_MainFlip(object sender, object e)
         {
-            try
+            if (povit_main.SelectedIndex == 0)
             {
+                //MainFlip.
+                try
+                {
                 if (MainFlip.Items != null && MainFlip.Items.Count > 1 && MainFlip.SelectedIndex < MainFlip.Items.Count - 1)
                 {
                     MainFlip.SelectedIndex++;
@@ -100,32 +103,38 @@ namespace Main_Page.Pages
                         MainFlip.SelectedIndex--;
                 }
             }
-            catch (Exception)
+            catch (Exception e1)
             {
-                Debug.WriteLine("主页，图片切换异常");
+                Debug.WriteLine("主页，图片切换异常"+ e1.ToString());
             }
+
         }
+    }
 
         private void ChangeImage_Music(object sender, object e)
         {
-            try
+            if (povit_main.SelectedIndex == 0)
             {
+                try
+                {
 
-                if (MUSIC.Items != null && MUSIC.Items.Count > 1 && MUSIC.SelectedIndex < MUSIC.Items.Count - 1)
-                {
-                    MUSIC.SelectedIndex++;
-                    progressBar_Main.Visibility = Visibility.Collapsed;
+                    if (MUSIC.Items != null && MUSIC.Items.Count > 1 && MUSIC.SelectedIndex < MUSIC.Items.Count - 1)
+                    {
+                        MUSIC.SelectedIndex++;
+                        if (progressBar_Main.Visibility == Visibility.Visible && progressBar_Main != null)
+                            progressBar_Main.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        MUSIC.SelectedIndex = 0;
+                    }
                 }
-                else
+                catch (Exception)
                 {
-                    MUSIC.SelectedIndex = 0;
+                    Debug.WriteLine("主页，图片切换异常");
                 }
             }
-            catch (Exception)
-            {
-                Debug.WriteLine("主页，图片切换异常");
             }
-        }
 
 
         private void ShareRequested(DataTransferManager sender, DataRequestedEventArgs args)
@@ -155,34 +164,23 @@ namespace Main_Page.Pages
 
 
         private void ProgressCheck(object sender, object e) {
-            if (ItemAccess.Cache.Count != 0) {
-                if (!Refreshing)
-                {
-                    Progress.Text = 100 + "%";
-                    ScanPbar.Value = 100;
-                }
-                else
-                {
                 var Value_ = (((double)ItemAccess.Cache.Count / (double)UserSettings.GetMaxNumber()) * 100);
                 ScanPbar.Value = Value_;
                 Progress.Text = ScanPbar.Value.ToString()+"%";
-                }
-            }
-                //ScanPbar.Value =100;
-               
-            else
-                ScanPbar.Value = 0;
-            if (!Refreshing)
-            {
-                REFLASH.IsEnabled = true;
-                //ProgressBar_timer.Stop();
-            }
-              
+        }
+
+        private void refreshComplete() {
+            ProgressBar_timer.Tick -= ProgressCheck;
+            REFLASH.IsEnabled = true;
+            Progress.Text = 100 + "%";
+            ScanPbar.Value = 100;
+            progressBar_Main.Visibility = Visibility.Collapsed;
+            if (ItemAccess.Cache.Count == 0)
+                Frame.Navigate(typeof(Pages.GUIDE_page));
         }
 
         private  void Page_Loaded(object sender, RoutedEventArgs e)
         {
-
             ProgressBar_timer.Start();
             _timer.Start();
             //progressBar_Main.Value = ItemAccess.Cache.Count/ItemAccess.Cache_Processed.Count;
@@ -195,21 +193,37 @@ namespace Main_Page.Pages
         private void Source__ItemClick(object sender, ItemClickEventArgs e)
         {
            // ItemAccess.NeedNav = "All_New";
-            var item_in = (Items)e.ClickedItem;
-            var type_in = ItemAccess.FileType_check(item_in.StorageFile_);
+            item_ = (Items)e.ClickedItem;
+            var type_in = ItemAccess.FileType_check(item_.StorageFile_);
             switch (type_in)
             {
 
                 case "Picture":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation", temp, "CoverIMG");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.Graphics), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.Graphics), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 case "Video":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation", temp, "CoverIMG");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.MediaPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.MediaPage), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 case "Music":
@@ -219,6 +233,7 @@ namespace Main_Page.Pages
                         {
                             var temp = contatiner.Content as Items;
                             Source_.PrepareConnectedAnimation("forwardAnimation_mc", temp, "CoverIMG");
+                            Source_.PrepareConnectedAnimation("forwardAnimation_mcinfo", temp, "infoStackPanel");
                             // MUSIC.PrepareConnectedAnimation
                             //("forwardAnimation", temp, "MusicSourceImg");
                         }
@@ -226,14 +241,14 @@ namespace Main_Page.Pages
 
 
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.AudioPage), item_, new SuppressNavigationTransitionInfo());
                         //Frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 default:
                     {
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.ItemPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.ItemPage), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
             }
@@ -367,10 +382,6 @@ namespace Main_Page.Pages
             }
         }
 
-        private void Adap_stackpanel_Loaded(object sender, RoutedEventArgs e)
-        {
-            progressBar_Main.Visibility = Visibility.Collapsed;
-        }
 
         private async void RefreshContainer_RefreshRequested(RefreshContainer sender, RefreshRequestedEventArgs args)
         {
@@ -425,37 +436,40 @@ namespace Main_Page.Pages
 
         private void MainFlip_Tapped(object sender, TappedRoutedEventArgs e)
         {
-            var item_in = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
-            var type_in = ItemAccess.FileType_check(item_in.StorageFile_);
+            item_ = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
+            var type_in = ItemAccess.FileType_check(item_.StorageFile_);
             switch (type_in)
             {
 
                 case "Picture":
                     {
+                        ConnectedAnimation animation =
+            ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation", MainFlip);
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.Graphics), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.Graphics), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 case "Video":
                     {
+                        ConnectedAnimation animation =
+            ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation", MainFlip);
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.MediaPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.MediaPage), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
                 case "Music":
                     {
-
                         ConnectedAnimation animation =
-            ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation_mc", Img_mc);
+            ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation_mc", MUSIC);
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.AudioPage), item_, new SuppressNavigationTransitionInfo());
                         /*Frame.Navigate(typeof(Pages.AudioPage), item_in, new SuppressNavigationTransitionInfo());*/
                         break;
                     }
                 default:
                     {
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.ItemPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.ItemPage), item_, new SuppressNavigationTransitionInfo());
                         break;
                     }
             }
@@ -513,14 +527,96 @@ namespace Main_Page.Pages
             _timer.Stop();
         }
 
-        private void MUSIC_Loaded(object sender, RoutedEventArgs e)
+        private async void Source__LoadedAsync(object sender, RoutedEventArgs e)
         {
+            var Animationkey = "other";
+            //ContactsItem item = GetPersistedItem(); // Get persisted item
+            if (item_ != null)
+            {
+                Source_.ScrollIntoView(item_);
+                switch (FileType_check( item_.StorageFile_))
+                {
+                    case "Music":
+                        Animationkey = "backAnimationmc";
+                        break;
+                    case "Picture":
+                        Animationkey = "backAnimationMedia";
+                        break;
+                    case "Video":
+                        Animationkey = "backAnimationMedia";
+                        break;
+                    case "Doc":
+                        Animationkey = "other";
+                        break;
+                    default:
+                        Animationkey = "other";
+                        break;
+                }
 
+
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey);
+                ConnectedAnimation animation_info =
+    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey+"_info");
+                if (animation != null && povit_main.SelectedIndex == 1)
+                {
+                    await Source_.TryStartConnectedAnimationAsync(
+                        animation, item_, "CoverIMG");
+                }
+
+                if (animation_info != null && povit_main.SelectedIndex == 1)
+                {
+                    await Source_.TryStartConnectedAnimationAsync(
+     animation_info, item_, "infoStackPanel");
+                }
+            }
+        }
+
+        private async void MUSIC_LoadedAsync(object sender, RoutedEventArgs e)
+        {
+            if (item_ != null)
+            {
+                MUSIC.SelectedItem=item_;
+               if( FileType_check(item_.StorageFile_)=="Music")
+                {
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc");
+                ConnectedAnimation animation_info =
+                    ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc_info");
+                if (animation != null&& povit_main.SelectedIndex ==0)
+                {
+                    animation.TryStart(MUSIC);
+                    
+                }
+                if (animation_info != null && povit_main.SelectedIndex == 0)
+                {
+                    animation_info.TryStart(MUSIC);
+                }
+                }
+            }
+        }
+
+        private void MainFlip_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (item_ != null)
+            {
+                var filetype = FileType_check(item_.StorageFile_);
+                if (filetype == "Picture" || filetype == "Video")
+                {
+                    ConnectedAnimation animation =
+                        ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationMedia");
+                    if (animation != null && povit_main.SelectedIndex == 0)
+                    {
+                        animation.TryStart(MainFlip);
+
+                    }
+                }
+            }
         }
 
         private void MusicSourceImg_Loaded(object sender, RoutedEventArgs e)
         {
-            Img_mc = sender as Image;
+
         }
     }
  }

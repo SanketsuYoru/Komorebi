@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
 using static Main_Page.Models.UserSettings;
@@ -67,14 +68,37 @@ namespace Main_Page.Pages
             request.Data.RequestedOperation = DataPackageOperation.Link;
             deferral.Complete();
         }
+        protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
+        {
+            if (e.NavigationMode == NavigationMode.Back)
+            {
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationMedia", Media_in);
+                // Use the recommended configuration for back animation.
+                animation.Configuration = new DirectConnectedAnimationConfiguration();
+                /*                ConnectedAnimation animationinfo =
+                                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc_info", img_dispaly);
+                                // Use the recommended configuration for back animation.
+                                animationinfo.Configuration = new DirectConnectedAnimationConfiguration();*/
+            }
+        }
 
         protected override  void OnNavigatedTo(NavigationEventArgs e)
         {
 
             var Items_in = (Items)e.Parameter;
             Item_ = Items_in;
+            Media_in.Visibility = Visibility.Collapsed;
             Media_in.Source =  ItemAccess.MediaProcess(Items_in.StorageFile_);
-        }
+
+            ConnectedAnimation animation =
+   ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation");
+            if (animation != null)
+            {
+                animation.TryStart(Media_in);
+            }
+            Media_in.Visibility = Visibility.Visible;
+    }
 
         private void Page_Unloaded(object sender, RoutedEventArgs e)
         {

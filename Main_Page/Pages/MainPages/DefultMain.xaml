@@ -189,6 +189,7 @@
                                         <FlipView x:Name="MainFlip" 
                             Width="800" Height="460"  
                             Margin="0,10,0,0"
+                            Loaded="MainFlip_Loaded"
                             ItemsSource="{x:Bind data:ItemAccess.Cache_Recent_Media,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" BorderBrush="#FFD6DDE6" BorderThickness="0.5">
                                             <FlipView.Background>
                                                 <ImageBrush ImageSource="/Assets/20190905015251403_easyicon_net_512.bmp" Stretch="Uniform"/>
@@ -246,11 +247,11 @@
                                     </StackPanel>
                                     <StackPanel x:Name="stackPanel1">
                                         <StackPanel x:Name="Music">
-                                            <TextBlock Text="音乐"  x:Uid="MAIN_Page1_Povit1_Music" Margin="5,0,0,0" FontSize="18"></TextBlock>
+                                            <TextBlock Text="音乐"   x:Uid="MAIN_Page1_Povit1_Music" Margin="5,0,0,0" FontSize="18"></TextBlock>
                                             <FlipView x:Name="MUSIC" 
                                                       Width="250" Height="250"  
                                                       Margin="5,10,0,0"
-                                                      Loaded="MUSIC_Loaded"
+                                                      Loaded="MUSIC_LoadedAsync"
                                                       ItemsSource="{x:Bind data:ItemAccess.Cache_Recent_Music,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" BorderBrush="#FFD6DDE6" BorderThickness="0.5">
                                                 <FlipView.Background>
                                                     <ImageBrush ImageSource="/Assets/20190905020244418_easyicon_net_512.bmp" Stretch="Uniform"></ImageBrush>
@@ -306,7 +307,7 @@
                                                                 </MenuFlyout>
                                                             </FlyoutBase.AttachedFlyout>
                                                             <RelativePanel>
-                                                                <Image Loaded="MusicSourceImg_Loaded" x:Name="MusicSourceImg" Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
+                                                                <Image x:Name="MusicSourceImg"  Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></Image>
                                                                 <Rectangle  Height="40" Width="400" RelativePanel.AlignBottomWithPanel="True"  Margin="0,0,0,0">
                                                                     <Rectangle.Fill>
                                                                         <SolidColorBrush Color="{ThemeResource  SystemAltMediumColor}" >
@@ -435,12 +436,12 @@
                     <GridView 
                      Margin="0,0,0,0"
                      Name="Source_"  
-                     ItemsSource="{x:Bind data:ItemAccess.Cache_Processed,Mode=OneWay}" 
+                     ItemsSource="{x:Bind data:ItemAccess.Cache_Processed,Mode=TwoWay}" 
                      ItemClick="Source__ItemClick"
-                     IsItemClickEnabled="True"  SelectionMode="Single"  SelectionChanged="Source__SelectionChanged" VerticalAlignment="Center" HorizontalAlignment="Center">
+                     IsItemClickEnabled="True" Loaded="Source__LoadedAsync"  SelectionMode="Single"  SelectionChanged="Source__SelectionChanged" VerticalAlignment="Center" HorizontalAlignment="Center">
                         <GridView.ItemTemplate  >
                             <DataTemplate  x:Name="DataT" x:DataType="data:Items"  >
-                                <StackPanel Margin="10,0,10,10" Name="adap_stackpanel"  Width="328"  Height="232"  RightTapped="Source__RightTapped" Loaded="Adap_stackpanel_Loaded">
+                                <StackPanel Margin="10,0,10,10" Name="adap_stackpanel"  Width="328"  Height="232"  RightTapped="Source__RightTapped" >
                                     <FlyoutBase.AttachedFlyout>
                                         <MenuFlyout Opened="MenuFlyout_Opened">
                                             <MenuFlyoutItem Text="复制" x:Uid="Flyout_Copy" Click="MenuFlyoutItem_Click_Copy">
@@ -489,10 +490,12 @@
                                         </MenuFlyout>
                                     </FlyoutBase.AttachedFlyout>
                                     <Image Name="CoverIMG"  Width="288" Height="162" Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Phase="2"></Image>
+                                    <StackPanel x:Name="infoStackPanel">
                                     <TextBlock Name="NameBolck" FontSize="16"  Text="{x:Bind Name }" x:Phase="1"   ></TextBlock>
                                     <TextBlock FontSize="10" Name="Date_" Text="{x:Bind Date }" x:Phase="1"></TextBlock>
                                     <TextBlock FontSize="10" Name="Type_" Text="{x:Bind Type }" x:Phase="1"></TextBlock>
                                     <TextBlock FontSize="10" Name="Size_" Text="{x:Bind Size }" x:Phase="1"></TextBlock>
+                                </StackPanel>
                                 </StackPanel>
                             </DataTemplate>
                         </GridView.ItemTemplate>

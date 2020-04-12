@@ -35,6 +35,7 @@
         <RefreshContainer x:Name="RefreshContainer" RefreshRequested="RefreshContainer_RefreshRequested">
             <GridView 
             Name="Source_"  
+                Loaded="Source__LoadedAsync"
                   ItemsSource="{x:Bind data:ItemAccess.Cache_Processed_Media,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
                   ItemClick="Source__ItemClick"
                   IsItemClickEnabled="True"  SelectionMode="Single" SelectionChanged="Source__SelectionChanged"
@@ -92,10 +93,12 @@
                                 </MenuFlyout>
                             </FlyoutBase.AttachedFlyout>
                             <Image Name="CoverIMG"  Width="288" Height="162" Source="{x:Bind AccessSource}"  VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Phase="2"></Image>
+                            <StackPanel x:Name="infoStackPanel">
                             <TextBlock Name="NameBolck" FontSize="16"  Text="{x:Bind Name }" x:Phase="1"   ></TextBlock>
                             <TextBlock FontSize="10" Name="Date_" Text="{x:Bind Date }" x:Phase="1"></TextBlock>
                             <TextBlock FontSize="10" Name="Type_" Text="{x:Bind Type }" x:Phase="1"></TextBlock>
                             <TextBlock FontSize="10" Name="Size_" Text="{x:Bind Size }" x:Phase="1"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
                     </DataTemplate>
                 </GridView.ItemTemplate>

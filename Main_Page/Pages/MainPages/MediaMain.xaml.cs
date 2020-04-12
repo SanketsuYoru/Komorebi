@@ -88,33 +88,58 @@ namespace Main_Page.Pages
         private void Source__ItemClick(object sender, ItemClickEventArgs e)
         {
           //  ItemAccess.NeedNav = "Media";
-            var item_in = (Items)e.ClickedItem;
-            var type_in = ItemAccess.FileType_check(item_in.StorageFile_);
+            item_ = (Items)e.ClickedItem;
+            var type_in = ItemAccess.FileType_check(item_.StorageFile_);
             switch (type_in)
             {
 
                 case "Picture":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation", temp, "CoverIMG");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.Graphics), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.Graphics), item_, new DrillInNavigationTransitionInfo());
                         break;
                     }
                 case "Video":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation", temp, "CoverIMG");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.MediaPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.MediaPage), item_, new DrillInNavigationTransitionInfo());
                         break;
                     }
                 case "Music":
                     {
+                        var contatiner = Source_.ContainerFromItem(e.ClickedItem) as GridViewItem;
+                        if (contatiner != null)
+                        {
+                            var temp = contatiner.Content as Items;
+                            Source_.PrepareConnectedAnimation("forwardAnimation_mc", temp, "CoverIMG");
+                            Source_.PrepareConnectedAnimation("forwardAnimation_mcinfo", temp, "infoStackPanel");
+                            // MUSIC.PrepareConnectedAnimation
+                            //("forwardAnimation", temp, "MusicSourceImg");
+                        }
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.AudioPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.AudioPage), item_, new DrillInNavigationTransitionInfo());
                         break;
                     }
                 default:
                     {
                         Frame frame = Window.Current.Content as Frame;
-                        frame.Navigate(typeof(Pages.ItemPage), item_in, new DrillInNavigationTransitionInfo());
+                        frame.Navigate(typeof(Pages.ItemPage), item_, new DrillInNavigationTransitionInfo());
                         break;
                     }
             }
@@ -125,6 +150,48 @@ namespace Main_Page.Pages
             ((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
         }
 
+
+        private async void Source__LoadedAsync(object sender, RoutedEventArgs e)
+        {
+            var Animationkey = "other";
+            //ContactsItem item = GetPersistedItem(); // Get persisted item
+            if (item_ != null)
+            {
+                Source_.ScrollIntoView(item_);
+                switch (FileType_check(item_.StorageFile_))
+                {
+                    case "Music":
+                        Animationkey = "backAnimationmc";
+                        break;
+                    case "Picture":
+                        Animationkey = "backAnimationMedia";
+                        break;
+                    case "Video":
+                        Animationkey = "backAnimationMedia";
+                        break;
+                    default:
+                        Animationkey = "other";
+                        break;
+                }
+
+
+                ConnectedAnimation animation =
+                    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey);
+                ConnectedAnimation animation_info =
+    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey + "_info");
+                if (animation != null)
+                {
+                    await Source_.TryStartConnectedAnimationAsync(
+                        animation, item_, "CoverIMG");
+                }
+
+                if (animation_info != null)
+                {
+                    await Source_.TryStartConnectedAnimationAsync(
+     animation_info, item_, "infoStackPanel");
+                }
+            }
+        }
 
         private async void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
         {

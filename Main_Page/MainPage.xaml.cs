@@ -124,11 +124,11 @@ namespace Main_Page
                     }.ShowAsync();
                 }
             }
-            if (ItemAccess.Cache.Count == 0 && !Refreshing)
+            /*if (!Refreshing && ItemAccess.Cache.Count == 0)
             {
 
                 contentFrame.Navigate(typeof(Pages.GUIDE_page));
-            }
+            }*/
 
 
         }
