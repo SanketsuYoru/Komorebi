@@ -12,4 +12,160 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Add Some Folders.Text" xml:space="preserve">
+    <value>フォルダを追加</value>
+  </data>
+  <data name="FileAdd_Page_AppSettings.Text" xml:space="preserve">
+    <value>アプリの設定</value>
+  </data>
+  <data name="FileAdd_Page_Area.Text" xml:space="preserve">
+    <value>地域と国</value>
+  </data>
+  <data name="FileAdd_Page_Contact.Text" xml:space="preserve">
+    <value>問い合わせ先</value>
+  </data>
+  <data name="FileAdd_Page_Email.Text" xml:space="preserve">
+    <value>KomorenobiProject_2019@outlook.com</value>
+  </data>
+  <data name="FileAdd_Page_LanguageSettings.Text" xml:space="preserve">
+    <value>言語設定</value>
+  </data>
+  <data name="FileAdd_Page_Opensource.Text" xml:space="preserve">
+    <value>Open Source License</value>
+  </data>
+  <data name="FileAdd_Page_Povit1_AddFolder.Text" xml:space="preserve">
+    <value>フォルダーの追加</value>
+  </data>
+  <data name="FileAdd_Page_Povit1_DeleteFolder.Text" xml:space="preserve">
+    <value>フォルダーの削除</value>
+  </data>
+  <data name="FileAdd_Page_Povit1_Folder.Header" xml:space="preserve">
+    <value>フォルダー</value>
+  </data>
+  <data name="FileAdd_Page_Povit2_AOTM.Text" xml:space="preserve">
+    <value>Aways Open The Menu</value>
+  </data>
+  <data name="FileAdd_Page_Povit2_Preference.Header" xml:space="preserve">
+    <value>Preference</value>
+  </data>
+  <data name="FileAdd_Page_Povit2_SFL.Text" xml:space="preserve">
+    <value>表示できるファイルの数</value>
+  </data>
+  <data name="FileAdd_Page_Povit3_Confirm.Text" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="FileAdd_Page_Povit3_CTC.Text" xml:space="preserve">
+    <value>カスタムテーマの色</value>
+  </data>
+  <data name="FileAdd_Page_Povit3_TC.Text" xml:space="preserve">
+    <value>テーマ色</value>
+  </data>
+  <data name="FileAdd_Page_Povit3_Theme.Header" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="FileAdd_Page_Povit4_HelpAndSupport.Header" xml:space="preserve">
+    <value>Help And Support</value>
+  </data>
+  <data name="FileAdd_Page_Reference.Text" xml:space="preserve">
+    <value>参照</value>
+  </data>
+  <data name="FileAdd_Page_Settings.Title" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Flyout_Copy.Text" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Flyout_Delete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Flyout_Delete_SubFly_Confirm.CloseButtonText" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Flyout_Delete_SubFly_Confirm.PrimaryButtonText" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="Flyout_Delete_SubFly_Refuse" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Flyout_Delete_SubFly_Tip.Text" xml:space="preserve">
+    <value>これらのファイルを削除してもよろしいですか</value>
+  </data>
+  <data name="Flyout_MS.Text" xml:space="preserve">
+    <value>複数選択</value>
+  </data>
+  <data name="Flyout_OTF.Text" xml:space="preserve">
+    <value>フォルダを開く</value>
+  </data>
+  <data name="Flyout_Refresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Flyout_Share.Text" xml:space="preserve">
+    <value>共有</value>
+  </data>
+  <data name="Flyout_SS.Text" xml:space="preserve">
+    <value>単一選択</value>
+  </data>
+  <data name="GuidePage_PlaceHoldertext.Text" xml:space="preserve">
+    <value>ファイルが見つかりません。下のボタンから追加してください</value>
+  </data>
+  <data name="MainPage_Nav_Doc.Content" xml:space="preserve">
+    <value>ドキュメント</value>
+  </data>
+  <data name="MainPage_Nav_File.Content" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="MainPage_Nav_Find.Content" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="MainPage_Nav_Home.Content" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="MainPage_Nav_Media.Content" xml:space="preserve">
+    <value>メディア</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_Doc.Text" xml:space="preserve">
+    <value>ドキュメント</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_More.Text" xml:space="preserve">
+    <value>その他</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_Music.Text" xml:space="preserve">
+    <value>音楽</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_NewFiles.Text" xml:space="preserve">
+    <value>新しいファイル</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_Refresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_RPAV.Text" xml:space="preserve">
+    <value>最近の写真とビデオ</value>
+  </data>
+  <data name="MAIN_Page1_Povit1_Search.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="MAIN_Page1_Recent_All.Header" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="MAIN_Page1_Recent_Media.Header" xml:space="preserve">
+    <value>最近のメディア</value>
+  </data>
+  <data name="SearchResult_All.Header" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="SearchResult_Doc.Header" xml:space="preserve">
+    <value>Docment</value>
+  </data>
+  <data name="SearchResult_File.Header" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="SearchResult_Media.Header" xml:space="preserve">
+    <value>メディア</value>
+  </data>
+  <data name="Search_Page_HoldText.PlaceholderText" xml:space="preserve">
+    <value>何かを検索</value>
+  </data>
+  <data name="Search_Page_Search.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
 </root>

@@ -29429,6 +29429,14 @@ namespace Windows.UI.Xaml.Navigation
 			return __retVal;
 		}
 
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "NavigationMode")]
+		public global::Windows.UI.Xaml.Navigation.NavigationMode get_NavigationMode()
+		{
+			global::Windows.UI.Xaml.Navigation.NavigationMode __retVal = global::Windows.UI.Xaml.Navigation.INavigationEventArgs__Impl.Stubs.get_NavigationMode(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
 		public NavigationEventArgs(global::System.IntPtr dummy)
 		{
 		}
@@ -29484,6 +29492,9 @@ namespace Windows.UI.Xaml.Navigation
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Parameter")]
 		object get_Parameter();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "NavigationMode")]
+		global::Windows.UI.Xaml.Navigation.NavigationMode get_NavigationMode();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]

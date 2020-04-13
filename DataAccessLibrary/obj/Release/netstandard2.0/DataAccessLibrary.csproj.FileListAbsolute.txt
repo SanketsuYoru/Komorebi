@@ -45,3 +45,11 @@ D:\Code\20200412\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.
 D:\Code\20200412\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
 D:\Code\20200412\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.dll
 D:\Code\20200412\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20200413\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.deps.json
+D:\Code\20200413\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20200413\DataAccessLibrary\bin\Release\netstandard2.0\DataAccessLibrary.pdb
+D:\Code\20200413\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\Code\20200413\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfoInputs.cache
+D:\Code\20200413\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.AssemblyInfo.cs
+D:\Code\20200413\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.dll
+D:\Code\20200413\DataAccessLibrary\obj\Release\netstandard2.0\DataAccessLibrary.pdb

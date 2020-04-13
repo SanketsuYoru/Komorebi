@@ -190,9 +190,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Main_Page_TemporaryKey.pfx" />
-    <PRIResource Include="Strings\en-US\Resources.resw" />
-    <PRIResource Include="Strings\ja-JP\Resources.resw" />
     <PRIResource Include="Strings\zh-CN\Resources.resw" />
+    <PRIResource Include="Strings\ja-JP\Resources.resw" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\20190905015251403_easyicon_net_512.bmp" />
@@ -372,8 +372,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <XliffResource Include="MultilingualResources\Main_Page.ja-JP.xlf" />
-    <XliffResource Include="MultilingualResources\Main_Page.zh-CN.xlf" />
+    <XliffResource Include="MultilingualResources\komorebi.ja-JP.xlf" />
+    <XliffResource Include="MultilingualResources\komorebi.zh-CN.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

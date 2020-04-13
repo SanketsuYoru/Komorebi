@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="db33832f-b264-4d50-9fda-9db2717b763c" Publisher="CN=SANKETSU, C=CN" Version="1.0.27.0" ProcessorArchitecture="x86" />
+  <Identity Name="db33832f-b264-4d50-9fda-9db2717b763c" Publisher="CN=SANKETSU, C=CN" Version="1.0.30.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="db33832f-b264-4d50-9fda-9db2717b763c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Komorenobi_Project2019</DisplayName>

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>db33832f-b264-4d50-9fda-9db2717b763c</PackageIdentityName>
     <PackageIdentityPublisher>CN=SANKETSU, C=CN</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Code\20200412\Main_Page\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Code\20200413\Main_Page\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,25 +18,25 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Code\20200412\Main_Page\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>DC3C224090D3ABD5F5731D9D5E70A5083B4B4332D58CB604C50A13192399B05F</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.27.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
+    <LayoutDir>D:\Code\20200413\Main_Page\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6394C8D7F21D561804F0C08D2C1D22743051D66263E45E90386EFEC16913D50C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.30.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>db33832f-b264-4d50-9fda-9db2717b763c_bhgmfpab5cpbp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>db33832f-b264-4d50-9fda-9db2717b763c</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=SANKETSU, C=CN</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.27.0</RegisteredVersion>
+    <RegisteredVersion>1.0.30.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-13T02:53:30.343</Modified>
+      <Modified>2020-04-13T10:51:25.852</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\komorebi.exe">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\komorebi.exe">
       <PackagePath>entrypoint\komorebi.exe</PackagePath>
-      <Modified>2020-04-13T02:53:29.114</Modified>
+      <Modified>2020-04-13T10:44:02.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\I1661\.nuget\packages\microsoft.data.sqlite.core\2.2.4\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -70,448 +70,448 @@
       <PackagePath>SQLitePCLRaw.provider.winsqlite3.dll</PackagePath>
       <Modified>2019-01-24T07:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
+    <AppxPackagedFile Include="D:\Code\20200413\DataAccessLibrary\bin\Debug\netstandard2.0\DataAccessLibrary.dll">
       <PackagePath>DataAccessLibrary.dll</PackagePath>
-      <Modified>2020-04-12T15:49:33.825</Modified>
+      <Modified>2020-04-13T10:43:52.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T10:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Models\Items.cs">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Models\Items.cs">
       <PackagePath>Models\Items.cs</PackagePath>
       <Modified>2020-04-12T19:00:27.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\20190905015251403_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905015251403_easyicon_net_512.bmp</PackagePath>
       <Modified>2019-09-05T05:54:44.146</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\20190905020244418_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\20190905020244418_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905020244418_easyicon_net_512.bmp</PackagePath>
       <Modified>2019-09-05T06:09:27.091</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\20190905020427706_easyicon_net_512.bmp">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\20190905020427706_easyicon_net_512.bmp">
       <PackagePath>Assets\20190905020427706_easyicon_net_512.bmp</PackagePath>
       <Modified>2019-09-05T06:09:27.082</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo.scale-100.png">
       <PackagePath>Assets\AppStartlogo.scale-100.png</PackagePath>
       <Modified>2019-04-14T14:37:37.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo.scale-125.png">
       <PackagePath>Assets\AppStartlogo.scale-125.png</PackagePath>
       <Modified>2019-04-14T14:37:37.759</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo.scale-150.png">
       <PackagePath>Assets\AppStartlogo.scale-150.png</PackagePath>
       <Modified>2019-04-14T14:37:37.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo.scale-200.png">
       <PackagePath>Assets\AppStartlogo.scale-200.png</PackagePath>
       <Modified>2019-04-14T14:37:37.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo.scale-400.png">
       <PackagePath>Assets\AppStartlogo.scale-400.png</PackagePath>
       <Modified>2019-04-14T14:37:38.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.png">
       <PackagePath>Assets\AppStartlogo_.png</PackagePath>
       <Modified>2019-04-14T14:49:20.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.scale-100.png">
       <PackagePath>Assets\AppStartlogo_.scale-100.png</PackagePath>
       <Modified>2019-05-03T15:41:14.009</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.scale-125.png">
       <PackagePath>Assets\AppStartlogo_.scale-125.png</PackagePath>
       <Modified>2019-05-03T15:41:14.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.scale-150.png">
       <PackagePath>Assets\AppStartlogo_.scale-150.png</PackagePath>
       <Modified>2019-05-03T15:41:14.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.scale-200.png">
       <PackagePath>Assets\AppStartlogo_.scale-200.png</PackagePath>
       <Modified>2019-05-03T15:41:14.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\AppStartlogo_.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\AppStartlogo_.scale-400.png">
       <PackagePath>Assets\AppStartlogo_.scale-400.png</PackagePath>
       <Modified>2019-05-03T15:41:14.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\docs_53.375163398693px_1194915_easyicon.net.png">
       <PackagePath>Assets\docs_53.375163398693px_1194915_easyicon.net.png</PackagePath>
       <Modified>2019-09-05T05:35:55.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.141</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.178</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.427</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\music_105.60408684547px_1234881_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\music_105.60408684547px_1234881_easyicon.net.png">
       <PackagePath>Assets\music_105.60408684547px_1234881_easyicon.net.png</PackagePath>
       <Modified>2019-09-05T05:29:48.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\music_player_128px_1230170_easyicon.net.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\music_player_128px_1230170_easyicon.net.png">
       <PackagePath>Assets\music_player_128px_1230170_easyicon.net.png</PackagePath>
       <Modified>2019-09-05T05:58:36.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.716</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.730</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.756</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.799</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.901</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.610</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.500</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.401</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:34.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2019-02-14T06:33:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.950</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:33.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-10-04T05:53:32.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
       <PackagePath>Resources\BF942982C59CEBF2640D14CD6F9420CB.png</PackagePath>
       <Modified>2019-04-08T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2019-04-06T15:11:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Resources\timg %281%29.jpg">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Resources\timg %281%29.jpg">
       <PackagePath>Resources\timg %281%29.jpg</PackagePath>
       <Modified>2019-04-08T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\Resources\title.gif">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\Resources\title.gif">
       <PackagePath>Resources\title.gif</PackagePath>
       <Modified>2019-04-08T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\komorebi.xr.xml">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\komorebi.xr.xml">
       <PackagePath>komorebi.xr.xml</PackagePath>
       <Modified>2020-04-12T14:20:12.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.716</Modified>
+      <Modified>2020-04-13T10:49:30.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.716</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\AudioPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\SubPages\AudioPage.xbf">
       <PackagePath>Pages\SubPages\AudioPage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.646</Modified>
+      <Modified>2020-04-13T10:49:30.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\MainDoc.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\MainPages\MainDoc.xbf">
       <PackagePath>Pages\MainPages\MainDoc.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.716</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\Sittings.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\Others\Sittings.xbf">
       <PackagePath>Pages\Others\Sittings.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.658</Modified>
+      <Modified>2020-04-13T10:49:30.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\Graphics.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\SubPages\Graphics.xbf">
       <PackagePath>Pages\SubPages\Graphics.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.716</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\GuidePage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\Others\GuidePage.xbf">
       <PackagePath>Pages\Others\GuidePage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.716</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\FilePage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\SubPages\FilePage.xbf">
       <PackagePath>Pages\SubPages\FilePage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\FileMain.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\MainPages\FileMain.xbf">
       <PackagePath>Pages\MainPages\FileMain.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\DefultMain.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\MainPages\DefultMain.xbf">
       <PackagePath>Pages\MainPages\DefultMain.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.688</Modified>
+      <Modified>2020-04-13T10:49:30.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\SubPages\MediaPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\SubPages\MediaPage.xbf">
       <PackagePath>Pages\SubPages\MediaPage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\MainPages\MediaMain.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\MainPages\MediaMain.xbf">
       <PackagePath>Pages\MainPages\MediaMain.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\SearchResult.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\Others\SearchResult.xbf">
       <PackagePath>Pages\Others\SearchResult.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\SearchPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\Others\SearchPage.xbf">
       <PackagePath>Pages\Others\SearchPage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.717</Modified>
+      <Modified>2020-04-13T10:49:30.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Pages\Others\Today_NewFile.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Pages\Others\Today_NewFile.xbf">
       <PackagePath>Pages\Others\Today_NewFile.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.718</Modified>
+      <Modified>2020-04-13T10:49:30.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-13T02:53:28.718</Modified>
+      <Modified>2020-04-13T10:49:30.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -525,13 +525,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-06-07T03:59:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-12T19:41:52.915</Modified>
+      <Modified>2020-04-13T10:51:25.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Debug\Core\komorebi.exe">
+    <AppxPackagedFile Include="D:\Code\20200413\Main_Page\bin\x86\Debug\Core\komorebi.exe">
       <PackagePath>komorebi.exe</PackagePath>
-      <Modified>2020-04-13T02:53:30.336</Modified>
+      <Modified>2020-04-13T10:51:25.847</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

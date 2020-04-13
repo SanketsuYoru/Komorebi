@@ -1,6 +1,6 @@
-MainPackage=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.27.0_x64.msix
-SymbolPackage=D:\Code\20200412\Main_Page\obj\x64\Release\Symbols\komorebi_1.0.27.0_x64.appxsym
-ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.27.0_scale-100.msix
-ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.27.0_scale-125.msix
-ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.27.0_scale-150.msix
-ResourcePack=D:\Code\20200412\Main_Page\bin\x64\Release\komorebi_1.0.27.0_scale-400.msix
+MainPackage=D:\Code\20200413\Main_Page\bin\x64\Release\komorebi_1.0.30.0_x64.msix
+SymbolPackage=D:\Code\20200413\Main_Page\obj\x64\Release\Symbols\komorebi_1.0.30.0_x64.appxsym
+ResourcePack=D:\Code\20200413\Main_Page\bin\x64\Release\komorebi_1.0.30.0_scale-100.msix
+ResourcePack=D:\Code\20200413\Main_Page\bin\x64\Release\komorebi_1.0.30.0_scale-125.msix
+ResourcePack=D:\Code\20200413\Main_Page\bin\x64\Release\komorebi_1.0.30.0_scale-150.msix
+ResourcePack=D:\Code\20200413\Main_Page\bin\x64\Release\komorebi_1.0.30.0_scale-400.msix

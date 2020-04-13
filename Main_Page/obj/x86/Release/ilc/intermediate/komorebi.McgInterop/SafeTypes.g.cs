@@ -912,6 +912,29 @@ namespace Internal.Cryptography.Pal.Native
 		}
 	}
 
+	[global::System.Runtime.InteropServices.McgRedirectedType("Internal.Cryptography.Pal.Native.SafeCertContextHandleWithKeyContainerDeletion,System.Security.Cryptography.X509" +
+		"Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
+	public unsafe class SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates : global::System.Runtime.InteropServices.SafeHandle
+	{
+		public SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates() : 
+				base(default(global::System.IntPtr), false)
+		{
+		}
+
+		public override bool IsInvalid
+		{
+			get
+			{
+				return false;
+			}
+		}
+
+		protected override bool ReleaseHandle()
+		{
+			return false;
+		}
+	}
+
 	[global::System.Runtime.InteropServices.McgRedirectedType("Internal.Cryptography.Pal.Native.SafeCertStoreHandle,System.Security.Cryptography.X509Certificates, Version=4.2." +
 		"1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
 	public unsafe class SafeCertStoreHandle__System_Security_Cryptography_X509Certificates : global::System.Runtime.InteropServices.SafeHandle
@@ -940,29 +963,6 @@ namespace Internal.Cryptography.Pal.Native
 	public unsafe class SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates : global::System.Runtime.InteropServices.SafeHandle
 	{
 		public SafeCryptMsgHandle__System_Security_Cryptography_X509Certificates() : 
-				base(default(global::System.IntPtr), false)
-		{
-		}
-
-		public override bool IsInvalid
-		{
-			get
-			{
-				return false;
-			}
-		}
-
-		protected override bool ReleaseHandle()
-		{
-			return false;
-		}
-	}
-
-	[global::System.Runtime.InteropServices.McgRedirectedType("Internal.Cryptography.Pal.Native.SafeCertContextHandleWithKeyContainerDeletion,System.Security.Cryptography.X509" +
-		"Certificates, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
-	public unsafe class SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates : global::System.Runtime.InteropServices.SafeHandle
-	{
-		public SafeCertContextHandleWithKeyContainerDeletion__System_Security_Cryptography_X509Certificates() : 
 				base(default(global::System.IntPtr), false)
 		{
 		}
@@ -29429,6 +29429,14 @@ namespace Windows.UI.Xaml.Navigation
 			return __retVal;
 		}
 
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "NavigationMode")]
+		public global::Windows.UI.Xaml.Navigation.NavigationMode get_NavigationMode()
+		{
+			global::Windows.UI.Xaml.Navigation.NavigationMode __retVal = global::Windows.UI.Xaml.Navigation.INavigationEventArgs__Impl.Stubs.get_NavigationMode(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
 		public NavigationEventArgs(global::System.IntPtr dummy)
 		{
 		}
@@ -29484,6 +29492,9 @@ namespace Windows.UI.Xaml.Navigation
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Parameter")]
 		object get_Parameter();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "NavigationMode")]
+		global::Windows.UI.Xaml.Navigation.NavigationMode get_NavigationMode();
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]

@@ -3,35 +3,35 @@
   <CacheFile>
     <FileName>Strings\en-US\Resources.resw</FileName>
     <Checksum>12711810024410531872332172432441092938652</Checksum>
-    <ModifiedTime>2019-09-22T20:32:29.5897824</ModifiedTime>
+    <ModifiedTime>2020-04-13T18:41:32.3155772</ModifiedTime>
     <CacheFileType>NeutralResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
-    <FileName>MultilingualResources\Main_Page.ja-JP.xlf</FileName>
-    <Checksum>32185771752269123282118199422912218322205</Checksum>
-    <ModifiedTime>2020-04-12T19:24:15.6711082+08:00</ModifiedTime>
-    <CacheFileType>XliffResource</CacheFileType>
-    <WarningMessage />
-  </CacheFile>
-  <CacheFile>
-    <FileName>MultilingualResources\Main_Page.zh-CN.xlf</FileName>
-    <Checksum>1641981861075076123321041081938575310174</Checksum>
-    <ModifiedTime>2020-04-12T19:24:15.6940484+08:00</ModifiedTime>
+    <FileName>MultilingualResources\komorebi.ja-JP.xlf</FileName>
+    <Checksum>1438104561291484219013825051121312437140</Checksum>
+    <ModifiedTime>2020-04-13T18:49:19.0944595+08:00</ModifiedTime>
     <CacheFileType>XliffResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
     <FileName>Strings\ja-JP\Resources.resw</FileName>
-    <Checksum>19525178173832441949178108532091416317160</Checksum>
-    <ModifiedTime>2020-04-12T19:17:26.939227+08:00</ModifiedTime>
+    <Checksum>7312322197228223222218254163120994918272</Checksum>
+    <ModifiedTime>2020-04-13T18:49:22.1089418+08:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>
   <CacheFile>
+    <FileName>MultilingualResources\komorebi.zh-CN.xlf</FileName>
+    <Checksum>1388019820452627714862141392219838256</Checksum>
+    <ModifiedTime>2020-04-13T18:51:21.3474485+08:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
     <FileName>Strings\zh-CN\Resources.resw</FileName>
-    <Checksum>19525178173832441949178108532091416317160</Checksum>
-    <ModifiedTime>2020-04-12T19:17:26.9632005+08:00</ModifiedTime>
+    <Checksum>103204121181681971592147816419029248763138</Checksum>
+    <ModifiedTime>2020-04-13T18:51:23.5980234+08:00</ModifiedTime>
     <CacheFileType>LanguageResource</CacheFileType>
     <WarningMessage />
   </CacheFile>

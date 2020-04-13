@@ -8,7 +8,7 @@
     xmlns:data="using:Main_Page.Models"
     xmlns:controls="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                              >
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                      >
     <Page.Resources>
         <DataTemplate x:ConnectionId='2'  x:Name="DataT"                         x:Key="datatemplete">
             <StackPanel x:ConnectionId='3'  Width="288" Height="220"                                  >
@@ -22,16 +22,19 @@
                     </MenuFlyout>
                 </FlyoutBase.AttachedFlyout>
                 <Image x:ConnectionId='8' Name="CoverIMG"  MaxWidth="288" MaxHeight="162"                                           ></Image>
-                <TextBlock x:ConnectionId='9' Name="NameBolck" FontSize="16"                                    ></TextBlock>
-                <TextBlock x:ConnectionId='10' FontSize="10" Name="Date_"                                  ></TextBlock>
-                <TextBlock x:ConnectionId='11' FontSize="10" Name="Size_"                                  ></TextBlock>
+
+                <StackPanel x:Name="infoStackPanel">
+                <TextBlock x:ConnectionId='10' Name="NameBolck" FontSize="16"                                    ></TextBlock>
+                <TextBlock x:ConnectionId='11' FontSize="10" Name="Date_"                                  ></TextBlock>
+                <TextBlock x:ConnectionId='12' FontSize="10" Name="Size_"                                  ></TextBlock>
+            </StackPanel>
             </StackPanel>
         </DataTemplate>
 
     </Page.Resources>
     <Grid>
 
-        <ContentDialog x:ConnectionId='12' x:Name="DeleteContentDialog" 
+        <ContentDialog x:ConnectionId='13' x:Name="DeleteContentDialog" 
            PrimaryButtonText="删除" x:Uid="Flyout_Delete_SubFly_Confirm"                                                             IsPrimaryButtonEnabled="True"
            CloseButtonText="可以但是没必要"
            VerticalAlignment="Top" HorizontalAlignment="Center">
@@ -44,24 +47,25 @@
                 </DataTemplate>
             </ContentDialog.TitleTemplate>
             <RelativePanel>
-                <Image x:ConnectionId='19' x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
-                <TextBlock x:ConnectionId='20' Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap">
+                <Image x:ConnectionId='20' x:Name="img" Margin="40,0,0,0"  Width="160" Height="90"></Image>
+                <TextBlock x:ConnectionId='21' Name="dialogText1" Margin="5,0,0,0" RelativePanel.RightOf="img" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBlock x:ConnectionId='21' Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
-                <TextBlock x:ConnectionId='22' Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
+                <TextBlock x:ConnectionId='22' Name="dialogText2" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText1"/>
+                <TextBlock x:ConnectionId='23' Name="dialogText3" Margin="5,0,0,0" RelativePanel.RightOf="img" RelativePanel.Below="dialogText2" TextWrapping="Wrap"/>
             </RelativePanel>
         </ContentDialog>
 
 
 
 
-        <Pivot x:ConnectionId='13' Name="pivot_result" Title="RESULT">
+        <Pivot x:ConnectionId='14' Name="pivot_result" Title="RESULT">
             <PivotItem Header="All" x:Uid="SearchResult_All" Background="White">
                 <ScrollViewer>
-                    <GridView x:ConnectionId='17'
+                    <GridView x:ConnectionId='18'
                         Name="Source_"  
                                                                                                       
                                                      
+                                                    
                         IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single"
                         >
                     </GridView>
@@ -69,7 +73,7 @@
             </PivotItem>
             <PivotItem Header="Media" x:Uid="SearchResult_Media" Background="White">
                 <ScrollViewer>
-                    <GridView x:ConnectionId='16'
+                    <GridView x:ConnectionId='17'
                         Name="Media"  
                                                                                                             
                                                      
@@ -79,7 +83,7 @@
             </PivotItem>
             <PivotItem Header="Doc" x:Uid="SearchResult_Doc" Background="White">
                 <ScrollViewer>
-                    <GridView x:ConnectionId='15'
+                    <GridView x:ConnectionId='16'
                         Name="Doc"  
                                                                                                           
                                                      
@@ -88,7 +92,7 @@
                 </ScrollViewer>
             </PivotItem>
             <PivotItem Header="File"  x:Uid="SearchResult_File" Background="White">
-                <GridView x:ConnectionId='14'
+                <GridView x:ConnectionId='15'
                         Name="File"  
                                                                                                            
                                                      

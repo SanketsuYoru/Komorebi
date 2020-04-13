@@ -1,1 +1,1 @@
-C:\Users\I1661\Desktop\komorebi_1.0.27.0_Test\komorebi_1.0.27.0_x86_x64.msixbundle
+C:\Users\I1661\Desktop\komorebi_1.0.30.0_Test\komorebi_1.0.30.0_x86_x64.msixbundle

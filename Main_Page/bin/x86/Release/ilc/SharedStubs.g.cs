@@ -3798,9 +3798,33 @@ namespace __Interop
 			}
 		}
 
+		// Signature, Windows.UI.Xaml.Navigation.INavigationEventArgs.get_NavigationMode, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Navigation_NavigationMode__Windows_UI_Xaml_Navigation__NavigationMode, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::Windows.UI.Xaml.Navigation.NavigationMode Stub_40<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::Windows.UI.Xaml.Navigation.NavigationMode unsafe_value__retval;
+			global::Windows.UI.Xaml.Navigation.NavigationMode value__retval;
+			int unsafe___hr;
+			// Marshalling
+			// Call to native method
+			unsafe___hr = global::__Interop.ComCallHelpers.Call(
+								__this, 
+								typeof(TThis).TypeHandle, 
+								__targetIndex, 
+								&(unsafe_value__retval)
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			value__retval = unsafe_value__retval;
+			// Return
+			return value__retval;
+		}
+
 		// Signature, Windows.UI.Xaml.Navigation.INavigationFailedEventArgs.get_SourcePageType, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040F08] System_Type__Windows_UI_Xaml_Interop__TypeName, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Type Stub_40<TThis>(
+		internal static global::System.Type Stub_41<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3836,7 +3860,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IGridStatics.GetRow, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static int Stub_41<TThis, TArg0>(
+		internal static int Stub_42<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -3876,7 +3900,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IGridStatics.SetRow, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_42<TThis, TArg0>(
+		internal static void Stub_43<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int value, 
@@ -3913,7 +3937,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.get_Height, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.GridLength Stub_43<TThis>(
+		internal static global::Windows.UI.Xaml.GridLength Stub_44<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3937,7 +3961,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IRowDefinition.put_Height, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] Windows_UI_Xaml_GridLength__Windows_UI_Xaml__GridLength, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_44<TThis>(
+		internal static void Stub_45<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.GridLength value, 
 					int __targetIndex)
@@ -3958,7 +3982,7 @@ namespace __Interop
 
 		// Signature, Microsoft.UI.Xaml.Controls.ITeachingTip.get_TailVisibility, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Microsoft_UI_Xaml_Controls_TeachingTipTailVisibility__Microsoft_UI_Xaml_Controls__TeachingTipTailVisibility, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility Stub_45<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility Stub_46<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3982,7 +4006,7 @@ namespace __Interop
 
 		// Signature, Microsoft.UI.Xaml.Controls.ITeachingTip.get_PreferredPlacement, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Microsoft_UI_Xaml_Controls_TeachingTipPlacementMode__Microsoft_UI_Xaml_Controls__TeachingTipPlacementMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode Stub_46<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode Stub_47<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4006,7 +4030,7 @@ namespace __Interop
 
 		// Signature, Microsoft.UI.Xaml.Controls.ITeachingTip.get_HeroContentPlacement, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Microsoft_UI_Xaml_Controls_TeachingTipHeroContentPlacementMode__Microsoft_UI_Xaml_Controls__TeachingTipHeroContentPlacementMode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode Stub_47<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode Stub_48<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4030,7 +4054,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IStackPanel.get_Orientation, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_UI_Xaml_Controls_Orientation__Windows_UI_Xaml_Controls__Orientation, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_48<TThis>(
+		internal static global::Windows.UI.Xaml.Controls.Orientation Stub_49<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4054,7 +4078,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IContentDialog.add_PrimaryButtonClick, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_ContentDialog__Windows_UI_Xaml_Controls_ContentDialogButtonClickEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_ContentDialog_j__wux__Controls_ContentDialogButtonClickEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_49<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_50<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ContentDialog, global::Windows.UI.Xaml.Controls.ContentDialogButtonClickEventArgs> handler, 
 					int __targetIndex)
@@ -4093,7 +4117,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.AsyncOperationCompletedHandler<Windows.UI.Xaml.Controls.ContentDialogResult>.Invoke, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_50<TThis, TArg0>(
+		internal static void Stub_51<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 asyncInfo, 
 					int asyncStatus, 
@@ -4130,7 +4154,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IRelativePanelStatics.GetAbove, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x0004134C] object____mcg_IInspectable, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static object Stub_51<TThis, TArg0>(
+		internal static object Stub_52<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -4172,7 +4196,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IRelativePanelStatics.GetAlignLeftWithPanel, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_52<TThis, TArg0>(
+		internal static bool Stub_53<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					int __targetIndex)
@@ -4212,7 +4236,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IRelativePanelStatics.SetAlignLeftWithPanel, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040754] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_53<TThis, TArg0>(
+		internal static void Stub_54<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 element, 
 					bool value, 
@@ -4251,7 +4275,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.put_SelectedIndex, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_54<TThis>(
+		internal static void Stub_55<TThis>(
 					global::System.__ComObject __this, 
 					int value, 
 					int __targetIndex)
@@ -4272,7 +4296,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.Primitives.ISelector.add_SelectionChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_Controls_SelectionChangedEventHandler__Windows_UI_Xaml_Controls__SelectionChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_55<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_56<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.Controls.SelectionChangedEventHandler handler, 
 					int __targetIndex)
@@ -4311,7 +4335,7 @@ namespace __Interop
 
 		// Signature, Windows.Media.Playback.IMediaPlayer.add_MediaEnded, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_Media_Playback_MediaPlayer__object___Windows_Foundation__TypedEventHandler_A__w_Media_Playback_MediaPlayer_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_56<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_57<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.Media.Playback.MediaPlayer, object> value, 
 					int __targetIndex)
@@ -4350,7 +4374,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IImage.add_ImageFailed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_ExceptionRoutedEventHandler__Windows_UI_Xaml__ExceptionRoutedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_57<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_58<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.ExceptionRoutedEventHandler handler, 
 					int __targetIndex)
@@ -4389,7 +4413,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.Primitives.IRangeBaseOverrides.OnMinimumChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] double__double, [fwd] [in] [EETypeRva:0x00041980] double__double, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_58<TThis>(
+		internal static void Stub_59<TThis>(
 					global::System.__ComObject __this, 
 					double oldMinimum, 
 					double newMinimum, 
@@ -4412,7 +4436,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IPivot.add_PivotItemLoading, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_Pivot__Windows_UI_Xaml_Controls_PivotItemEventArgs___Windows_Foundation__TypedEventHandler_A__wux__Controls_Pivot_j__wux__Controls_PivotItemEventArgs_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_59<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_60<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Pivot, global::Windows.UI.Xaml.Controls.PivotItemEventArgs> handler, 
 					int __targetIndex)
@@ -4451,7 +4475,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IColorPicker.get_Color, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] Windows_UI_Color__Windows_UI__Color, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.UI.Color Stub_60<TThis>(
+		internal static global::Windows.UI.Color Stub_61<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4475,7 +4499,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.IVisualStateGroup.add_CurrentStateChanged, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_UI_Xaml_VisualStateChangedEventHandler__Windows_UI_Xaml__VisualStateChangedEventHandler *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_61<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_62<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.UI.Xaml.VisualStateChangedEventHandler handler, 
 					int __targetIndex)
@@ -4514,7 +4538,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.INavigationView2.add_PaneClosed, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040CB0] Windows_Foundation_TypedEventHandler_2_Windows_UI_Xaml_Controls_NavigationView__object___Windows_Foundation__TypedEventHandler_A__wux__Controls_NavigationView_j_object_V_ *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_Runtime_InteropServices_WindowsRuntime_EventRegistrationToken__Windows_Foundation__EventRegistrationToken, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_62<TThis>(
+		internal static global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken Stub_63<TThis>(
 					global::System.__ComObject __this, 
 					global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.NavigationView, object> handler, 
 					int __targetIndex)
@@ -4553,7 +4577,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.IStorageFile.OpenAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_63<TThis, TResult>(
+		internal static TResult Stub_64<TThis, TResult>(
 					global::System.__ComObject __this, 
 					int accessMode, 
 					int __targetIndex)
@@ -4591,7 +4615,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.IStorageFile.CopyAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_64<TThis, TArg0, TResult>(
+		internal static TResult Stub_65<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 destinationFolder, 
 					string desiredNewName, 
@@ -4644,7 +4668,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.IStorageFile.CopyAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_65<TThis, TArg0, TResult>(
+		internal static TResult Stub_66<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					TArg0 destinationFolder, 
 					string desiredNewName, 
@@ -4699,7 +4723,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.IStorageItem.RenameAsync, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_66<TThis, TResult>(
+		internal static TResult Stub_67<TThis, TResult>(
 					global::System.__ComObject __this, 
 					string desiredName, 
 					int option, 
@@ -4745,7 +4769,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.IStorageItem.get_DateCreated, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040BEC] System_DateTimeOffset__Windows_Foundation__DateTime, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.DateTimeOffset Stub_67<TThis>(
+		internal static global::System.DateTimeOffset Stub_68<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4769,7 +4793,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.FileProperties.IBasicProperties.get_Size, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] ulong__unsigned __int64, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static ulong Stub_68<TThis>(
+		internal static ulong Stub_69<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4793,7 +4817,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.Streams.IRandomAccessStream.put_Size, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_69<TThis>(
+		internal static void Stub_70<TThis>(
 					global::System.__ComObject __this, 
 					ulong value, 
 					int __targetIndex)
@@ -4814,7 +4838,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_70<TThis, TResult>(
+		internal static TResult Stub_71<TThis, TResult>(
 					global::System.__ComObject __this, 
 					ulong position, 
 					int __targetIndex)
@@ -4852,7 +4876,7 @@ namespace __Interop
 
 		// Signature, Windows.Storage.Streams.IBuffer.put_Length, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_71<TThis>(
+		internal static void Stub_72<TThis>(
 					global::System.__ComObject __this, 
 					uint value, 
 					int __targetIndex)
@@ -4873,7 +4897,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IBuffer,uint>.get_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IBuffer__uint___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IBuffer_j_uint_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> Stub_72<TThis>(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IBuffer, uint> Stub_73<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4909,7 +4933,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.AsyncOperationProgressHandler<Windows.Storage.Streams.IBuffer,uint>.Invoke, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_73<TThis, TArg0>(
+		internal static void Stub_74<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 asyncInfo, 
 					uint progressInfo, 
@@ -4946,7 +4970,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.IAsyncOperationWithProgress<uint,uint>.get_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_uint__uint___Windows_Foundation__AsyncOperationProgressHandler_A_uint_j_uint_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> Stub_74<TThis>(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<uint, uint> Stub_75<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -4982,7 +5006,7 @@ namespace __Interop
 
 		// Signature, Windows.Globalization.ILanguageFactory.CreateLanguage, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_75<TThis>(
+		internal static global::System.IntPtr Stub_76<TThis>(
 					global::System.__ComObject __this, 
 					string languageTag, 
 					int __targetIndex)
@@ -5014,7 +5038,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Notifications.IToastNotificationFactory.CreateToastNotification, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.IntPtr Stub_76<TThis, TArg0>(
+		internal static global::System.IntPtr Stub_77<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 content, 
 					int __targetIndex)
@@ -5054,7 +5078,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.Diagnostics.IAsyncCausalityTracerStatics.TraceOperationCompletion, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [in] [EETypeRva:0x00041980] System_Guid__System.Guid, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_77<TThis>(
+		internal static void Stub_78<TThis>(
 					global::System.__ComObject __this, 
 					int traceLevel, 
 					int source, 
@@ -5083,7 +5107,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Media.Animation.IConnectedAnimationService.PrepareToAnimate, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static TResult Stub_78<TThis, TArg0, TResult>(
+		internal static TResult Stub_79<TThis, TArg0, TResult>(
 					global::System.__ComObject __this, 
 					string key, 
 					TArg0 source, 
@@ -5136,7 +5160,7 @@ namespace __Interop
 
 		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetAt, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_79<TThis>(
+		internal static global::Windows.Security.Cryptography.Certificates.ChainValidationResult Stub_80<TThis>(
 					global::System.__ComObject __this, 
 					uint index, 
 					int __targetIndex)
@@ -5162,7 +5186,7 @@ namespace __Interop
 
 		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.IndexOf, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_80<TThis>(
+		internal static bool Stub_81<TThis>(
 					global::System.__ComObject __this, 
 					int value, 
 					out uint index, 
@@ -5193,7 +5217,7 @@ namespace __Interop
 
 		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.SetAt, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [in] [EETypeRva:0x00042D30]  -> int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_81<TThis>(
+		internal static void Stub_82<TThis>(
 					global::System.__ComObject __this, 
 					uint index, 
 					int value, 
@@ -5216,7 +5240,7 @@ namespace __Interop
 
 		// Signature, System.Collections.Generic.IList<Windows.Security.Cryptography.Certificates.ChainValidationResult>.GetMany, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] uint__unsigned int, [fwd] [out] [EETypeRva:0x000424B8] rg_Windows_Security_Cryptography_Certificates_ChainValidationResult__Windows_Security_Cryptography_Certificates__ChainValidationResult *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041980] uint__unsigned int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static uint Stub_82<TThis>(
+		internal static uint Stub_83<TThis>(
 					global::System.__ComObject __this, 
 					uint startIndex, 
 					global::Windows.Security.Cryptography.Certificates.ChainValidationResult[] items, 
@@ -5265,7 +5289,7 @@ namespace __Interop
 
 		// Signature, Windows.Web.Http.Filters.IHttpBaseProtocolFilter2.get_MaxVersion, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_Web_Http_HttpVersion__Windows_Web_Http__HttpVersion, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Web.Http.HttpVersion Stub_83<TThis>(
+		internal static global::Windows.Web.Http.HttpVersion Stub_84<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5289,7 +5313,7 @@ namespace __Interop
 
 		// Signature, Windows.Web.Http.Headers.IHttpContentHeaderCollection.TryAppendWithoutValidation, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [in] [EETypeRva:0x00040A64] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040754] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static bool Stub_84<TThis>(
+		internal static bool Stub_85<TThis>(
 					global::System.__ComObject __this, 
 					string name, 
 					string value, 
@@ -5329,7 +5353,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.AsyncOperationProgressHandler<ulong,ulong>.Invoke, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [in] [EETypeRva:0x00041980] ulong__unsigned __int64, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_85<TThis, TArg0>(
+		internal static void Stub_86<TThis, TArg0>(
 					global::System.__ComObject __this, 
 					TArg0 asyncInfo, 
 					ulong progressInfo, 
@@ -5366,7 +5390,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Storage.Streams.IInputStream,ulong>.get_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Storage_Streams_IInputStream__ulong___Windows_Foundation__AsyncOperationProgressHandler_A__w_Storage_Streams_IInputStream_j_ulong_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> Stub_86<TThis>(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Storage.Streams.IInputStream, ulong> Stub_87<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5402,7 +5426,7 @@ namespace __Interop
 
 		// Signature, Windows.Web.Http.IHttpResponseMessage.get_StatusCode, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D30] Windows_Web_Http_HttpStatusCode__Windows_Web_Http__HttpStatusCode, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Web.Http.HttpStatusCode Stub_87<TThis>(
+		internal static global::Windows.Web.Http.HttpStatusCode Stub_88<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5426,7 +5450,7 @@ namespace __Interop
 
 		// Signature, Windows.Foundation.IAsyncOperationWithProgress<Windows.Web.Http.HttpResponseMessage,Windows.Web.Http.HttpProgress>.get_Progress, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040CB0] Windows_Foundation_AsyncOperationProgressHandler_2_Windows_Web_Http_HttpResponseMessage__Windows_Web_Http_HttpProgress___Windows_Foundation__AsyncOperationProgressHandler_A__w_Web_Http_HttpResponseMessage_j__w_Web_Http_HttpProgress_V_ *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> Stub_88<TThis>(
+		internal static global::Windows.Foundation.AsyncOperationProgressHandler<global::Windows.Web.Http.HttpResponseMessage, global::Windows.Web.Http.HttpProgress> Stub_89<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -5462,7 +5486,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeAttr, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_89<TThis>(
+		internal static void Stub_90<TThis>(
 					global::System.__ComObject __this, 
 					out global::System.IntPtr ppTypeAttr, 
 					int __targetIndex)
@@ -5486,7 +5510,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetTypeComp, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeComp__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeComp__System_Private_Interop *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_90<TThis>(
+		internal static void Stub_91<TThis>(
 					global::System.__ComObject __this, 
 					out global::System_Runtime_InteropServices_ComTypes.ITypeComp__System_Private_Interop ppTComp, 
 					int __targetIndex)
@@ -5522,7 +5546,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetFuncDesc, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_91<TThis>(
+		internal static void Stub_92<TThis>(
 					global::System.__ComObject __this, 
 					int index, 
 					out global::System.IntPtr ppFuncDesc, 
@@ -5548,7 +5572,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetDocumentation, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409A0] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409A0] string__wchar_t *, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x000409A0] string__wchar_t *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_92<TThis>(
+		internal static void Stub_93<TThis>(
 					global::System.__ComObject __this, 
 					int index, 
 					out string strName, 
@@ -5599,7 +5623,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.GetRefTypeInfo, [fwd] [return] [EETypeRva:0x00042000] void__int, [fwd] [in] [EETypeRva:0x00041980] int__int, [fwd] [out] [managedbyref] [nativebyref] [EETypeRva:0x00043630] System_Runtime_InteropServices_ComTypes_ITypeInfo__System_Private_Interop__System_Runtime_InteropServices_ComTypes__ITypeInfo__System_Private_Interop *, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_93<TThis>(
+		internal static void Stub_94<TThis>(
 					global::System.__ComObject __this, 
 					int hRef, 
 					out global::System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop ppTI, 
@@ -5637,7 +5661,7 @@ namespace __Interop
 
 		// Signature, System_Runtime_InteropServices_ComTypes.ITypeInfo__System_Private_Interop.ReleaseTypeAttr, [fwd] [return] [EETypeRva:0x00041F3C] void__void, [fwd] [in] [EETypeRva:0x00041980] System_IntPtr____w64 int, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_94<TThis>(
+		internal static void Stub_95<TThis>(
 					global::System.__ComObject __this, 
 					global::System.IntPtr pTypeAttr, 
 					int __targetIndex)

@@ -9085,11 +9085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\20200412\\Main_Page\\komorebi.csproj",
+      "projectUniqueName": "D:\\Code\\20200413\\Main_Page\\komorebi.csproj",
       "projectName": "komorebi",
-      "projectPath": "D:\\Code\\20200412\\Main_Page\\komorebi.csproj",
+      "projectPath": "D:\\Code\\20200413\\Main_Page\\komorebi.csproj",
       "packagesPath": "C:\\Users\\I1661\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\20200412\\Main_Page\\obj\\",
+      "outputPath": "D:\\Code\\20200413\\Main_Page\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9109,8 +9109,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "D:\\Code\\20200412\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "D:\\Code\\20200412\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "D:\\Code\\20200413\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "D:\\Code\\20200413\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }

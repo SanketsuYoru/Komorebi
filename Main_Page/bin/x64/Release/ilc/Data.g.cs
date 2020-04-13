@@ -79,9 +79,9 @@ namespace __Interop
 	// Interop Stub Data
 	//     + Total Stubs = 1264
 	//     + Total Forward Stubs = 831
-	//         + Unshared Forward Stubs = 737
-	//         + Shared Forward Stubs = 94
-	//         + Shared Forward Stubs Cache Hit = 1447
+	//         + Unshared Forward Stubs = 736
+	//         + Shared Forward Stubs = 95
+	//         + Shared Forward Stubs Cache Hit = 1448
 	//     + Total Reverse Stubs = 433
 	//         + Unshared Reverse Stubs = 408
 	//         + Shared Reverse Stubs = 25
@@ -91,17 +91,17 @@ namespace __Interop
 	//     + WinRT interfaces : 534
 	//     + WinRT classes : 279
 	//     + WinRT delegates : 38
-	//     + WinRT class methods : 1163
+	//     + WinRT class methods : 1164
 	//     + dispatch classes : 355
 	//     + dispatch methods : 716
 	//     + stub classes : 529
-	//     + stub methods : 1949
+	//     + stub methods : 1950
 	//     + vtables : 211
 	//     + vtable methods : 606
 	// 
 	// Reducer Data
 	//     + discarded v-tables : 962
-	//     + discarded v-table methods : 2528
+	//     + discarded v-table methods : 2529
 	//     + discarded class methods : 3
 	//     + discarded dispatch class methods : 90
 	//     + discarded stub class methods : 0
@@ -9909,8 +9909,8 @@ namespace __Interop
 				36177, // Windows.UI.Xaml.Controls.DataTemplateSelector
 				36199, // Windows.UI.Xaml.Controls.Frame
 				36206, // Windows.UI.Xaml.Navigation.NavigationEventArgs
-				36227, // Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs
-				36254, // Windows.UI.Xaml.Navigation.NavigationMode
+				36227, // Windows.UI.Xaml.Navigation.NavigationMode
+				36243, // Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs
 				36270, // Windows.UI.Xaml.Navigation.NavigationFailedEventArgs
 				36297, // Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo
 				36323, // Windows.UI.Xaml.Navigation.NavigationCacheMode
@@ -11128,19 +11128,19 @@ namespace __Interop
 				}, 
 				// Index = 110
 				new global::System.Runtime.InteropServices.McgClassData() {
+					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Navigation.NavigationMode).TypeHandle),
+					Flags = (global::System.Runtime.InteropServices.McgClassFlags.NotComObject | global::System.Runtime.InteropServices.McgClassFlags.IsWinRT),
+					BaseClassIndex = -1,
+					DefaultInterfaceIndex = -1,
+				}, 
+				// Index = 111
+				new global::System.Runtime.InteropServices.McgClassData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs).TypeHandle),
 					Flags = (global::System.Runtime.InteropServices.McgClassFlags.IsSealed | global::System.Runtime.InteropServices.McgClassFlags.IsWinRT 
 								| global::System.Runtime.InteropServices.McgClassFlags.MarshalingBehavior_Free 
 								| global::System.Runtime.InteropServices.McgClassFlags.GCPressureRange_WinRT_Default),
 					BaseClassIndex = -1,
 					DefaultInterfaceIndex = 228,
-				}, 
-				// Index = 111
-				new global::System.Runtime.InteropServices.McgClassData() {
-					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Navigation.NavigationMode).TypeHandle),
-					Flags = (global::System.Runtime.InteropServices.McgClassFlags.NotComObject | global::System.Runtime.InteropServices.McgClassFlags.IsWinRT),
-					BaseClassIndex = -1,
-					DefaultInterfaceIndex = -1,
 				}, 
 				// Index = 112
 				new global::System.Runtime.InteropServices.McgClassData() {
@@ -16973,51 +16973,51 @@ namespace __Interop
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IApplicationOverrides2).TypeHandle), //   12, Windows.UI.Xaml.IApplicationOverrides2
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   13, Windows.UI.Xaml.Markup.IComponentConnector
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector2).TypeHandle), //   14, Windows.UI.Xaml.Markup.IComponentConnector2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPageOverrides).TypeHandle), //   15, Windows.UI.Xaml.Controls.IPageOverrides
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPage).TypeHandle), //   16, Windows.UI.Xaml.Controls.IPage
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPageOverrides).TypeHandle), //   17, Windows.UI.Xaml.Controls.IPageOverrides
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IUserControl).TypeHandle), //   18, Windows.UI.Xaml.Controls.IUserControl
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl).TypeHandle), //   19, Windows.UI.Xaml.Controls.IControl
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl2).TypeHandle), //   20, Windows.UI.Xaml.Controls.IControl2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl3).TypeHandle), //   21, Windows.UI.Xaml.Controls.IControl3
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl4).TypeHandle), //   22, Windows.UI.Xaml.Controls.IControl4
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl5).TypeHandle), //   23, Windows.UI.Xaml.Controls.IControl5
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl7).TypeHandle), //   24, Windows.UI.Xaml.Controls.IControl7
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlProtected).TypeHandle), //   25, Windows.UI.Xaml.Controls.IControlProtected
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlOverrides).TypeHandle), //   26, Windows.UI.Xaml.Controls.IControlOverrides
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlOverrides6).TypeHandle), //   27, Windows.UI.Xaml.Controls.IControlOverrides6
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement).TypeHandle), //   28, Windows.UI.Xaml.IFrameworkElement
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement2).TypeHandle), //   29, Windows.UI.Xaml.IFrameworkElement2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement3).TypeHandle), //   30, Windows.UI.Xaml.IFrameworkElement3
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement4).TypeHandle), //   31, Windows.UI.Xaml.IFrameworkElement4
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement6).TypeHandle), //   32, Windows.UI.Xaml.IFrameworkElement6
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement7).TypeHandle), //   33, Windows.UI.Xaml.IFrameworkElement7
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementProtected7).TypeHandle), //   34, Windows.UI.Xaml.IFrameworkElementProtected7
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementOverrides).TypeHandle), //   35, Windows.UI.Xaml.IFrameworkElementOverrides
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementOverrides2).TypeHandle), //   36, Windows.UI.Xaml.IFrameworkElementOverrides2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement).TypeHandle), //   37, Windows.UI.Xaml.IUIElement
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement2).TypeHandle), //   38, Windows.UI.Xaml.IUIElement2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement3).TypeHandle), //   39, Windows.UI.Xaml.IUIElement3
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement4).TypeHandle), //   40, Windows.UI.Xaml.IUIElement4
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement5).TypeHandle), //   41, Windows.UI.Xaml.IUIElement5
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement7).TypeHandle), //   42, Windows.UI.Xaml.IUIElement7
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement8).TypeHandle), //   43, Windows.UI.Xaml.IUIElement8
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement9).TypeHandle), //   44, Windows.UI.Xaml.IUIElement9
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement10).TypeHandle), //   45, Windows.UI.Xaml.IUIElement10
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides).TypeHandle), //   46, Windows.UI.Xaml.IUIElementOverrides
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides7).TypeHandle), //   47, Windows.UI.Xaml.IUIElementOverrides7
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides8).TypeHandle), //   48, Windows.UI.Xaml.IUIElementOverrides8
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides9).TypeHandle), //   49, Windows.UI.Xaml.IUIElementOverrides9
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Composition.IAnimationObject).TypeHandle), //   50, Windows.UI.Composition.IAnimationObject
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Composition.IVisualElement).TypeHandle), //   51, Windows.UI.Composition.IVisualElement
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDependencyObject).TypeHandle), //   52, Windows.UI.Xaml.IDependencyObject
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDependencyObject2).TypeHandle), //   53, Windows.UI.Xaml.IDependencyObject2
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   54, Windows.UI.Xaml.Markup.IComponentConnector
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDataTemplateExtension).TypeHandle), //   55, Windows.UI.Xaml.IDataTemplateExtension
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IDataTemplateComponent).TypeHandle), //   56, Windows.UI.Xaml.Markup.IDataTemplateComponent
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   57, Windows.UI.Xaml.Markup.IComponentConnector
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   58, Windows.UI.Xaml.Markup.IComponentConnector
-				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector2).TypeHandle), //   59, Windows.UI.Xaml.Markup.IComponentConnector2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPage).TypeHandle), //   15, Windows.UI.Xaml.Controls.IPage
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPageOverrides).TypeHandle), //   16, Windows.UI.Xaml.Controls.IPageOverrides
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IUserControl).TypeHandle), //   17, Windows.UI.Xaml.Controls.IUserControl
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl).TypeHandle), //   18, Windows.UI.Xaml.Controls.IControl
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl2).TypeHandle), //   19, Windows.UI.Xaml.Controls.IControl2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl3).TypeHandle), //   20, Windows.UI.Xaml.Controls.IControl3
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl4).TypeHandle), //   21, Windows.UI.Xaml.Controls.IControl4
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl5).TypeHandle), //   22, Windows.UI.Xaml.Controls.IControl5
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControl7).TypeHandle), //   23, Windows.UI.Xaml.Controls.IControl7
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlProtected).TypeHandle), //   24, Windows.UI.Xaml.Controls.IControlProtected
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlOverrides).TypeHandle), //   25, Windows.UI.Xaml.Controls.IControlOverrides
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IControlOverrides6).TypeHandle), //   26, Windows.UI.Xaml.Controls.IControlOverrides6
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement).TypeHandle), //   27, Windows.UI.Xaml.IFrameworkElement
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement2).TypeHandle), //   28, Windows.UI.Xaml.IFrameworkElement2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement3).TypeHandle), //   29, Windows.UI.Xaml.IFrameworkElement3
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement4).TypeHandle), //   30, Windows.UI.Xaml.IFrameworkElement4
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement6).TypeHandle), //   31, Windows.UI.Xaml.IFrameworkElement6
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElement7).TypeHandle), //   32, Windows.UI.Xaml.IFrameworkElement7
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementProtected7).TypeHandle), //   33, Windows.UI.Xaml.IFrameworkElementProtected7
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementOverrides).TypeHandle), //   34, Windows.UI.Xaml.IFrameworkElementOverrides
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IFrameworkElementOverrides2).TypeHandle), //   35, Windows.UI.Xaml.IFrameworkElementOverrides2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement).TypeHandle), //   36, Windows.UI.Xaml.IUIElement
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement2).TypeHandle), //   37, Windows.UI.Xaml.IUIElement2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement3).TypeHandle), //   38, Windows.UI.Xaml.IUIElement3
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement4).TypeHandle), //   39, Windows.UI.Xaml.IUIElement4
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement5).TypeHandle), //   40, Windows.UI.Xaml.IUIElement5
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement7).TypeHandle), //   41, Windows.UI.Xaml.IUIElement7
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement8).TypeHandle), //   42, Windows.UI.Xaml.IUIElement8
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement9).TypeHandle), //   43, Windows.UI.Xaml.IUIElement9
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElement10).TypeHandle), //   44, Windows.UI.Xaml.IUIElement10
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides).TypeHandle), //   45, Windows.UI.Xaml.IUIElementOverrides
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides7).TypeHandle), //   46, Windows.UI.Xaml.IUIElementOverrides7
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides8).TypeHandle), //   47, Windows.UI.Xaml.IUIElementOverrides8
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IUIElementOverrides9).TypeHandle), //   48, Windows.UI.Xaml.IUIElementOverrides9
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Composition.IAnimationObject).TypeHandle), //   49, Windows.UI.Composition.IAnimationObject
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Composition.IVisualElement).TypeHandle), //   50, Windows.UI.Composition.IVisualElement
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDependencyObject).TypeHandle), //   51, Windows.UI.Xaml.IDependencyObject
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDependencyObject2).TypeHandle), //   52, Windows.UI.Xaml.IDependencyObject2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   53, Windows.UI.Xaml.Markup.IComponentConnector
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector2).TypeHandle), //   54, Windows.UI.Xaml.Markup.IComponentConnector2
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Controls.IPageOverrides).TypeHandle), //   55, Windows.UI.Xaml.Controls.IPageOverrides
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   56, Windows.UI.Xaml.Markup.IComponentConnector
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.IDataTemplateExtension).TypeHandle), //   57, Windows.UI.Xaml.IDataTemplateExtension
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IDataTemplateComponent).TypeHandle), //   58, Windows.UI.Xaml.Markup.IDataTemplateComponent
+				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::Windows.UI.Xaml.Markup.IComponentConnector).TypeHandle), //   59, Windows.UI.Xaml.Markup.IComponentConnector
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.IDisposable).TypeHandle), //   60, System.IDisposable
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.IEnumerable).TypeHandle), //   61, System.Collections.IEnumerable
 				new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(typeof(global::System.Collections.IList).TypeHandle), //   62, System.Collections.IList
@@ -17679,7 +17679,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.MainPage, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
 					SupportedInterfaceListBeginIndex = 13,
-					NumberOfSupportedInterface = 3,
+					NumberOfSupportedInterface = 2,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
 				}, 
@@ -17687,7 +17687,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.Controls.Page, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentTy" +
 								"pe=WindowsRuntime")),
-					SupportedInterfaceListBeginIndex = 16,
+					SupportedInterfaceListBeginIndex = 15,
 					NumberOfSupportedInterface = 2,
 					ParentCCWTemplateIndex = 9,
 					IsWinRTType = true,
@@ -17696,7 +17696,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.Controls.UserControl, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, Co" +
 								"ntentType=WindowsRuntime")),
-					SupportedInterfaceListBeginIndex = 18,
+					SupportedInterfaceListBeginIndex = 17,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = 10,
 					IsWinRTType = true,
@@ -17705,7 +17705,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.Controls.Control, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, Conten" +
 								"tType=WindowsRuntime")),
-					SupportedInterfaceListBeginIndex = 19,
+					SupportedInterfaceListBeginIndex = 18,
 					NumberOfSupportedInterface = 9,
 					ParentCCWTemplateIndex = 11,
 					IsWinRTType = true,
@@ -17714,7 +17714,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.FrameworkElement, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, Conten" +
 								"tType=WindowsRuntime")),
-					SupportedInterfaceListBeginIndex = 28,
+					SupportedInterfaceListBeginIndex = 27,
 					NumberOfSupportedInterface = 9,
 					ParentCCWTemplateIndex = 12,
 					IsWinRTType = true,
@@ -17723,7 +17723,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.UIElement, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=W" +
 								"indowsRuntime")),
-					SupportedInterfaceListBeginIndex = 37,
+					SupportedInterfaceListBeginIndex = 36,
 					NumberOfSupportedInterface = 15,
 					ParentCCWTemplateIndex = 13,
 					IsWinRTType = true,
@@ -17732,7 +17732,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Windows.UI.Xaml.DependencyObject, Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, Conten" +
 								"tType=WindowsRuntime")),
-					SupportedInterfaceListBeginIndex = 52,
+					SupportedInterfaceListBeginIndex = 51,
 					NumberOfSupportedInterface = 2,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = true,
@@ -17740,7 +17740,7 @@ namespace __Interop
 				// Index = 14
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.AudioPage, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17749,7 +17749,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.AudioPage+AudioPage_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
 								"ll")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17758,7 +17758,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.AudioPage+AudioPage_obj11_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=n" +
 								"ull")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17766,7 +17766,7 @@ namespace __Interop
 				// Index = 17
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.DOC_MAIN, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17775,7 +17775,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.DOC_MAIN+DOC_MAIN_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
 								"")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17784,7 +17784,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.DOC_MAIN+DOC_MAIN_obj8_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" +
 								"")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17792,7 +17792,7 @@ namespace __Interop
 				// Index = 20
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.FileAdd_Page, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 58,
+					SupportedInterfaceListBeginIndex = 13,
 					NumberOfSupportedInterface = 2,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17800,7 +17800,7 @@ namespace __Interop
 				// Index = 21
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.Graphics, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17808,7 +17808,7 @@ namespace __Interop
 				// Index = 22
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.GUIDE_page, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 58,
+					SupportedInterfaceListBeginIndex = 13,
 					NumberOfSupportedInterface = 2,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17816,7 +17816,7 @@ namespace __Interop
 				// Index = 23
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.ItemPage, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17824,7 +17824,7 @@ namespace __Interop
 				// Index = 24
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_FILE, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17833,7 +17833,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_FILE+MAIN_FILE_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
 								"ll")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17842,7 +17842,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_FILE+MAIN_FILE_obj8_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=nu" +
 								"ll")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17850,7 +17850,7 @@ namespace __Interop
 				// Index = 27
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17859,7 +17859,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1+MAIN_Page1_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=" +
 								"null")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17868,7 +17868,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1+MAIN_Page1_obj12_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
 								"=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17877,7 +17877,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1+MAIN_Page1_obj48_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
 								"=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17886,7 +17886,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1+MAIN_Page1_obj61_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
 								"=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17895,7 +17895,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MAIN_Page1+MAIN_Page1_obj72_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken" +
 								"=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17903,7 +17903,7 @@ namespace __Interop
 				// Index = 33
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MediaPage, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17911,7 +17911,7 @@ namespace __Interop
 				// Index = 34
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MEDIA_MAIN, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17920,7 +17920,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MEDIA_MAIN+MEDIA_MAIN_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=" +
 								"null")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17929,7 +17929,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.MEDIA_MAIN+MEDIA_MAIN_obj8_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=" +
 								"null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17937,7 +17937,7 @@ namespace __Interop
 				// Index = 37
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.SearchResult, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17946,7 +17946,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.SearchResult+SearchResult_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyTo" +
 								"ken=null")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17955,7 +17955,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.SearchResult+SearchResult_obj3_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyTo" +
 								"ken=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17963,7 +17963,7 @@ namespace __Interop
 				// Index = 40
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.Search_Page_, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17971,7 +17971,7 @@ namespace __Interop
 				// Index = 41
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.Today_NewFile, komorebi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")),
-					SupportedInterfaceListBeginIndex = 13,
+					SupportedInterfaceListBeginIndex = 53,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = 8,
 					IsWinRTType = false,
@@ -17980,7 +17980,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.Today_NewFile+Today_NewFile_obj1_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKey" +
 								"Token=null")),
-					SupportedInterfaceListBeginIndex = 54,
+					SupportedInterfaceListBeginIndex = 56,
 					NumberOfSupportedInterface = 1,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -17989,7 +17989,7 @@ namespace __Interop
 				new global::System.Runtime.InteropServices.CCWTemplateData() {
 					FixupClassType = new global::Internal.Runtime.CompilerServices.FixupRuntimeTypeHandle(global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("Main_Page.Pages.Today_NewFile+Today_NewFile_obj7_Bindings, komorebi, Version=1.0.0.0, Culture=neutral, PublicKey" +
 								"Token=null")),
-					SupportedInterfaceListBeginIndex = 55,
+					SupportedInterfaceListBeginIndex = 57,
 					NumberOfSupportedInterface = 3,
 					ParentCCWTemplateIndex = -1,
 					IsWinRTType = false,
@@ -24823,8 +24823,8 @@ namespace __Interop
 		    141, D, a, t, a, T, e, m, p, l, a, t, e, S, e, l, e, c, t, o, r, 0, 
 		    141, F, r, a, m, e, 0, 
 		    142, N, a, v, i, g, a, t, i, o, n, E, v, e, n, t, A, r, g, s, 0, 
-		    142, N, a, v, i, g, a, t, i, n, g, C, a, n, c, e, l, E, v, e, n, t, A, r, g, s, 0, 
 		    142, N, a, v, i, g, a, t, i, o, n, M, o, d, e, 0, 
+		    142, N, a, v, i, g, a, t, i, n, g, C, a, n, c, e, l, E, v, e, n, t, A, r, g, s, 0, 
 		    142, N, a, v, i, g, a, t, i, o, n, F, a, i, l, e, d, E, v, e, n, t, A, r, g, s, 0, 
 		    143, N, a, v, i, g, a, t, i, o, n, T, r, a, n, s, i, t, i, o, n, I, n, f, o, 0, 
 		    142, N, a, v, i, g, a, t, i, o, n, C, a, c, h, e, M, o, d, e, 0, 
@@ -30312,8 +30312,8 @@ namespace __Interop
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5136, typeof(global::Windows.UI.Xaml.Controls.DataTemplateSelector))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5184, typeof(global::Windows.UI.Xaml.Controls.Frame))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5232, typeof(global::Windows.UI.Xaml.Navigation.NavigationEventArgs))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(5280, typeof(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs))]
-			[global::System.Runtime.CompilerServices.TypeHandleFixup(5328, typeof(global::Windows.UI.Xaml.Navigation.NavigationMode))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(5280, typeof(global::Windows.UI.Xaml.Navigation.NavigationMode))]
+			[global::System.Runtime.CompilerServices.TypeHandleFixup(5328, typeof(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventArgs))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5376, typeof(global::Windows.UI.Xaml.Navigation.NavigationFailedEventArgs))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5424, typeof(global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo))]
 			[global::System.Runtime.CompilerServices.TypeHandleFixup(5472, typeof(global::Windows.UI.Xaml.Navigation.NavigationCacheMode))]
@@ -30734,9 +30734,9 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xDA, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x86, 0x0, 0x0, 0x0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xDC, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x86, 0x0, 0x0, 0x0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0x67, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE2, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE4, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xA0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE2, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xA0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE4, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC6, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE6, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x86, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x17, 0x0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xE9, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xA0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x86, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x5C, 0x0, 0, 0, 0, 0, 
@@ -32265,41 +32265,41 @@ namespace __Interop
 					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x6, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0x6, 0x0, 0x0, 0x0, 0x7, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x9, 0x0, 0x0, 0x0, 0x4, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0x9, 0x0, 0x0, 0x0, 0x10, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xA, 0x0, 
-					0x0, 0x0, 0x12, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xB, 0x0, 0x0, 0x0, 
-					0x13, 0x0, 0x0, 0x0, 0x9, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC, 0x0, 0x0, 0x0, 0x1C, 0x0, 
-					0x0, 0x0, 0x9, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xD, 0x0, 0x0, 0x0, 0x25, 0x0, 0x0, 0x0, 
-					0xF, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x34, 0x0, 0x0, 0x0, 0x2, 0x0, 
-					0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x3A, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x3A, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
-					0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 
-					0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 
-					0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 
-					0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 
-					0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 
-					0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 
-					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x36, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 
-					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x37, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0x9, 0x0, 0x0, 0x0, 0xF, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xA, 0x0, 
+					0x0, 0x0, 0x11, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xB, 0x0, 0x0, 0x0, 
+					0x12, 0x0, 0x0, 0x0, 0x9, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xC, 0x0, 0x0, 0x0, 0x1B, 0x0, 
+					0x0, 0x0, 0x9, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xD, 0x0, 0x0, 0x0, 0x24, 0x0, 0x0, 0x0, 
+					0xF, 0x0, 0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x33, 0x0, 0x0, 0x0, 0x2, 0x0, 
+					0x0, 0x0, 0x1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0xD, 0x0, 0x0, 0x0, 0x2, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+					0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 
+					0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 
+					0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 
+					0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 
+					0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 
+					0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 
+					0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x8, 0x0, 0x0, 0x0, 0x35, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x38, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 
+					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x39, 0x0, 0x0, 0x0, 0x3, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x3C, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, 0x3C, 0x0, 0x0, 0x0, 0x1, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 					0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0x2F, 0x0, 0x0, 0x0, 0x3D, 0x0, 0x0, 0x0, 0x5, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
