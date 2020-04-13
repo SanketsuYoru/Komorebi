@@ -8,7 +8,7 @@
     xmlns:data="using:Main_Page.Models"
     xmlns:controls="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Unloaded="Page_Unloaded" Loaded="Page_Loaded">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Loaded="Page_Loaded">
     <Page.Resources>
         <DataTemplate  x:Name="DataT" x:DataType="data:Items" x:Key="datatemplete">
             <StackPanel  Width="288" Height="220" RightTapped="Source__RightTapped">
@@ -22,9 +22,12 @@
                     </MenuFlyout>
                 </FlyoutBase.AttachedFlyout>
                 <Image Name="CoverIMG"  MaxWidth="288" MaxHeight="162" Source="{x:Bind AccessSource}" x:Phase="2"></Image>
+
+                <StackPanel x:Name="infoStackPanel">
                 <TextBlock Name="NameBolck" FontSize="16"  Text="{x:Bind Name }" x:Phase="1" ></TextBlock>
                 <TextBlock FontSize="10" Name="Date_" Text="{x:Bind Date }" x:Phase="1"></TextBlock>
                 <TextBlock FontSize="10" Name="Size_" Text="{x:Bind Type }" x:Phase="1"></TextBlock>
+            </StackPanel>
             </StackPanel>
         </DataTemplate>
 
@@ -62,6 +65,7 @@
                         Name="Source_"  
                         ItemsSource="{x:Bind result,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" 
                         ItemClick="Source__ItemClick"
+                        Loaded="Source__LoadedAsync"
                         IsItemClickEnabled="True" VerticalAlignment="Center" HorizontalAlignment="Center" ItemTemplate="{ StaticResource datatemplete}"  SelectionMode="Single"
                         >
                     </GridView>

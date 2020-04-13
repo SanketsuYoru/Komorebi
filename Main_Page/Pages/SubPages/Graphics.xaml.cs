@@ -1,27 +1,16 @@
 ﻿using Main_Page.Models;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading.Tasks;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
-using static Main_Page.Models.UserSettings;
 
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
@@ -35,14 +24,14 @@ namespace Main_Page.Pages
     {
         private static Items Item_;
         //private static int currentIndex = 0;
-       // bool find = false;
-       // private ObservableCollection<Items> Item_list = new ObservableCollection<Items>();
+        // bool find = false;
+        // private ObservableCollection<Items> Item_list = new ObservableCollection<Items>();
         //Image insideimg = new Image();
         public Graphics()
         {
             this.InitializeComponent();
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
-            
+
         }
 
 
@@ -54,26 +43,26 @@ namespace Main_Page.Pages
                     ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationMedia", img_dispaly);
                 // Use the recommended configuration for back animation.
                 animation.Configuration = new DirectConnectedAnimationConfiguration();
-/*                ConnectedAnimation animationinfo =
-                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc_info", img_dispaly);
-                // Use the recommended configuration for back animation.
-                animationinfo.Configuration = new DirectConnectedAnimationConfiguration();*/
+                /*                ConnectedAnimation animationinfo =
+                                    ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc_info", img_dispaly);
+                                // Use the recommended configuration for back animation.
+                                animationinfo.Configuration = new DirectConnectedAnimationConfiguration();*/
             }
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            
+
             Item_ = (Items)e.Parameter;
             img_dispaly.Visibility = Visibility.Collapsed;
             img_dispaly.Source = await BitmapProcess(Item_.StorageFile_);
-            
+
             ConnectedAnimation animation =
     ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation");
-            if (animation != null )
+            if (animation != null)
             {
-                animation.TryStart(img_dispaly );
-                
+                animation.TryStart(img_dispaly);
+
             }
             img_dispaly.Visibility = Visibility.Visible;
         }
@@ -179,7 +168,7 @@ namespace Main_Page.Pages
             //img_dispaly.Source =await BitmapProcess(Item_.StorageFile_);
             //img_dispaly.Source = await BitmapProcess(await ItemAccess.GetnextFileAsync(((FrameworkElement)sender as Button).Name, Item_));
             img_dispaly.Source = await BitmapProcess(StorageFile_);
-            Item_= new Items { AccessSource = await ThumbnailProcess(StorageFile_), Date = StorageFile_.DateCreated.ToString(), Type = StorageFile_.DisplayType, Name = StorageFile_.Name, Path = StorageFile_.Path, StorageFile_ = StorageFile_, Size = await SizeOfFileAsync(StorageFile_) };
+            Item_ = new Items { AccessSource = await ThumbnailProcess(StorageFile_), Date = StorageFile_.DateCreated.ToString(), Type = StorageFile_.DisplayType, Name = StorageFile_.Name, Path = StorageFile_.Path, StorageFile_ = StorageFile_, Size = await SizeOfFileAsync(StorageFile_) };
 
         }
 
@@ -194,5 +183,5 @@ namespace Main_Page.Pages
         }
 
     }
-    }
+}
 

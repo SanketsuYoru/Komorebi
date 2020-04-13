@@ -2,14 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Media.Playback;
 using Windows.Security.ExchangeActiveSyncProvisioning;
 using Windows.Storage;
@@ -17,13 +11,10 @@ using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
-using static Main_Page.Models.UserSettings;
 
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
@@ -35,10 +26,10 @@ namespace Main_Page.Pages
     public sealed partial class AudioPage : Page
     {
         DispatcherTimer _timer = new DispatcherTimer();//定义定时器
-        private static bool needPlayNext=false;
+        private static bool needPlayNext = false;
         private static Items Item_;
-        private static int currentIndex=0;
-        private ObservableCollection< Items > Item_list = new ObservableCollection<Items>();
+        private static int currentIndex = 0;
+        private ObservableCollection<Items> Item_list = new ObservableCollection<Items>();
         public AudioPage()
         {
             this.InitializeComponent();
@@ -47,13 +38,13 @@ namespace Main_Page.Pages
 
             Media_in.MediaPlayer.VolumeChanged += MediaPlayer_VolumeChangedAsync; ;
             Media_in.MediaPlayer.MediaEnded += next;
-           _timer.Interval = TimeSpan.FromSeconds(0.5);
+            _timer.Interval = TimeSpan.FromSeconds(0.5);
             _timer.Tick += CurrentTime;
             _timer.Start();
         }
         protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
         {
-           if (e.NavigationMode == NavigationMode.Back)
+            if (e.NavigationMode == NavigationMode.Back)
             {
                 ConnectedAnimation animation =
                     ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("backAnimationmc", CoverIMG);
@@ -93,26 +84,28 @@ namespace Main_Page.Pages
                 PlayBackList.ScrollIntoView(Item_list[currentIndex]);
                 await setNewMediaSource(Item_list[currentIndex]);
             }
-            
+
 
         }
 
-        private void next(object sender, object e) {
+        private void next(object sender, object e)
+        {
             needPlayNext = true;
         }
 
-      private async void CurrentTime(object sender, object e)
+        private async void CurrentTime(object sender, object e)
         {
 
             //Timerofnow.Text = Media_in.MediaPlayer.PlaybackSession.Position.ToString(@"hh\:mm\:ss");
-           // Timerofthis.Text = "/" + Media_in.MediaPlayer.PlaybackSession.NaturalDuration.ToString(@"hh\:mm\:ss");
+            // Timerofthis.Text = "/" + Media_in.MediaPlayer.PlaybackSession.NaturalDuration.ToString(@"hh\:mm\:ss");
             if (needPlayNext == true)
             {
-               PlayNext();
+                PlayNext();
                 needPlayNext = false;
             }
         }
-            private async Task  setNewMediaSource(Items Nextsource) {
+        private async Task setNewMediaSource(Items Nextsource)
+        {
             Item_ = Nextsource;
             Media_in.Source = ItemAccess.MediaProcess(Item_.StorageFile_);
             CoverIMG.Source = await ItemAccess.ThumbnailProcess_HQ(Item_.StorageFile_);
@@ -140,13 +133,13 @@ namespace Main_Page.Pages
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
 
-            
+
             var Items_in = (Items)e.Parameter;
             Item_ = Items_in;
             CoverIMG.Visibility = Visibility.Collapsed;
-            PlayArea.Visibility= Visibility.Collapsed;
+            PlayArea.Visibility = Visibility.Collapsed;
             await setNewMediaSource(Items_in);
-            
+
             base.OnNavigatedTo(e);
 
             ConnectedAnimation animation =
@@ -156,8 +149,8 @@ namespace Main_Page.Pages
             if (animation != null)
                 animation.TryStart(CoverIMG);
             if (animation_info != null)
-                animation_info.TryStart(LogoAndTitle, new UIElement[] {  PlayArea, Info, PlayBackList });
-               
+                animation_info.TryStart(LogoAndTitle, new UIElement[] { PlayArea, Info, PlayBackList });
+
             CoverIMG.Visibility = Visibility.Visible;
             PlayArea.Visibility = Visibility.Visible;
             int count_ = 0;
@@ -178,7 +171,7 @@ namespace Main_Page.Pages
                     }
                 }
             }
-            catch(Exception e1)
+            catch (Exception e1)
             {
                 //TODO: 保存用户数据
                 await new ContentDialog
@@ -189,16 +182,17 @@ namespace Main_Page.Pages
                     DefaultButton = ContentDialogButton.Close
                 }.ShowAsync();
             }
-            finally {
-               //毁灭性错误
+            finally
+            {
+                //毁灭性错误
             }
         }
 
         private void Page_Unloaded(object sender, RoutedEventArgs e)
         {
-         Media_in.MediaPlayer.IsMuted = true;
+            Media_in.MediaPlayer.IsMuted = true;
             Item_list.Clear();
-          //  Media_in.MediaPlayer.Dispose();
+            //  Media_in.MediaPlayer.Dispose();
         }
 
 
@@ -323,19 +317,19 @@ namespace Main_Page.Pages
         private void More_Tapped(object sender, TappedRoutedEventArgs e)
         {
             //NameBolck.Text
-            int count=0;
+            int count = 0;
             foreach (var temp in Item_list)
             {
                 if (NameBolck.Text == temp.Name)
                 {
                     Item_ = temp;
-                    currentIndex = count-1;
+                    currentIndex = count - 1;
                     break;
                 }
                 count++;
             }
 
-           
+
             ((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
         }
 
@@ -345,14 +339,14 @@ namespace Main_Page.Pages
             int count = 0;
             foreach (var temp in Item_list)
             {
-                if (Item_.Name== temp.Name)
+                if (Item_.Name == temp.Name)
                 {
                     currentIndex = count - 1;
                     break;
                 }
                 count++;
             }
-           
+
             ((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
         }
 
@@ -378,7 +372,7 @@ namespace Main_Page.Pages
             body += "   机器制造商" + eas.SystemManufacturer;
             var address = "KomorenobiProject_2019@outlook.com";
             var subject = "Error：";
-             body += tip.Text;
+            body += tip.Text;
             var mailto = new Uri($"mailto:{address}?subject={subject}&body={body}");
             await Windows.System.Launcher.LaunchUriAsync(mailto);
         }

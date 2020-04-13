@@ -1,29 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+﻿using DataAccessLibrary;
+using Main_Page.Models;
+using System;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using DataAccessLibrary;
-using System.Collections.ObjectModel;
-using Main_Page.Models;
-using Windows.Storage;
-using Windows.Globalization;
 using Windows.UI.Xaml.Media.Animation;
-using Windows.ApplicationModel.Core;
-using Windows.UI.ViewManagement;
-using Windows.UI;
+using Windows.UI.Xaml.Navigation;
 
 namespace Main_Page
 {
@@ -71,7 +55,7 @@ namespace Main_Page
                 CloseButtonText = "Closed",
                 DefaultButton = ContentDialogButton.Close
             }.ShowAsync();
-           // throw new NotImplementedException();
+            // throw new NotImplementedException();
         }
 
         /// <summary>
@@ -88,7 +72,7 @@ namespace Main_Page
             // 只需确保窗口处于活动状态
             if (rootFrame == null)
             {
-               // var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
+                // var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
                 //coreTitleBar.ExtendViewIntoTitleBar =false;
                 // Hide default title bar.
                 /*var coreTitleBar = CoreApplication.GetCurrentView().TitleBar;
@@ -185,25 +169,25 @@ namespace Main_Page
 
             // 不要在窗口已包含内容时重复应用程序初始化，
             // 只需确保窗口处于活动状态
-                // 创建要充当导航上下文的框架，并导航到第一页
-                rootFrame = new Frame();
+            // 创建要充当导航上下文的框架，并导航到第一页
+            rootFrame = new Frame();
 
-                rootFrame.NavigationFailed += OnNavigationFailed;
+            rootFrame.NavigationFailed += OnNavigationFailed;
 
-                if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
-                {
-                    //TODO: 从之前挂起的应用程序加载状态
-                }
+            if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
+            {
+                //TODO: 从之前挂起的应用程序加载状态
+            }
 
-                // 将框架放在当前窗口中
-                Window.Current.Content = rootFrame;
+            // 将框架放在当前窗口中
+            Window.Current.Content = rootFrame;
 
-                // 当导航堆栈尚未还原时，导航到第一页，
-                // 并通过将所需信息作为导航参数传入来配置
-                // 参数
-                //ItemAccess.NeedNav="Today_NewFile";
-                rootFrame.Navigate(typeof(MainPage), new SuppressNavigationTransitionInfo());
-                ItemAccess.NeedNav = true;
+            // 当导航堆栈尚未还原时，导航到第一页，
+            // 并通过将所需信息作为导航参数传入来配置
+            // 参数
+            //ItemAccess.NeedNav="Today_NewFile";
+            rootFrame.Navigate(typeof(MainPage), new SuppressNavigationTransitionInfo());
+            ItemAccess.NeedNav = true;
             // 确保当前窗口处于活动状态
             Window.Current.Activate();
 

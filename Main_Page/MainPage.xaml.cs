@@ -1,30 +1,15 @@
 ﻿using Main_Page.Models;
+using Main_Page.Pages;
 using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Threading;
-using System.Threading.Tasks;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.Globalization;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
-using DataAccessLibrary;
-using System.Collections.ObjectModel;
-using Windows.UI.Xaml.Hosting;
-using Windows.UI.Composition;
-using Main_Page.Pages;
-using Windows.Storage;
 using static Main_Page.Models.ItemAccess;
 using static Main_Page.Models.UserSettings;
-using Windows.UI.Xaml.Media.Animation;
-using Windows.Globalization;
 
 // https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x804 上介绍了“空白页”项模板
 
@@ -35,12 +20,12 @@ namespace Main_Page
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        private bool Flag_Choose =false;
+        private bool Flag_Choose = false;
         public MainPage()
         {
-          
+
             this.InitializeComponent();
-           this.NavigationCacheMode = NavigationCacheMode.Required;
+            this.NavigationCacheMode = NavigationCacheMode.Required;
             //主导航处
             if (Flag_Choose == false)
             {
@@ -51,18 +36,8 @@ namespace Main_Page
 
         }
 
-
-        protected override  void OnNavigatedTo(NavigationEventArgs e)
-        {
-
-        }
-
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-
-
-
-
             if (NeedNav)
             {
                 Frame current = Window.Current.Content as Frame;
@@ -87,14 +62,15 @@ namespace Main_Page
             }
             catch (Exception)
             {
-               nvSample.PaneDisplayMode = NavigationViewPaneDisplayMode.LeftCompact;
+                nvSample.PaneDisplayMode = NavigationViewPaneDisplayMode.LeftCompact;
                 localSettings.Values["ToggleSwitch_Menu"] = "Close";
             }
 
             //Background
             SolidColorBrush myBrush = GetBGColor();
             nvSample.Background = myBrush;
-            if (SettingChanged) {
+            if (SettingChanged)
+            {
                 contentFrame.Navigate(typeof(Pages.MAIN_Page1), new SuppressNavigationTransitionInfo());
                 ItemAccess.SettingChanged = false;
             }

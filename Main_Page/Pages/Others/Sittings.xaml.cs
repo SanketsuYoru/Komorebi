@@ -1,36 +1,16 @@
-﻿using System;
+﻿using DataAccessLibrary;
+using Main_Page.Models;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.Globalization;
+using Windows.Security.ExchangeActiveSyncProvisioning;
+using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using System.Text;
-using System.Threading.Tasks;
-using Windows.Storage;
-using Windows.Storage.Streams;
-using Main_Page.Models;
-using Windows.Storage.AccessCache;
-using Windows.Storage.Pickers;
-using Windows.UI.Xaml.Media.Imaging;
-using Windows.Graphics.Imaging;
-using DataAccessLibrary;
-using Windows.Foundation.Metadata;
-using Windows.UI;
-using Windows.UI.ViewManagement;
-using System.Collections.ObjectModel;
 using static Main_Page.Models.UserSettings;
-using Windows.System;
-using Windows.Security.ExchangeActiveSyncProvisioning;
-using Windows.Globalization;
-using System.Diagnostics;
 
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
@@ -62,7 +42,8 @@ namespace Main_Page.Pages
             MaxNum.PlaceholderText = UserSettings.GetMaxNumber().ToString();
             Language.PlaceholderText = ApplicationLanguages.PrimaryLanguageOverride;
             combo.PlaceholderText = GetBGColor().Color.ToString();
-            try {
+            try
+            {
 
                 if (localSettings.Values["ToggleSwitch_Menu"].ToString() == "Open")
                 {
@@ -76,10 +57,10 @@ namespace Main_Page.Pages
             catch (System.NullReferenceException)
             {
                 Toggle_Menu.IsOn = true;
-                localSettings.Values["ToggleSwitch_Menu"]= "Open";
+                localSettings.Values["ToggleSwitch_Menu"] = "Open";
             }
 
-         
+
 
 
             //Binding Data
@@ -138,12 +119,12 @@ namespace Main_Page.Pages
             ItemAccess.SettingChanged = true;
             if (combo.SelectedItem != null)
             {
-                if (combo.SelectedItem ==Yellow)
+                if (combo.SelectedItem == Yellow)
                 {
                     localSettings.Values["Apha_BG"] = 255;
                     localSettings.Values["Red_BG"] = 255;
-                    localSettings.Values["Green_BG"] =233;
-                    localSettings.Values["Blue_BG"] =87;
+                    localSettings.Values["Green_BG"] = 233;
+                    localSettings.Values["Blue_BG"] = 87;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;
@@ -151,12 +132,12 @@ namespace Main_Page.Pages
                     Confirm.Background = myBrush;
 
                 }
-                else if (combo.SelectedItem ==White)
+                else if (combo.SelectedItem == White)
                 {
                     localSettings.Values["Apha_BG"] = 255;
                     localSettings.Values["Red_BG"] = 255;
-                    localSettings.Values["Green_BG"] =250;
-                    localSettings.Values["Blue_BG"] =250;
+                    localSettings.Values["Green_BG"] = 250;
+                    localSettings.Values["Blue_BG"] = 250;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;
@@ -168,8 +149,8 @@ namespace Main_Page.Pages
                 {
                     localSettings.Values["Apha_BG"] = 255;
                     localSettings.Values["Red_BG"] = 220;
-                    localSettings.Values["Green_BG"] =220;
-                    localSettings.Values["Blue_BG"] =220;
+                    localSettings.Values["Green_BG"] = 220;
+                    localSettings.Values["Blue_BG"] = 220;
                     myBrush = GetBGColor();
                     myPivot.Background = myBrush;
                     Button_add.Background = myBrush;
@@ -191,7 +172,7 @@ namespace Main_Page.Pages
             ItemAccess.SettingChanged = true;
             Usercolor = myColorPicker.Color;
             // Save a setting locally on the device
-          
+
             localSettings.Values["Apha_BG"] = Usercolor.A;
             localSettings.Values["Red_BG"] = Usercolor.R;
             localSettings.Values["Green_BG"] = Usercolor.G;
@@ -211,7 +192,7 @@ namespace Main_Page.Pages
             ItemAccess.SettingChanged = true;
             ItemAccess.End_sort = true;
             foreach (var token in selectedtokens)
-            FaTokenDataAccess.DeleteData(token);
+                FaTokenDataAccess.DeleteData(token);
             ItemAccess.Cache.Clear();
             ItemAccess.Cache_flag = false;
             itemsource = new List<string>();
@@ -227,7 +208,7 @@ namespace Main_Page.Pages
 
             CheckBox cb = sender as CheckBox;
             selectedtokens.Add(cb.Content.ToString());
-            
+
         }
 
         private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
@@ -240,14 +221,14 @@ namespace Main_Page.Pages
         {
             Windows.System.Profile.AnalyticsVersionInfo analyticsVersion = Windows.System.Profile.AnalyticsInfo.VersionInfo;
             var body = "";
-            body+= "平台"+ analyticsVersion.DeviceFamily;
+            body += "平台" + analyticsVersion.DeviceFamily;
             body += System.Environment.NewLine;
-           ulong v = ulong.Parse(Windows.System.Profile.AnalyticsInfo.VersionInfo.DeviceFamilyVersion);
+            ulong v = ulong.Parse(Windows.System.Profile.AnalyticsInfo.VersionInfo.DeviceFamilyVersion);
             ulong v1 = (v & 0xFFFF000000000000L) >> 48;
             ulong v2 = (v & 0x0000FFFF00000000L) >> 32;
             ulong v3 = (v & 0x00000000FFFF0000L) >> 16;
             ulong v4 = (v & 0x000000000000FFFFL);
-            body+="    版本"+$"{v1}.{v2}.{v3}.{v4}";
+            body += "    版本" + $"{v1}.{v2}.{v3}.{v4}";
             body += System.Environment.NewLine;
             Windows.ApplicationModel.Package package = Windows.ApplicationModel.Package.Current;
             body += "   应用平台 " + package.Id.Architecture.ToString();
@@ -258,9 +239,9 @@ namespace Main_Page.Pages
             body += "   机器制造商" + eas.SystemManufacturer;
             var address = "KomorenobiProject_2019@outlook.com";
             var subject = "反馈：";
-           
 
-           var mailto = new Uri($"mailto:{address}?subject={subject}&body={body}");
+
+            var mailto = new Uri($"mailto:{address}?subject={subject}&body={body}");
             await Launcher.LaunchUriAsync(mailto);
         }
 
@@ -279,7 +260,7 @@ namespace Main_Page.Pages
                     localSettings.Values["ToggleSwitch_Menu"] = "Close";
                 }
             }
-           
+
 
         }
 
@@ -331,7 +312,7 @@ namespace Main_Page.Pages
 
         private async void Language_DropDownClosed(object sender, object e)
         {
-            if (Language.SelectedItem!=null)
+            if (Language.SelectedItem != null)
             {
                 ItemAccess.SettingChanged = true;
                 var temp_string = Language.SelectedItem.ToString();

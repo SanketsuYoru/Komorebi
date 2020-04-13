@@ -1,24 +1,17 @@
-﻿using System;
+﻿using Main_Page.Models;
+using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.ApplicationModel.DataTransfer;
+using Windows.Storage;
+using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using Main_Page.Models;
 using static Main_Page.Models.ItemAccess;
 using static Main_Page.Models.UserSettings;
-using Main_Page.Pages;
-using Windows.Storage;
-using Windows.ApplicationModel.DataTransfer;
-using Windows.Storage.Streams;
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
 namespace Main_Page.Pages
@@ -28,17 +21,17 @@ namespace Main_Page.Pages
     /// </summary>
     public sealed partial class ItemPage : Page
     {
-        private static  Items Item_;
+        private static Items Item_;
 
         public ItemPage()
         {
 
-            
+
             this.InitializeComponent();
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
             //BackGround
             SolidColorBrush myBrush = GetBGColor();
-           // Top_Bar.Background = myBrush;
+            // Top_Bar.Background = myBrush;
             OpenFolder.Background = myBrush;
 
         }
@@ -61,7 +54,7 @@ namespace Main_Page.Pages
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            Item_ =(Items)e.Parameter;
+            Item_ = (Items)e.Parameter;
             item_inside.Source = await ItemAccess.ThumbnailProcess(Item_.StorageFile_);
             Size.Text = await ItemAccess.SizeOfFileAsync(Item_.StorageFile_);
             Name.Text = Item_.StorageFile_.Name;
@@ -79,7 +72,7 @@ namespace Main_Page.Pages
 
         private async void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
         {
-            await ItemAccess.ExplorePath(await Item_.StorageFile_ .GetParentAsync(), Item_.StorageFile_);
+            await ItemAccess.ExplorePath(await Item_.StorageFile_.GetParentAsync(), Item_.StorageFile_);
         }
 
         private void MenuFlyoutItem_Click_Copy(object sender, RoutedEventArgs e)
@@ -120,32 +113,32 @@ namespace Main_Page.Pages
             //Cache_Processed_Doc.Remove(item_);
 
             foreach (var item in Cache_Processed)
-                if (Item_.Name == item.Name && item.Path ==Item_.Path)
+                if (Item_.Name == item.Name && item.Path == Item_.Path)
                 {
                     Cache_Processed_File.Remove(item);
                     break;
                 }
             foreach (var item in Cache_Processed_File)
-                if (Item_.Name == item.Name && item.Path ==Item_.Path)
+                if (Item_.Name == item.Name && item.Path == Item_.Path)
                 {
                     Cache_Processed_File.Remove(item);
                     break;
                 }
             foreach (var item in Cache_Processed_Doc)
-                if (Item_.Name == item.Name && item.Path ==Item_.Path)
+                if (Item_.Name == item.Name && item.Path == Item_.Path)
                 {
                     Cache_Processed_Doc.Remove(item);
                     break;
                 }
             foreach (var item in Cache_Processed_Media)
-                if (Item_.Name == item.Name && item.Path ==Item_.Path)
+                if (Item_.Name == item.Name && item.Path == Item_.Path)
                 {
                     Cache_Processed_Media.Remove(item);
                     break;
                 }
 
 
-            await Item_.StorageFile_. DeleteAsync();
+            await Item_.StorageFile_.DeleteAsync();
         }
 
         private async void OpenFolder_Click(object sender, RoutedEventArgs e)

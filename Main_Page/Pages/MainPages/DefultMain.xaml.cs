@@ -1,31 +1,19 @@
-﻿using System;
+﻿using Main_Page.Models;
+using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using System.Diagnostics;
+using Windows.ApplicationModel.DataTransfer;
+using Windows.Storage;
+using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Main_Page.Models;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
-using System.Threading;
-using Windows.UI.Composition;
-using Windows.UI.Xaml.Hosting;
-using static Main_Page.Models.ItemAccess;
-using Windows.Storage.AccessCache;
-using Windows.Storage;
-using Windows.ApplicationModel.DataTransfer;
-using System.Diagnostics;
-using Windows.Storage.Streams;
-using static Main_Page.Models.UserSettings;
 using Windows.UI.Xaml.Media.Animation;
+using Windows.UI.Xaml.Navigation;
+using static Main_Page.Models.ItemAccess;
+using static Main_Page.Models.UserSettings;
 // https://go.microsoft.com/fwlink/?LinkId=234238 上介绍了“空白页”项模板
 
 namespace Main_Page.Pages
@@ -54,18 +42,18 @@ namespace Main_Page.Pages
             ProgressBar_timer.Start();
             //BackGround
             SolidColorBrush myBrush = GetBGColor();
-            var ButtonBrush= GetBGColor(200);
+            var ButtonBrush = GetBGColor(200);
             this.Background = myBrush;
-            REFLASH.Background= ButtonBrush;
+            REFLASH.Background = ButtonBrush;
             MB_1.Background = ButtonBrush;
-            MB_2.Background =ButtonBrush;
+            MB_2.Background = ButtonBrush;
             DataTransferManager.GetForCurrentView().DataRequested += ShareRequested;
         }
 
 
         protected override void OnNavigatingFrom(NavigatingCancelEventArgs e)
         {
-            
+
             //MUSIC.PrepareConnectedAnimation("portrait", item, "PortraitEllipse");
             //ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("forwardAnimation_mc", MUSIC);
             // ContactsListView.PrepareConnectedAnimation("portrait", item, "PortraitEllipse");
@@ -91,25 +79,25 @@ namespace Main_Page.Pages
                 //MainFlip.
                 try
                 {
-                if (MainFlip.Items != null && MainFlip.Items.Count > 1 && MainFlip.SelectedIndex < MainFlip.Items.Count - 1)
-                {
-                    MainFlip.SelectedIndex++;
-                    progressBar_Main.Visibility = Visibility.Collapsed;
+                    if (MainFlip.Items != null && MainFlip.Items.Count > 1 && MainFlip.SelectedIndex < MainFlip.Items.Count - 1)
+                    {
+                        MainFlip.SelectedIndex++;
+                        progressBar_Main.Visibility = Visibility.Collapsed;
+                    }
+                    else
+                    {
+                        var temp_ = MainFlip.SelectedIndex;
+                        for (int i = 0; i < temp_; i++)
+                            MainFlip.SelectedIndex--;
+                    }
                 }
-                else
+                catch (Exception e1)
                 {
-                    var temp_ = MainFlip.SelectedIndex;
-                    for (int i = 0; i < temp_; i++)
-                        MainFlip.SelectedIndex--;
+                    Debug.WriteLine("主页，图片切换异常" + e1.ToString());
                 }
-            }
-            catch (Exception e1)
-            {
-                Debug.WriteLine("主页，图片切换异常"+ e1.ToString());
-            }
 
+            }
         }
-    }
 
         private void ChangeImage_Music(object sender, object e)
         {
@@ -134,7 +122,7 @@ namespace Main_Page.Pages
                     Debug.WriteLine("主页，图片切换异常");
                 }
             }
-            }
+        }
 
 
         private void ShareRequested(DataTransferManager sender, DataRequestedEventArgs args)
@@ -163,13 +151,15 @@ namespace Main_Page.Pages
         }
 
 
-        private void ProgressCheck(object sender, object e) {
-                var Value_ = (((double)ItemAccess.Cache.Count / (double)UserSettings.GetMaxNumber()) * 100);
-                ScanPbar.Value = Value_;
-                Progress.Text = ScanPbar.Value.ToString()+"%";
+        private void ProgressCheck(object sender, object e)
+        {
+            var Value_ = ((Cache.Count / (double)UserSettings.GetMaxNumber()) * 100);
+            ScanPbar.Value = Value_;
+            Progress.Text = ScanPbar.Value.ToString() + "%";
         }
 
-        private void refreshComplete() {
+        private void refreshComplete()
+        {
             ProgressBar_timer.Tick -= ProgressCheck;
             REFLASH.IsEnabled = true;
             Progress.Text = 100 + "%";
@@ -179,7 +169,7 @@ namespace Main_Page.Pages
                 Frame.Navigate(typeof(Pages.GUIDE_page));
         }
 
-        private  void Page_Loaded(object sender, RoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             ProgressBar_timer.Start();
             _timer.Start();
@@ -192,7 +182,7 @@ namespace Main_Page.Pages
 
         private void Source__ItemClick(object sender, ItemClickEventArgs e)
         {
-           // ItemAccess.NeedNav = "All_New";
+            // ItemAccess.NeedNav = "All_New";
             item_ = (Items)e.ClickedItem;
             var type_in = ItemAccess.FileType_check(item_.StorageFile_);
             switch (type_in)
@@ -253,23 +243,23 @@ namespace Main_Page.Pages
                     }
             }
         }
-        private  void Source__RightTapped(object sender, RightTappedRoutedEventArgs e)
+        private void Source__RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
-              ((MenuFlyout) FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement)) ;
+            ((MenuFlyout)FlyoutBase.GetAttachedFlyout((FrameworkElement)sender)).ShowAt(sender as UIElement, e.GetPosition(sender as UIElement));
         }
 
 
         private async void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
         {
 
-                item_ = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
-                await ItemAccess.ExplorePath(await item_.StorageFile_.GetParentAsync(), item_.StorageFile_);
-           
+            item_ = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
+            await ItemAccess.ExplorePath(await item_.StorageFile_.GetParentAsync(), item_.StorageFile_);
+
         }
 
         private void MenuFlyoutItem_Click_Copy(object sender, RoutedEventArgs e)
         {
-           List<StorageFile> files = new List<StorageFile>();
+            List<StorageFile> files = new List<StorageFile>();
             DataPackage dataPackage = new DataPackage();
             if (Source_.SelectionMode == ListViewSelectionMode.Multiple)
             {
@@ -278,9 +268,10 @@ namespace Main_Page.Pages
                     files.Add((item_M as Items).StorageFile_);
                 }
             }
-            else { 
-            item_ = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
-            files.Add(item_.StorageFile_);
+            else
+            {
+                item_ = (e.OriginalSource as FrameworkElement)?.DataContext as Items;
+                files.Add(item_.StorageFile_);
             }
             dataPackage.SetStorageItems(files);
             dataPackage.RequestedOperation = DataPackageOperation.Copy;
@@ -295,9 +286,10 @@ namespace Main_Page.Pages
             {
                 dialogText1.Text = $"{item_.Name}等，共{Source_.SelectedItems.Count}个文件";
                 dialogText3.Text = "：被删除的文件会进入回收站";
-                dialogText2.Text ="";
+                dialogText2.Text = "";
             }
-            else {
+            else
+            {
                 dialogText1.Text = item_.Name;
                 dialogText3.Text = item_.Path;
                 dialogText2.Text = item_.Date;
@@ -305,9 +297,9 @@ namespace Main_Page.Pages
 
             await DeleteContentDialog.ShowAsync();
 
-           // FlyoutBase.GetAttachedFlyout((FrameworkElement)sender).Placement = FlyoutPlacementMode.Full;
-          //  FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
-           
+            // FlyoutBase.GetAttachedFlyout((FrameworkElement)sender).Placement = FlyoutPlacementMode.Full;
+            //  FlyoutBase.ShowAttachedFlyout((FrameworkElement)sender);
+
             //location_.Locations.Remove(item_);
             // await item_.StorageFile_.DeleteAsync();
         }
@@ -318,7 +310,7 @@ namespace Main_Page.Pages
             DataTransferManager.ShowShareUI();
         }
 
-        private async void  DeleteContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        private async void DeleteContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
             if (Source_.SelectionMode == ListViewSelectionMode.Multiple)
             {
@@ -355,30 +347,31 @@ namespace Main_Page.Pages
                     await item_D.StorageFile_.DeleteAsync();
                 }
             }
-            else { 
-           Cache_Processed.Remove(item_);
-            Cache.Remove(item_.StorageFile_);
-            //Cache_Processed_File.Remove(item_);
-            //Cache_Processed_Doc.Remove(item_);
-            foreach (var item in Cache_Processed_File)
-                if (item_.Name == item.Name && item.Path == item_.Path)
-                {
-                    Cache_Processed_File.Remove(item);
-                    break;
-                }
-            foreach (var item in Cache_Processed_Doc)
-                if (item_.Name == item.Name && item.Path == item_.Path)
-                {
-                    Cache_Processed_Doc.Remove(item);
-                    break;
-                }
-            foreach (var item in Cache_Processed_Media)
-                if (item_.Name == item.Name&&item.Path== item_.Path)
-                {
-                    Cache_Processed_Media.Remove(item);
-                    break;
-                }
-            await item_.StorageFile_.DeleteAsync();
+            else
+            {
+                Cache_Processed.Remove(item_);
+                Cache.Remove(item_.StorageFile_);
+                //Cache_Processed_File.Remove(item_);
+                //Cache_Processed_Doc.Remove(item_);
+                foreach (var item in Cache_Processed_File)
+                    if (item_.Name == item.Name && item.Path == item_.Path)
+                    {
+                        Cache_Processed_File.Remove(item);
+                        break;
+                    }
+                foreach (var item in Cache_Processed_Doc)
+                    if (item_.Name == item.Name && item.Path == item_.Path)
+                    {
+                        Cache_Processed_Doc.Remove(item);
+                        break;
+                    }
+                foreach (var item in Cache_Processed_Media)
+                    if (item_.Name == item.Name && item.Path == item_.Path)
+                    {
+                        Cache_Processed_Media.Remove(item);
+                        break;
+                    }
+                await item_.StorageFile_.DeleteAsync();
             }
         }
 
@@ -410,9 +403,9 @@ namespace Main_Page.Pages
         {
             if (Source_.SelectionMode == ListViewSelectionMode.Single)
             {
-               foreach (var Flyout_ in((sender as MenuFlyout).Items))
+                foreach (var Flyout_ in ((sender as MenuFlyout).Items))
                 {
-                    if(Flyout_.Name== "Multiple")
+                    if (Flyout_.Name == "Multiple")
                         (Flyout_ as MenuFlyoutItem).Text = "多选";
                 }
             }
@@ -489,7 +482,7 @@ namespace Main_Page.Pages
         private void Source__SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             //Item_index = Source_.SelectedIndex;
-           //selected_item= Source_.SelectedItem;
+            //selected_item= Source_.SelectedItem;
         }
 
         private void StackPanel_Loaded(object sender, RoutedEventArgs e)
@@ -512,7 +505,7 @@ namespace Main_Page.Pages
 
         private void HideTipsCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            UserSettings.localSettings.Values["firstOpen998"] ="hide";
+            UserSettings.localSettings.Values["firstOpen998"] = "hide";
         }
 
         private void Hyperlink_Click(Windows.UI.Xaml.Documents.Hyperlink sender, Windows.UI.Xaml.Documents.HyperlinkClickEventArgs args)
@@ -534,7 +527,7 @@ namespace Main_Page.Pages
             if (item_ != null)
             {
                 Source_.ScrollIntoView(item_);
-                switch (FileType_check( item_.StorageFile_))
+                switch (FileType_check(item_.StorageFile_))
                 {
                     case "Music":
                         Animationkey = "backAnimationmc";
@@ -557,7 +550,7 @@ namespace Main_Page.Pages
                 ConnectedAnimation animation =
                     ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey);
                 ConnectedAnimation animation_info =
-    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey+"_info");
+    ConnectedAnimationService.GetForCurrentView().GetAnimation(Animationkey + "_info");
                 if (animation != null && povit_main.SelectedIndex == 1)
                 {
                     await Source_.TryStartConnectedAnimationAsync(
@@ -576,22 +569,22 @@ namespace Main_Page.Pages
         {
             if (item_ != null)
             {
-                MUSIC.SelectedItem=item_;
-               if( FileType_check(item_.StorageFile_)=="Music")
+                MUSIC.SelectedItem = item_;
+                if (FileType_check(item_.StorageFile_) == "Music")
                 {
-                ConnectedAnimation animation =
-                    ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc");
-                ConnectedAnimation animation_info =
-                    ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc_info");
-                if (animation != null&& povit_main.SelectedIndex ==0)
-                {
-                    animation.TryStart(MUSIC);
-                    
-                }
-                if (animation_info != null && povit_main.SelectedIndex == 0)
-                {
-                    animation_info.TryStart(MUSIC);
-                }
+                    ConnectedAnimation animation =
+                        ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc");
+                    ConnectedAnimation animation_info =
+                        ConnectedAnimationService.GetForCurrentView().GetAnimation("backAnimationmc_info");
+                    if (animation != null && povit_main.SelectedIndex == 0)
+                    {
+                        animation.TryStart(MUSIC);
+
+                    }
+                    if (animation_info != null && povit_main.SelectedIndex == 0)
+                    {
+                        animation_info.TryStart(MUSIC);
+                    }
                 }
             }
         }
@@ -613,10 +606,5 @@ namespace Main_Page.Pages
                 }
             }
         }
-
-        private void MusicSourceImg_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
- }
+}

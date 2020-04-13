@@ -1,20 +1,13 @@
 ﻿using Main_Page.Models;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using static Main_Page.Models.ItemAccess;
@@ -83,13 +76,13 @@ namespace Main_Page.Pages
             }
         }
 
-        protected override  void OnNavigatedTo(NavigationEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
 
             var Items_in = (Items)e.Parameter;
             Item_ = Items_in;
             Media_in.Visibility = Visibility.Collapsed;
-            Media_in.Source =  ItemAccess.MediaProcess(Items_in.StorageFile_);
+            Media_in.Source = ItemAccess.MediaProcess(Items_in.StorageFile_);
 
             ConnectedAnimation animation =
    ConnectedAnimationService.GetForCurrentView().GetAnimation("forwardAnimation");
@@ -98,12 +91,12 @@ namespace Main_Page.Pages
                 animation.TryStart(Media_in);
             }
             Media_in.Visibility = Visibility.Visible;
-    }
+        }
 
         private void Page_Unloaded(object sender, RoutedEventArgs e)
         {
-           Media_in.MediaPlayer.IsMuted = true;
-           // Media_in.MediaPlayer.Dispose();
+            Media_in.MediaPlayer.IsMuted = true;
+            // Media_in.MediaPlayer.Dispose();
         }
 
         private void RelativePanel_RightTapped(object sender, RightTappedRoutedEventArgs e)

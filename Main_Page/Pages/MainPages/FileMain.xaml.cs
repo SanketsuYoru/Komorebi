@@ -1,19 +1,12 @@
 ﻿using Main_Page.Models;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
@@ -43,8 +36,8 @@ namespace Main_Page.Pages
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-          //  if (ItemAccess.NeedNav != "ItemInvoked")
-               // Source_.SelectedIndex = Convert.ToInt32(e.Parameter);
+            //  if (ItemAccess.NeedNav != "ItemInvoked")
+            // Source_.SelectedIndex = Convert.ToInt32(e.Parameter);
         }
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
@@ -87,7 +80,7 @@ namespace Main_Page.Pages
 
         private void Source__ItemClick(object sender, ItemClickEventArgs e)
         {
-           // ItemAccess.NeedNav = "File";
+            // ItemAccess.NeedNav = "File";
             var item_in = (Items)e.ClickedItem;
             var type_in = ItemAccess.FileType_check(item_in.StorageFile_);
             switch (type_in)

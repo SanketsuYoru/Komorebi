@@ -98,6 +98,7 @@ namespace Main_Page.Models
             catch (System.NullReferenceException)
             {
                 UserSettings.localSettings.Values["Volume"] = "0.5";
+                Volume = 0.5;
             }
 
             return Volume;
@@ -307,11 +308,12 @@ namespace Main_Page.Models
         public static ObservableCollection<Items> Cache_Recent_Media = new ObservableCollection<Items>();
         public static ObservableCollection<Items> Cache_Recent_Music = new ObservableCollection<Items>();
         public static ObservableCollection<Items> Cache_Recent_Doc = new ObservableCollection<Items>();
-
-
+        public delegate void Completedel();
+        public static Completedel comlpeteEvents;
         public static async Task Refresh() {
-            Noticed = false;
+            
             Refreshing = true;
+            Noticed = false;
             End_sort = true;
             ItemAccess.Cache_flag = true;
             ItemAccess.Cache.Clear();
@@ -326,6 +328,7 @@ namespace Main_Page.Models
             await ItemAccess.RecentShowItemAsync();
             await ItemAccess.SortAsync();
             Refreshing = false;
+
             //Refreshed = true;
         }
 
@@ -552,11 +555,8 @@ namespace Main_Page.Models
                 }
             }
             catch {
-                
+                //dosomething
             }
-            
-              
-
         }
 
 
@@ -833,9 +833,12 @@ namespace Main_Page.Models
 
             }
             // await SortAsync(Cache, ItemList);
-          
+            comlpeteEvents?.Invoke();//if not null comlpeteEvents()
+
+
 
         }
+
 
     }
 

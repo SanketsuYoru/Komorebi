@@ -19,18 +19,18 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Code\20200412\Main_Page\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>FC49C0B75CE6756D0534B3E8A9D0E83CFEBF7ADB6B8940033767AC8DC00DB548</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.23.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>2E6CF9EF6AB0493C59637A8D3EB52D9E3E21092F8485019604DB4D173B81A03E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>db33832f-b264-4d50-9fda-9db2717b763c_1.0.27.0_x86__bhgmfpab5cpbp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>db33832f-b264-4d50-9fda-9db2717b763c_bhgmfpab5cpbp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>db33832f-b264-4d50-9fda-9db2717b763c</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=SANKETSU, C=CN</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.23.0</RegisteredVersion>
+    <RegisteredVersion>1.0.27.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-12T17:17:09.289</Modified>
+      <Modified>2020-04-12T19:36:53.327</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -387,23 +387,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\komorebi.dll">
       <PackagePath>komorebi.dll</PackagePath>
-      <Modified>2020-04-12T17:17:08.063</Modified>
+      <Modified>2020-04-12T19:36:52.151</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\komorebi.exe">
       <PackagePath>komorebi.exe</PackagePath>
-      <Modified>2020-04-12T17:17:09.251</Modified>
+      <Modified>2020-04-12T19:36:53.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\komorebi.pdb">
       <PackagePath>komorebi.pdb</PackagePath>
-      <Modified>2020-04-12T17:17:09.245</Modified>
+      <Modified>2020-04-12T19:36:53.283</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\Models\Items.cs">
       <PackagePath>Models\Items.cs</PackagePath>
-      <Modified>2020-04-12T14:12:21.111</Modified>
+      <Modified>2020-04-12T19:00:27.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-12T17:16:08.226</Modified>
+      <Modified>2020-04-12T19:35:46.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\20200412\Main_Page\bin\x86\Release\ilc\Resources\BF942982C59CEBF2640D14CD6F9420CB.png">
       <PackagePath>Resources\BF942982C59CEBF2640D14CD6F9420CB.png</PackagePath>
